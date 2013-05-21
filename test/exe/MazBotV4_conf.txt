@@ -1,0 +1,29 @@
+#OWN_ID:
+0:MazBot_V4@127.0.0.1
+#E_callback_event_file
+1:events.conf
+#E_event_def_reply_file
+2:def_replies.conf
+#E_text_event_prefix_in_use
+3:0
+#E_text_event_prefix
+#4:!
+#E_own_nick
+5:MazBotV4
+#E_user_ident_mode
+#0 = registered users based on nick, nonregged cannot be identified
+#1 = password based - user needs to send password to bot.
+#2 = hostmask
+6:0
+#E_user_level_file_name_reg
+7:userlevel_modeRegNick.conf
+#E_user_level_file_name_pass
+8:userlevel_modePasswd.conf
+#E_user_level_file_name_host
+9:userlevel_modeHostmask.conf
+#E_serverlist
+11:irc.chat4all.org:6667,irc.dummy.net:6668
+#E_serveramnt
+12:2
+#E_serverchans
+13:irc.chat4all.net:#teotilcan:irc.dummy.net,#foobar,bar

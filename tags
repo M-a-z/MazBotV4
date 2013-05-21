@@ -1,0 +1,1690 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AABITSET_ONEMASK32	generic/src/MbotBitset.c	/^static unsigned int AABITSET_ONEMASK32[32] = $/;"	v	file:
+AABITSET_ONEMASK64	generic/src/MbotBitset.c	/^static unsigned long long int AABITSET_ONEMASK64[64] =$/;"	v	file:
+AABITSET_ZEROMASK32	generic/src/MbotBitset.c	/^static unsigned int AABITSET_ZEROMASK32[32] = $/;"	v	file:
+AABITSET_ZEROMASK64	generic/src/MbotBitset.c	/^static unsigned long long int AABITSET_ZEROMASK64[64] =$/;"	v	file:
+AR	make/generic.mak	/^export AR := ar$/;"	m
+ARFLAGS	make/generic.mak	/^export ARFLAGS := -cr$/;"	m
+ASSERT_ENABLE	APIs/generic_api.h	36;"	d
+ASSERT_ENABLE	generic/src/definitions.h	26;"	d
+AddNewChans	user_storage/src/permanent_storage.c	/^static mbot_linkedList * AddNewChans(mbot_linkedList *oldlist,mbot_linkedList *newlist)$/;"	f	file:
+BOT_CONFIG_FILE	startup/src/startup_configs.h	28;"	d
+BOT_VERSION	da_bot_client/make/Makefile	/^BOT_VERSION := 0.2$/;"	m
+BUILDROOT	make/Makefile	/^export BUILDROOT := $(tmp)\/..\/$/;"	m
+BasicParserFeed	parsers/src/basic_file_parser.c	/^static EparserRetVal BasicParserFeed(Sparser *_this_,char *data,size_t datasize, EparserState *state)$/;"	f	file:
+BasicParserFree	parsers/src/basic_file_parser.c	/^static void BasicParserFree(Sparser **_this_)$/;"	f	file:
+BasicParserGetResult	parsers/src/basic_file_parser.c	/^static SparserResult * BasicParserGetResult(Sparser *_this_, EparserState *state)$/;"	f	file:
+BasicParserInit	parsers/src/basic_file_parser.c	/^SbasicFileParser * BasicParserInit()$/;"	f
+BasicParserResGetNextCfg	parsers/src/basic_file_parser.c	/^static SbasicConfig *BasicParserResGetNextCfg(SbasicParserResult *_this)$/;"	f	file:
+BasicParserResultFree	parsers/src/basic_file_parser.c	/^static void BasicParserResultFree(SparserResult **_this_)$/;"	f	file:
+CALLBACK_AMOUNT	usercallbacks/src/user_callbacks.c	59;"	d	file:
+CC	make/generic.mak	/^export CC := gcc$/;"	m
+CEXPLODE_LAST_ITEM	generic/src/helpers.h	36;"	d
+CFG_EVENT_FILE_SEPARATOR1	parsers/src/config_file_parser.h	33;"	d
+CFG_EVENT_FILE_SEPARATOR2	parsers/src/config_file_parser.h	34;"	d
+CFG_EVTYPE_COLUMN	parsers/src/config_file_parser.h	30;"	d
+CFG_FILE_DEFAULT	startup/src/startup_configs.c	/^static char *CFG_FILE_DEFAULT="testfile";$/;"	v	file:
+CFG_ID_COLUMN	parsers/src/config_file_parser.h	29;"	d
+CFG_ORIGINATOR_COLUMN	parsers/src/config_file_parser.h	32;"	d
+CFG_USERLEVEL_COLUMN	parsers/src/config_file_parser.h	31;"	d
+CFG_USER_IDENT_MODE_DEFAULT	startup/src/startup_configs.c	/^static int CFG_USER_IDENT_MODE_DEFAULT = EuserIdentMode_RegNick;$/;"	v	file:
+CFLAGS	make/generic.mak	/^export CFLAGS := -Wall -dH -ggdb -c -D_GNU_SOURCE -o  $/;"	m
+CHANNEL_CONFIG_H	config/src/channel_config.h	25;"	d
+COMPONENTS	make/Makefile	/^COMPONENTS := generic networking config parsers callbackhandler usercallbacks user_storage startup upperlayer test$/;"	m
+COMPONENT_HOME	callbackhandler/make/Makefile	/^COMPONENT_HOME := $(BUILDROOT)\/$(COMPONENT_SHORT)\/$/;"	m
+COMPONENT_HOME	config/make/Makefile	/^COMPONENT_HOME := $(BUILDROOT)\/config\/$/;"	m
+COMPONENT_HOME	da_bot_client/make/Makefile	/^COMPONENT_HOME := $(BUILDROOT)\/da_bot_client\/$/;"	m
+COMPONENT_HOME	generic/make/Makefile	/^COMPONENT_HOME := $(BUILDROOT)\/generic\/$/;"	m
+COMPONENT_HOME	networking/make/Makefile	/^COMPONENT_HOME := $(BUILDROOT)\/networking\/$/;"	m
+COMPONENT_HOME	parsers/make/Makefile	/^COMPONENT_HOME := $(BUILDROOT)\/parsers\/$/;"	m
+COMPONENT_HOME	startup/make/Makefile	/^COMPONENT_HOME := $(BUILDROOT)\/$(COMPONENT_SHORT)\/$/;"	m
+COMPONENT_HOME	test/make/Makefile	/^COMPONENT_HOME := $(BUILDROOT)\/test\/$/;"	m
+COMPONENT_HOME	upperlayer/make/Makefile	/^COMPONENT_HOME := $(BUILDROOT)\/$(COMPONENT_SHORT)\/$/;"	m
+COMPONENT_HOME	user_storage/make/Makefile	/^COMPONENT_HOME := $(BUILDROOT)\/$(COMPONENT_SHORT)\/$/;"	m
+COMPONENT_HOME	usercallbacks/make/Makefile	/^COMPONENT_HOME := $(BUILDROOT)\/$(COMPONENT_SHORT)\/$/;"	m
+COMPONENT_NAME	callbackhandler/make/Makefile	/^COMPONENT_NAME := MazBot_$(COMPONENT_SHORT)$/;"	m
+COMPONENT_NAME	config/make/Makefile	/^COMPONENT_NAME := MazBot_config$/;"	m
+COMPONENT_NAME	da_bot_client/make/Makefile	/^COMPONENT_NAME := MazBot_da_bot_client$/;"	m
+COMPONENT_NAME	generic/make/Makefile	/^COMPONENT_NAME := MazBot_generic$/;"	m
+COMPONENT_NAME	networking/make/Makefile	/^COMPONENT_NAME := MazBot_networking$/;"	m
+COMPONENT_NAME	parsers/make/Makefile	/^COMPONENT_NAME := MazBot_parsers$/;"	m
+COMPONENT_NAME	startup/make/Makefile	/^COMPONENT_NAME := MazBot_$(COMPONENT_SHORT)$/;"	m
+COMPONENT_NAME	test/make/Makefile	/^COMPONENT_NAME := MazBot_test$/;"	m
+COMPONENT_NAME	upperlayer/make/Makefile	/^COMPONENT_NAME := MazBot_$(COMPONENT_SHORT)$/;"	m
+COMPONENT_NAME	user_storage/make/Makefile	/^COMPONENT_NAME := MazBot_$(COMPONENT_SHORT)$/;"	m
+COMPONENT_NAME	usercallbacks/make/Makefile	/^COMPONENT_NAME := MazBot_$(COMPONENT_SHORT)$/;"	m
+COMPONENT_SHORT	callbackhandler/make/Makefile	/^COMPONENT_SHORT := callbackhandler$/;"	m
+COMPONENT_SHORT	startup/make/Makefile	/^COMPONENT_SHORT := startup$/;"	m
+COMPONENT_SHORT	upperlayer/make/Makefile	/^COMPONENT_SHORT := upperlayer$/;"	m
+COMPONENT_SHORT	user_storage/make/Makefile	/^COMPONENT_SHORT := user_storage$/;"	m
+COMPONENT_SHORT	usercallbacks/make/Makefile	/^COMPONENT_SHORT := usercallbacks$/;"	m
+CONFIG_TYPES_H	config/src/config_types.h	27;"	d
+CONN_PROTOCOLS	networking/src/networking.h	51;"	d
+CexpResult	generic/src/splitter.h	/^	CexplodeStrings *CexpResult;$/;"	m	struct:SSplitterResult
+Cexplode	generic/src/helpers.c	/^int Cexplode(const char *string,const char *delim, CexplodeStrings *exp_obj )$/;"	f
+CexplodeStrings	APIs/cexplode.h	/^typedef struct CexplodeStrings$/;"	s
+CexplodeStrings	APIs/cexplode.h	/^}CexplodeStrings;$/;"	t	typeref:struct:CexplodeStrings
+CexplodeStrings	generic/src/helpers.h	/^typedef struct CexplodeStrings$/;"	s
+CexplodeStrings	generic/src/helpers.h	/^}CexplodeStrings;$/;"	t	typeref:struct:CexplodeStrings
+Cexplode_concat	generic/src/helpers.c	/^int Cexplode_concat(CexplodeStrings *first,CexplodeStrings *second)$/;"	f
+Cexplode_free	generic/src/helpers.c	/^void Cexplode_free(CexplodeStrings exp_obj)$/;"	f
+Cexplode_free_allButPieces	generic/src/helpers.c	/^void Cexplode_free_allButPieces(CexplodeStrings exp_obj)$/;"	f
+Cexplode_getAmnt	generic/src/helpers.c	/^int Cexplode_getAmnt(CexplodeStrings exp_obj)$/;"	f
+Cexplode_getNth	generic/src/helpers.c	/^char *Cexplode_getNth(int index,CexplodeStrings *_exp_obj)$/;"	f
+Cexplode_getfirst	generic/src/helpers.c	/^char *Cexplode_getfirst(CexplodeStrings *exp_obj)$/;"	f
+Cexplode_getlast	generic/src/helpers.c	/^char *Cexplode_getlast(CexplodeStrings *exp_obj)$/;"	f
+Cexplode_getlentilllast	generic/src/helpers.c	/^size_t Cexplode_getlentilllast(CexplodeStrings exp_obj)$/;"	f
+Cexplode_getnext	generic/src/helpers.c	/^char *Cexplode_getnext(CexplodeStrings *exp_obj)$/;"	f
+Cexplode_nextexists	generic/src/helpers.c	/^int Cexplode_nextexists(CexplodeStrings exp_obj)$/;"	f
+Cexplode_removeCurrent	generic/src/helpers.c	/^char *Cexplode_removeCurrent(CexplodeStrings *exp_obj)$/;"	f
+Cexplode_removeNth	generic/src/helpers.c	/^char *Cexplode_removeNth(int nro,CexplodeStrings *exp_obj)$/;"	f
+Cexplode_sepwasatend	generic/src/helpers.c	/^int Cexplode_sepwasatend(CexplodeStrings exp_obj)$/;"	f
+CfgCbFileParserInit	parsers/src/config_file_parser.c	/^SFILEparser *CfgCbFileParserInit(void)$/;"	f
+CfgCbFileParserUninit	parsers/src/config_file_parser.c	/^void CfgCbFileParserUninit(Sparser **_this_)$/;"	f
+CfgCbGetResult	parsers/src/config_file_parser.c	/^static SparserResult * CfgCbGetResult(Sparser *_this_, EparserState *state)$/;"	f	file:
+CfgCbRes_eventGet	parsers/src/config_file_parser.c	/^static ScallbackConf * CfgCbRes_eventGet(SparserResult *_this_)$/;"	f	file:
+CfgCbRes_free	parsers/src/config_file_parser.c	/^static void CfgCbRes_free(SparserResult **_this_)$/;"	f	file:
+Chanadd_channel_def_eventsF	upperlayer/src/irc_abstraction_defines.h	/^typedef int (*Chanadd_channel_def_eventsF)(struct Sirc_channels *_this,FILE *readfile);$/;"	t
+ChannelArmReconnTimerF	upperlayer/src/irc_abstraction_defines.h	/^typedef void (*ChannelArmReconnTimerF)(struct Sirc_channels *);$/;"	t
+ChannelConfigsCfgAdd	config/src/channel_config.c	/^static int ChannelConfigsCfgAdd(SChannelConfigs *_this,SmbotPseudoxmlTag* channelRootTag)$/;"	f	file:
+ChannelConfigsCfgAdd	config/src/channel_config.h	/^    ChannelConfigsCfgAddF ChannelConfigsCfgAdd;$/;"	m	struct:SChannelConfigs
+ChannelConfigsCfgAddF	config/src/channel_config.h	/^typedef int (*ChannelConfigsCfgAddF)(struct SChannelConfigs *_this,SmbotPseudoxmlTag* channelRootTag);$/;"	t
+ChannelDisconnectedCleanupF	upperlayer/src/irc_abstraction_defines.h	/^typedef void (*ChannelDisconnectedCleanupF)(struct Sirc_channels *);$/;"	t
+Channel_joinF	upperlayer/src/irc_abstraction_defines.h	/^typedef int (*Channel_joinF)(struct Sirc_channels *,Sconn *,Sparser *);$/;"	t
+ConfigListenerReg	config/src/config.c	/^EconfigRet ConfigListenerReg(unsigned int key,configListenerF func,void *opaque)$/;"	f
+DEBUGPRINTS	generic/src/helpers.c	35;"	d	file:
+DEBUGS_IN_USE	generic/src/definitions.h	27;"	d
+DEBUG_PRINTS	config/src/irc_config.c	32;"	d	file:
+DEFCFGFILE	test/src/irc_cfg_test.c	/^const char *DEFCFGFILE="irc_test_cfg.txt";$/;"	v
+DEF_CB_TXT_MAX	callbackhandler/src/defaultcallbacks.h	29;"	d
+DOMAIN_MAX	callbackhandler/src/callbackhandler.h	26;"	d
+DONT_REPLACE_DEFAULT_CALLBACK	usercallbacks/src/user_callbacks.h	8;"	d
+DPRINT	APIs/generic_api.h	77;"	d
+DPRINT	generic/src/generic.h	188;"	d
+DPRINTC	generic/src/generic.h	91;"	d
+ECallbackRetval	callbackhandler/src/callbackhandler.h	/^typedef enum ECallbackRetval$/;"	g
+ECallbackRetval	callbackhandler/src/callbackhandler.h	/^}ECallbackRetval;$/;"	t	typeref:enum:ECallbackRetval
+ECallbackRetval_InternalError	callbackhandler/src/callbackhandler.h	/^	ECallbackRetval_InternalError$/;"	e	enum:ECallbackRetval
+ECallbackRetval_InvalidParam	callbackhandler/src/callbackhandler.h	/^	ECallbackRetval_InvalidParam,$/;"	e	enum:ECallbackRetval
+ECallbackRetval_Ok	callbackhandler/src/callbackhandler.h	/^	ECallbackRetval_Ok = 0,$/;"	e	enum:ECallbackRetval
+ECexplodeRet	APIs/cexplode.h	/^typedef enum ECexplodeRet$/;"	g
+ECexplodeRet	APIs/cexplode.h	/^}ECexplodeRet;$/;"	t	typeref:enum:ECexplodeRet
+ECexplodeRet	generic/src/helpers.h	/^typedef enum ECexplodeRet$/;"	g
+ECexplodeRet	generic/src/helpers.h	/^}ECexplodeRet;$/;"	t	typeref:enum:ECexplodeRet
+ECexplodeRet_InternalFailure	APIs/cexplode.h	/^    ECexplodeRet_InternalFailure    = -666,$/;"	e	enum:ECexplodeRet
+ECexplodeRet_InternalFailure	generic/src/helpers.h	/^    ECexplodeRet_InternalFailure    = -666,$/;"	e	enum:ECexplodeRet
+ECexplodeRet_InvalidParams	APIs/cexplode.h	/^    ECexplodeRet_InvalidParams         = -667$/;"	e	enum:ECexplodeRet
+ECexplodeRet_InvalidParams	generic/src/helpers.h	/^    ECexplodeRet_InvalidParams         = -667$/;"	e	enum:ECexplodeRet
+EFileType	parsers/src/config_file_parser.h	/^typedef enum EFileType$/;"	g
+EFileType	parsers/src/config_file_parser.h	/^}EFileType;$/;"	t	typeref:enum:EFileType
+EFileType_CbConf	parsers/src/config_file_parser.h	/^    EFileType_CbConf    = 0,$/;"	e	enum:EFileType
+EFileType_GenConf	parsers/src/config_file_parser.h	/^    EFileType_GenConf,$/;"	e	enum:EFileType
+EFileType_NmbrOf	parsers/src/config_file_parser.h	/^    EFileType_NmbrOf$/;"	e	enum:EFileType
+EIRCuserLevel	parsers/src/irc_definitions.h	/^typedef enum EIRCuserLevel$/;"	g
+EIRCuserLevel	parsers/src/irc_definitions.h	/^}EIRCuserLevel;$/;"	t	typeref:enum:EIRCuserLevel
+EIRCuserLevelDirection	parsers/src/irc_definitions.h	/^typedef enum EIRCuserLevelDirection$/;"	g
+EIRCuserLevelDirection	parsers/src/irc_definitions.h	/^}EIRCuserLevelDirection;$/;"	t	typeref:enum:EIRCuserLevelDirection
+EIRCuserLevelDirection_Equal	parsers/src/irc_definitions.h	/^	EIRCuserLevelDirection_Equal	= 1,$/;"	e	enum:EIRCuserLevelDirection
+EIRCuserLevelDirection_Larger	parsers/src/irc_definitions.h	/^	EIRCuserLevelDirection_Larger	= 0,$/;"	e	enum:EIRCuserLevelDirection
+EIRCuserLevelDirection_Smaller	parsers/src/irc_definitions.h	/^	EIRCuserLevelDirection_Smaller$/;"	e	enum:EIRCuserLevelDirection
+EIRCuserLevel_NmbrOf	parsers/src/irc_definitions.h	/^	EIRCuserLevel_NmbrOf$/;"	e	enum:EIRCuserLevel
+EIRCuserLevel_admin	parsers/src/irc_definitions.h	/^    EIRCuserLevel_admin,$/;"	e	enum:EIRCuserLevel
+EIRCuserLevel_guest	parsers/src/irc_definitions.h	/^    EIRCuserLevel_guest = 0,$/;"	e	enum:EIRCuserLevel
+EIRCuserLevel_mod	parsers/src/irc_definitions.h	/^	EIRCuserLevel_mod,$/;"	e	enum:EIRCuserLevel
+EIRCuserLevel_owner	parsers/src/irc_definitions.h	/^	EIRCuserLevel_owner,$/;"	e	enum:EIRCuserLevel
+EIRCuserLevel_regged	parsers/src/irc_definitions.h	/^    EIRCuserLevel_regged,$/;"	e	enum:EIRCuserLevel
+EIRCuserType	parsers/src/irc_definitions.h	/^typedef enum EIRCuserType$/;"	g
+EIRCuserType	parsers/src/irc_definitions.h	/^}EIRCuserType;$/;"	t	typeref:enum:EIRCuserType
+EIRCuserType_Channel	parsers/src/irc_definitions.h	/^    EIRCuserType_Channel$/;"	e	enum:EIRCuserType
+EIRCuserType_Server	parsers/src/irc_definitions.h	/^    EIRCuserType_Server,$/;"	e	enum:EIRCuserType
+EIRCuserType_User	parsers/src/irc_definitions.h	/^    EIRCuserType_User = 0,$/;"	e	enum:EIRCuserType
+EMbotCallbackRet	callbackhandler/src/internal_callbacks.h	/^typedef int EMbotCallbackRet;$/;"	t
+EMbotCallbackRet_AllowChannelAndUserOnly	callbackhandler/src/internal_callbacks.h	37;"	d
+EMbotCallbackRet_AllowChannelsOnly	callbackhandler/src/internal_callbacks.h	35;"	d
+EMbotCallbackRet_AllowInternalOnly	callbackhandler/src/internal_callbacks.h	32;"	d
+EMbotCallbackRet_AllowServerAndUserOnly	callbackhandler/src/internal_callbacks.h	36;"	d
+EMbotCallbackRet_AllowServerOnly	callbackhandler/src/internal_callbacks.h	34;"	d
+EMbotCallbackRet_AllowUserOnly	callbackhandler/src/internal_callbacks.h	33;"	d
+EMbotCallbackRet_InternalCbFail	callbackhandler/src/internal_callbacks.h	27;"	d
+EMbotCallbackRet_InternalCbFailFatal	callbackhandler/src/internal_callbacks.h	26;"	d
+EMbotCallbackRet_InternalHandled	callbackhandler/src/internal_callbacks.h	30;"	d
+EMbotCallbackRet_NotHandled	callbackhandler/src/internal_callbacks.h	29;"	d
+EMbotCallbackRet_UserCbFail	callbackhandler/src/internal_callbacks.h	28;"	d
+EMbotCallbackRet_UserHandled	callbackhandler/src/internal_callbacks.h	31;"	d
+EMbotEventLocation	callbackhandler/src/callbackhandler.h	/^typedef enum EMbotEventLocation$/;"	g
+EMbotEventLocation	callbackhandler/src/callbackhandler.h	/^}EMbotEventLocation;$/;"	t	typeref:enum:EMbotEventLocation
+EMbotEventLocation_All	callbackhandler/src/callbackhandler.h	/^	EMbotEventLocation_All			= 99$/;"	e	enum:EMbotEventLocation
+EMbotEventLocation_CD	callbackhandler/src/callbackhandler.h	/^	EMbotEventLocation_CD			= 11, \/\/Chan or Dcc (may not realize)$/;"	e	enum:EMbotEventLocation
+EMbotEventLocation_CPM	callbackhandler/src/callbackhandler.h	/^	EMbotEventLocation_CPM			= 3, \/\/Chan or privmsg$/;"	e	enum:EMbotEventLocation
+EMbotEventLocation_Chan	callbackhandler/src/callbackhandler.h	/^	EMbotEventLocation_Chan			= 2,$/;"	e	enum:EMbotEventLocation
+EMbotEventLocation_Dcc	callbackhandler/src/callbackhandler.h	/^	EMbotEventLocation_Dcc			= 10, \/\/Dcc (may not realize)$/;"	e	enum:EMbotEventLocation
+EMbotEventLocation_PMD	callbackhandler/src/callbackhandler.h	/^	EMbotEventLocation_PMD			= 12, \/\/Privmsg or Dcc (may not realize)$/;"	e	enum:EMbotEventLocation
+EMbotEventLocation_Privmsg	callbackhandler/src/callbackhandler.h	/^	EMbotEventLocation_Privmsg 		= 1,$/;"	e	enum:EMbotEventLocation
+EMbotcallbackEventType	callbackhandler/src/callbackhandler.h	/^typedef enum EMbotcallbackEventType$/;"	g
+EMbotcallbackEventType	callbackhandler/src/callbackhandler.h	/^}EMbotcallbackEventType;$/;"	t	typeref:enum:EMbotcallbackEventType
+EMbotcallbackEventType_LocalCtCp	callbackhandler/src/callbackhandler.h	/^	EMbotcallbackEventType_LocalCtCp,$/;"	e	enum:EMbotcallbackEventType
+EMbotcallbackEventType_LocalJoin	callbackhandler/src/callbackhandler.h	/^	EMbotcallbackEventType_LocalJoin,		\/\/Event when user joins, cb is executed locally$/;"	e	enum:EMbotcallbackEventType
+EMbotcallbackEventType_LocalPart	callbackhandler/src/callbackhandler.h	/^	EMbotcallbackEventType_LocalPart,		\/\/Event when user parts, cb is executed locally$/;"	e	enum:EMbotcallbackEventType
+EMbotcallbackEventType_LocalRaw	callbackhandler/src/callbackhandler.h	/^	EMbotcallbackEventType_LocalRaw,$/;"	e	enum:EMbotcallbackEventType
+EMbotcallbackEventType_LocalTxtEvent	callbackhandler/src/callbackhandler.h	/^	EMbotcallbackEventType_LocalTxtEvent = 1,\/\/Event when specified txt string is encountered on chan\/PRIVMSG. Cb is executed locally.$/;"	e	enum:EMbotcallbackEventType
+EMbotcallbackEventType_TEXTEVENTEND	callbackhandler/src/callbackhandler.h	/^	EMbotcallbackEventType_TEXTEVENTEND,$/;"	e	enum:EMbotcallbackEventType
+EMbotcallbackEventType_WebCtCp	callbackhandler/src/callbackhandler.h	/^	EMbotcallbackEventType_WebCtCp,$/;"	e	enum:EMbotcallbackEventType
+EMbotcallbackEventType_WebJoin	callbackhandler/src/callbackhandler.h	/^	EMbotcallbackEventType_WebJoin,			\/\/Event when user joins, cb sends data to server$/;"	e	enum:EMbotcallbackEventType
+EMbotcallbackEventType_WebPart	callbackhandler/src/callbackhandler.h	/^	EMbotcallbackEventType_WebPart,			\/\/Event when user parts, cb sends data to server$/;"	e	enum:EMbotcallbackEventType
+EMbotcallbackEventType_WebRaw	callbackhandler/src/callbackhandler.h	/^	EMbotcallbackEventType_WebRaw,$/;"	e	enum:EMbotcallbackEventType
+EMbotcallbackEventType_WebTxtEvent	callbackhandler/src/callbackhandler.h	/^	EMbotcallbackEventType_WebTxtEvent,		\/\/Event when specified txt string is encountered on chan\/PRIVMSG. Cb sends data to server.$/;"	e	enum:EMbotcallbackEventType
+EMbotcallbackEventType_nmbrOf	callbackhandler/src/callbackhandler.h	/^	EMbotcallbackEventType_nmbrOf			\/\/Keep this as last item!$/;"	e	enum:EMbotcallbackEventType
+END_OF_MOTD	upperlayer/src/irc_abstraction_defines.h	49;"	d
+EPRINT	APIs/generic_api.h	92;"	d
+EPRINT	generic/src/generic.h	209;"	d
+EPRINTC	generic/src/generic.h	136;"	d
+EPrintLevel	APIs/generic_api.h	/^typedef enum EPrintLevel$/;"	g
+EPrintLevel	APIs/generic_api.h	/^}EPrintLevel;$/;"	t	typeref:enum:EPrintLevel
+EPrintLevel	generic/src/generic.h	/^typedef enum EPrintLevel$/;"	g
+EPrintLevel	generic/src/generic.h	/^}EPrintLevel;$/;"	t	typeref:enum:EPrintLevel
+EPrintLevel_Debug	APIs/generic_api.h	/^    EPrintLevel_Debug = 0,$/;"	e	enum:EPrintLevel
+EPrintLevel_Debug	generic/src/generic.h	/^	EPrintLevel_Debug = 0,$/;"	e	enum:EPrintLevel
+EPrintLevel_Error	APIs/generic_api.h	/^    EPrintLevel_Error,$/;"	e	enum:EPrintLevel
+EPrintLevel_Error	generic/src/generic.h	/^	EPrintLevel_Error,$/;"	e	enum:EPrintLevel
+EPrintLevel_Info	APIs/generic_api.h	/^    EPrintLevel_Info,$/;"	e	enum:EPrintLevel
+EPrintLevel_Info	generic/src/generic.h	/^	EPrintLevel_Info,$/;"	e	enum:EPrintLevel
+EPrintLevel_NmbrOf	APIs/generic_api.h	/^    EPrintLevel_NmbrOf$/;"	e	enum:EPrintLevel
+EPrintLevel_NmbrOf	generic/src/generic.h	/^	EPrintLevel_NmbrOf$/;"	e	enum:EPrintLevel
+EPrintLevel_Panic	APIs/generic_api.h	/^    EPrintLevel_Panic,$/;"	e	enum:EPrintLevel
+EPrintLevel_Panic	generic/src/generic.h	/^	EPrintLevel_Panic,$/;"	e	enum:EPrintLevel
+EPrintLevel_Unknown	APIs/generic_api.h	/^    EPrintLevel_Unknown,$/;"	e	enum:EPrintLevel
+EPrintLevel_Unknown	generic/src/generic.h	/^	EPrintLevel_Unknown,$/;"	e	enum:EPrintLevel
+EPrintLevel_Warning	APIs/generic_api.h	/^    EPrintLevel_Warning,$/;"	e	enum:EPrintLevel
+EPrintLevel_Warning	generic/src/generic.h	/^	EPrintLevel_Warning,$/;"	e	enum:EPrintLevel
+EServerSuccess	upperlayer/src/irc_abstraction_defines.h	/^typedef enum EServerSuccess$/;"	g
+EServerSuccess	upperlayer/src/irc_abstraction_defines.h	/^}EServerSuccess;$/;"	t	typeref:enum:EServerSuccess
+EServerSuccess_Disconnected	upperlayer/src/irc_abstraction_defines.h	/^	EServerSuccess_Disconnected = -1,$/;"	e	enum:EServerSuccess
+EServerSuccess_FuckdUp	upperlayer/src/irc_abstraction_defines.h	/^	EServerSuccess_FuckdUp		= -2$/;"	e	enum:EServerSuccess
+EServerSuccess_Ok	upperlayer/src/irc_abstraction_defines.h	/^	EServerSuccess_Ok = 0,$/;"	e	enum:EServerSuccess
+EServerTasks	upperlayer/src/irc_abstraction_defines.h	/^typedef enum EServerTasks$/;"	g
+EServerTasks	upperlayer/src/irc_abstraction_defines.h	/^}EServerTasks;$/;"	t	typeref:enum:EServerTasks
+EServerTasks_CheckInternalCallbacks	upperlayer/src/irc_abstraction_defines.h	/^	EServerTasks_CheckInternalCallbacks, \/\/like whois, names lists...$/;"	e	enum:EServerTasks
+EServerTasks_CheckUserCallbackRequests	upperlayer/src/irc_abstraction_defines.h	/^	EServerTasks_CheckUserCallbackRequests,$/;"	e	enum:EServerTasks
+EServerTasks_InitChannels	upperlayer/src/irc_abstraction_defines.h	/^	EServerTasks_InitChannels, \/\/unnecessary?$/;"	e	enum:EServerTasks
+EServerTasks_InitParser	upperlayer/src/irc_abstraction_defines.h	/^	EServerTasks_InitParser,$/;"	e	enum:EServerTasks
+EServerTasks_InitUserCallbacks	upperlayer/src/irc_abstraction_defines.h	/^	EServerTasks_InitUserCallbacks,$/;"	e	enum:EServerTasks
+EServerTasks_InspectCallbacks	upperlayer/src/irc_abstraction_defines.h	/^	EServerTasks_InspectCallbacks, \/\/usercallbacks$/;"	e	enum:EServerTasks
+EServerTasks_JoinServer	upperlayer/src/irc_abstraction_defines.h	/^	EServerTasks_JoinServer	= 0,$/;"	e	enum:EServerTasks
+EServerTasks_PollTimedEvents	upperlayer/src/irc_abstraction_defines.h	/^	EServerTasks_PollTimedEvents,	\/\/Reconnects etc.$/;"	e	enum:EServerTasks
+ETimedEvent	upperlayer/src/irc_abstraction_defines.h	/^typedef enum ETimedEvent$/;"	g
+ETimedEvent	upperlayer/src/irc_abstraction_defines.h	/^}ETimedEvent;$/;"	t	typeref:enum:ETimedEvent
+ETimedEvent_ChannelReconnTimer	upperlayer/src/irc_abstraction_defines.h	/^	ETimedEvent_ChannelReconnTimer,$/;"	e	enum:ETimedEvent
+ETimedEvent_NmbrOf	upperlayer/src/irc_abstraction_defines.h	/^	ETimedEvent_NmbrOf$/;"	e	enum:ETimedEvent
+ETimedEvent_ServerReconnTimer	upperlayer/src/irc_abstraction_defines.h	/^	ETimedEvent_ServerReconnTimer	= 0,$/;"	e	enum:ETimedEvent
+EVENTID_MAX	config/src/irc_config.h	36;"	d
+EVENT_CONFIG_H	config/src/event_config.h	27;"	d
+EVENT_JOIN_STORAGE_SIZE	callbackhandler/src/event_storage.h	37;"	d
+EVENT_PART_STORAGE_SIZE	callbackhandler/src/event_storage.h	38;"	d
+EVENT_TEXT_STORAGE_SIZE	callbackhandler/src/event_storage.h	36;"	d
+E_callback_event_file	config/src/configNumbers.h	/^	E_callback_event_file		= 1,$/;"	e	enum:EmbotCfg
+E_event_def_reply_file	config/src/configNumbers.h	/^	E_event_def_reply_file		= 2,$/;"	e	enum:EmbotCfg
+E_nmbr_of_configs	config/src/configNumbers.h	/^	E_nmbr_of_configs$/;"	e	enum:EmbotCfg
+E_own_id	config/src/configNumbers.h	/^	E_own_id					= 0,$/;"	e	enum:EmbotCfg
+E_own_nick	config/src/configNumbers.h	/^	E_own_nick					= 5,$/;"	e	enum:EmbotCfg
+E_owner_passwd	config/src/configNumbers.h	/^	E_owner_passwd				= 10,$/;"	e	enum:EmbotCfg
+E_serveramnt	config/src/configNumbers.h	/^	E_serveramnt				= 12,$/;"	e	enum:EmbotCfg
+E_serverchans	config/src/configNumbers.h	/^	E_serverchans				= 13,$/;"	e	enum:EmbotCfg
+E_serverlist	config/src/configNumbers.h	/^	E_serverlist				= 11,$/;"	e	enum:EmbotCfg
+E_text_event_prefix	config/src/configNumbers.h	/^	E_text_event_prefix			= 4,$/;"	e	enum:EmbotCfg
+E_text_event_prefix_in_use	config/src/configNumbers.h	/^	E_text_event_prefix_in_use	= 3,$/;"	e	enum:EmbotCfg
+E_user_ident_mode	config/src/configNumbers.h	/^	E_user_ident_mode			= 6,$/;"	e	enum:EmbotCfg
+E_user_level_file_name_host	config/src/configNumbers.h	/^	E_user_level_file_name_host = 9,$/;"	e	enum:EmbotCfg
+E_user_level_file_name_pass	config/src/configNumbers.h	/^	E_user_level_file_name_pass = 8,$/;"	e	enum:EmbotCfg
+E_user_level_file_name_reg	config/src/configNumbers.h	/^	E_user_level_file_name_reg	= 7,$/;"	e	enum:EmbotCfg
+EcfgStructType	config/src/config_types.h	/^typedef enum EcfgStructType$/;"	g
+EcfgStructType	config/src/config_types.h	/^}EcfgStructType;$/;"	t	typeref:enum:EcfgStructType
+EcfgStructType_chan	config/src/config_types.h	/^	EcfgStructType_chan,$/;"	e	enum:EcfgStructType
+EcfgStructType_irc	config/src/config_types.h	/^	EcfgStructType_irc,$/;"	e	enum:EcfgStructType
+EcfgStructType_nmbrof	config/src/config_types.h	/^	EcfgStructType_nmbrof$/;"	e	enum:EcfgStructType
+EcfgStructType_server	config/src/config_types.h	/^	EcfgStructType_server,$/;"	e	enum:EcfgStructType
+EconfigRet	config/src/config.h	/^typedef enum EconfigRet$/;"	g
+EconfigRet	config/src/config.h	/^}EconfigRet;$/;"	t	typeref:enum:EconfigRet
+EconfigRet_Error	config/src/config.h	/^	EconfigRet_Error=1$/;"	e	enum:EconfigRet
+EconfigRet_Ok	config/src/config.h	/^	EconfigRet_Ok	=0,$/;"	e	enum:EconfigRet
+EconnState	APIs/networking_api.h	/^typedef enum EconnState$/;"	g
+EconnState	APIs/networking_api.h	/^}EconnState;$/;"	t	typeref:enum:EconnState
+EconnState	networking/src/networking.h	/^typedef enum EconnState$/;"	g
+EconnState	networking/src/networking.h	/^}EconnState;$/;"	t	typeref:enum:EconnState
+EconnState_Nmbrof	APIs/networking_api.h	/^    EconnState_Nmbrof$/;"	e	enum:EconnState
+EconnState_Nmbrof	networking/src/networking.h	/^	EconnState_Nmbrof		   \/\/\/< Not to be used, internal value.$/;"	e	enum:EconnState
+EconnState_connected	APIs/networking_api.h	/^    EconnState_connected,$/;"	e	enum:EconnState
+EconnState_connected	networking/src/networking.h	/^	EconnState_connected,	   \/\/\/< Connected (only with connected protocols (TCP))$/;"	e	enum:EconnState
+EconnState_disconnected	APIs/networking_api.h	/^    EconnState_disconnected,$/;"	e	enum:EconnState
+EconnState_disconnected	networking/src/networking.h	/^	EconnState_disconnected,   \/\/\/< Connection lost\/disconnected (only with connected protocols (TCP))$/;"	e	enum:EconnState
+EconnState_inited	APIs/networking_api.h	/^    EconnState_inited   = 0,$/;"	e	enum:EconnState
+EconnState_inited	networking/src/networking.h	/^	EconnState_inited	= 0,   \/\/\/< Initialized but not used yet$/;"	e	enum:EconnState
+EconnState_sock_created	APIs/networking_api.h	/^    EconnState_sock_created,$/;"	e	enum:EconnState
+EconnState_sock_created	networking/src/networking.h	/^	EconnState_sock_created,   \/\/\/< Socket created$/;"	e	enum:EconnState
+EmbotCfg	config/src/configNumbers.h	/^typedef enum EmbotCfg$/;"	g
+EmbotCfg	config/src/configNumbers.h	/^}EmbotCfg;$/;"	t	typeref:enum:EmbotCfg
+EmbotPseudoxmlType	config/src/mbot_pseudo_xml.h	/^typedef enum EmbotPseudoxmlType$/;"	g
+EmbotPseudoxmlType	config/src/mbot_pseudo_xml.h	/^}EmbotPseudoxmlType;$/;"	t	typeref:enum:EmbotPseudoxmlType
+EmbotPseudoxmlType_16bit	config/src/mbot_pseudo_xml.h	/^	EmbotPseudoxmlType_16bit = 3,$/;"	e	enum:EmbotPseudoxmlType
+EmbotPseudoxmlType_32bit	config/src/mbot_pseudo_xml.h	/^	EmbotPseudoxmlType_32bit = 4,$/;"	e	enum:EmbotPseudoxmlType
+EmbotPseudoxmlType_64bit	config/src/mbot_pseudo_xml.h	/^	EmbotPseudoxmlType_64bit = 5,$/;"	e	enum:EmbotPseudoxmlType
+EmbotPseudoxmlType_8bit	config/src/mbot_pseudo_xml.h	/^	EmbotPseudoxmlType_8bit  = 2,$/;"	e	enum:EmbotPseudoxmlType
+EmbotPseudoxmlType_char	config/src/mbot_pseudo_xml.h	/^	EmbotPseudoxmlType_char  = 1,$/;"	e	enum:EmbotPseudoxmlType
+EmbotPseudoxmlType_nmbrof	config/src/mbot_pseudo_xml.h	/^	EmbotPseudoxmlType_nmbrof$/;"	e	enum:EmbotPseudoxmlType
+EnetwRetval	APIs/networking_api.h	/^typedef enum EnetwRetval$/;"	g
+EnetwRetval	APIs/networking_api.h	/^}EnetwRetval;$/;"	t	typeref:enum:EnetwRetval
+EnetwRetval	networking/src/networking.h	/^typedef enum EnetwRetval$/;"	g
+EnetwRetval	networking/src/networking.h	/^}EnetwRetval;$/;"	t	typeref:enum:EnetwRetval
+EnetwRetval_InternalError	APIs/networking_api.h	/^    EnetwRetval_InternalError   = -1,$/;"	e	enum:EnetwRetval
+EnetwRetval_InternalError	networking/src/networking.h	/^	EnetwRetval_InternalError 	= -1, \/\/\/< Unspecified internal error$/;"	e	enum:EnetwRetval
+EnetwRetval_InvParam	APIs/networking_api.h	/^    EnetwRetval_InvParam        = -3$/;"	e	enum:EnetwRetval
+EnetwRetval_InvParam	networking/src/networking.h	/^	EnetwRetval_InvParam		= -3  \/\/\/< Invalid param given to call$/;"	e	enum:EnetwRetval
+EnetwRetval_Ok	APIs/networking_api.h	/^    EnetwRetval_Ok              = 0,$/;"	e	enum:EnetwRetval
+EnetwRetval_Ok	networking/src/networking.h	/^	EnetwRetval_Ok 				= 0,  \/\/\/< Operation successfull$/;"	e	enum:EnetwRetval
+EnetwRetval_UnableToResolve	APIs/networking_api.h	/^    EnetwRetval_UnableToResolve = -2,$/;"	e	enum:EnetwRetval
+EnetwRetval_UnableToResolve	networking/src/networking.h	/^	EnetwRetval_UnableToResolve = -2, \/\/\/< Domain name resolving failed$/;"	e	enum:EnetwRetval
+EparserResultType	parsers/src/parser.h	/^typedef enum EparserResultType$/;"	g
+EparserResultType	parsers/src/parser.h	/^}EparserResultType;$/;"	t	typeref:enum:EparserResultType
+EparserResultType_CfgBasic	parsers/src/parser.h	/^    EparserResultType_CfgBasic,$/;"	e	enum:EparserResultType
+EparserResultType_CfgCallback	parsers/src/parser.h	/^    EparserResultType_CfgCallback,$/;"	e	enum:EparserResultType
+EparserResultType_NmbrOf	parsers/src/parser.h	/^    EparserResultType_NmbrOf$/;"	e	enum:EparserResultType
+EparserResultType_Unknown	parsers/src/parser.h	/^    EparserResultType_Unknown       = 0,$/;"	e	enum:EparserResultType
+EparserRetVal	APIs/parsers_api.h	/^typedef enum EparserRetVal$/;"	g
+EparserRetVal	APIs/parsers_api.h	/^}EparserRetVal;$/;"	t	typeref:enum:EparserRetVal
+EparserRetVal	parsers/src/parser.h	/^typedef enum EparserRetVal$/;"	g
+EparserRetVal	parsers/src/parser.h	/^}EparserRetVal;$/;"	t	typeref:enum:EparserRetVal
+EparserRetVal_InsufficientFeed	APIs/parsers_api.h	/^    EparserRetVal_InsufficientFeed,$/;"	e	enum:EparserRetVal
+EparserRetVal_InsufficientFeed	parsers/src/parser.h	/^	EparserRetVal_InsufficientFeed,$/;"	e	enum:EparserRetVal
+EparserRetVal_InternalError	APIs/parsers_api.h	/^    EparserRetVal_InternalError,$/;"	e	enum:EparserRetVal
+EparserRetVal_InternalError	parsers/src/parser.h	/^	EparserRetVal_InternalError,$/;"	e	enum:EparserRetVal
+EparserRetVal_InvalidParam	APIs/parsers_api.h	/^    EparserRetVal_InvalidParam,$/;"	e	enum:EparserRetVal
+EparserRetVal_InvalidParam	parsers/src/parser.h	/^	EparserRetVal_InvalidParam,$/;"	e	enum:EparserRetVal
+EparserRetVal_NotInitialized	APIs/parsers_api.h	/^    EparserRetVal_NotInitialized,$/;"	e	enum:EparserRetVal
+EparserRetVal_NotInitialized	parsers/src/parser.h	/^	EparserRetVal_NotInitialized,$/;"	e	enum:EparserRetVal
+EparserRetVal_Ok	APIs/parsers_api.h	/^    EparserRetVal_Ok                = 0,$/;"	e	enum:EparserRetVal
+EparserRetVal_Ok	parsers/src/parser.h	/^	EparserRetVal_Ok				= 0,$/;"	e	enum:EparserRetVal
+EparserRetVal_OverFeed	APIs/parsers_api.h	/^    EparserRetVal_OverFeed$/;"	e	enum:EparserRetVal
+EparserRetVal_OverFeed	parsers/src/parser.h	/^	EparserRetVal_OverFeed$/;"	e	enum:EparserRetVal
+EparserState	APIs/parsers_api.h	/^typedef enum EparserState$/;"	g
+EparserState	APIs/parsers_api.h	/^}EparserState;$/;"	t	typeref:enum:EparserState
+EparserState	parsers/src/parser.h	/^typedef enum EparserState$/;"	g
+EparserState	parsers/src/parser.h	/^}EparserState;$/;"	t	typeref:enum:EparserState
+EparserState_Choked	APIs/parsers_api.h	/^	EparserState_Choked		    = -2,$/;"	e	enum:EparserState
+EparserState_Choked	parsers/src/parser.h	/^	EparserState_Choked		    = -2,$/;"	e	enum:EparserState
+EparserState_FatalError	APIs/parsers_api.h	/^    EparserState_FatalError     =  -3,           \/\/\/< Some error occurred in parser, and it is no longer usable.$/;"	e	enum:EparserState
+EparserState_FatalError	parsers/src/parser.h	/^    EparserState_FatalError     =  -3,           \/\/\/< Some error occurred in parser, and it is no longer usable.$/;"	e	enum:EparserState
+EparserState_Full	APIs/parsers_api.h	/^	EparserState_Full			= -1,$/;"	e	enum:EparserState
+EparserState_Full	parsers/src/parser.h	/^	EparserState_Full			= -1,$/;"	e	enum:EparserState
+EparserState_Inited	APIs/parsers_api.h	/^	EparserState_Inited			=  0,				\/\/\/< Initialized but no data given yet.$/;"	e	enum:EparserState
+EparserState_Inited	parsers/src/parser.h	/^	EparserState_Inited			=  0,				\/\/\/< Initialized but no data given yet.$/;"	e	enum:EparserState
+EparserState_NeedMoreData	APIs/parsers_api.h	/^	EparserState_NeedMoreData	=  3,			\/\/\/< Some data given, but unable to parse since rest is missing => feed more.$/;"	e	enum:EparserState
+EparserState_NeedMoreData	parsers/src/parser.h	/^	EparserState_NeedMoreData	=  3,			\/\/\/< Some data given, but unable to parse since rest is missing => feed more.$/;"	e	enum:EparserState
+EparserState_NmbrOf	APIs/parsers_api.h	/^	EparserState_NmbrOf			=  4$/;"	e	enum:EparserState
+EparserState_NmbrOf	parsers/src/parser.h	/^	EparserState_NmbrOf			=  4$/;"	e	enum:EparserState
+EparserState_ParserEmpty	APIs/parsers_api.h	/^	EparserState_ParserEmpty	=  1,			\/\/\/< All results extracted, ready for feeding. $/;"	e	enum:EparserState
+EparserState_ParserEmpty	parsers/src/parser.h	/^	EparserState_ParserEmpty	=  1,			\/\/\/< All results extracted, ready for feeding. $/;"	e	enum:EparserState
+EparserState_ResultReady	APIs/parsers_api.h	/^	EparserState_ResultReady	=  2,			\/\/\/< Results pending.$/;"	e	enum:EparserState
+EparserState_ResultReady	parsers/src/parser.h	/^	EparserState_ResultReady	=  2,			\/\/\/< Results pending.$/;"	e	enum:EparserState
+EparserType	APIs/parsers_api.h	/^typedef enum EparserType$/;"	g
+EparserType	APIs/parsers_api.h	/^}EparserType;$/;"	t	typeref:enum:EparserType
+EparserType	parsers/src/parser.h	/^typedef enum EparserType$/;"	g
+EparserType	parsers/src/parser.h	/^}EparserType;$/;"	t	typeref:enum:EparserType
+EparserType_CfgBasic	parsers/src/parser.h	/^    EparserType_CfgBasic,$/;"	e	enum:EparserType
+EparserType_CfgCallback	parsers/src/parser.h	/^    EparserType_CfgCallback,$/;"	e	enum:EparserType
+EparserType_Irc	APIs/parsers_api.h	/^    EparserType_Irc         = 0,$/;"	e	enum:EparserType
+EparserType_Irc	parsers/src/parser.h	/^	EparserType_Irc 		= 0,$/;"	e	enum:EparserType
+EparserType_MazBotProto	APIs/parsers_api.h	/^    EparserType_MazBotProto,$/;"	e	enum:EparserType
+EparserType_MazBotProto	parsers/src/parser.h	/^	EparserType_MazBotProto,$/;"	e	enum:EparserType
+EparserType_NmbrOf	APIs/parsers_api.h	/^    EparserType_NmbrOf$/;"	e	enum:EparserType
+EparserType_NmbrOf	parsers/src/parser.h	/^	EparserType_NmbrOf$/;"	e	enum:EparserType
+EsockStat	APIs/networking_api.h	/^typedef enum EsockStat$/;"	g
+EsockStat	APIs/networking_api.h	/^}EsockStat;$/;"	t	typeref:enum:EsockStat
+EsockStat	networking/src/networking.h	/^typedef enum EsockStat$/;"	g
+EsockStat	networking/src/networking.h	/^}EsockStat;$/;"	t	typeref:enum:EsockStat
+EsockStat_Error	APIs/networking_api.h	/^    EsockStat_Error,$/;"	e	enum:EsockStat
+EsockStat_Error	networking/src/networking.h	/^	EsockStat_Error,			\/\/\/< Error occurred$/;"	e	enum:EsockStat
+EsockStat_NmbrOf	APIs/networking_api.h	/^    EsockStat_NmbrOf$/;"	e	enum:EsockStat
+EsockStat_NmbrOf	networking/src/networking.h	/^	EsockStat_NmbrOf			\/\/\/< Not to be used, internal value.$/;"	e	enum:EsockStat
+EsockStat_quiet	APIs/networking_api.h	/^    EsockStat_quiet = 0,$/;"	e	enum:EsockStat
+EsockStat_quiet	networking/src/networking.h	/^	EsockStat_quiet = 0,		\/\/\/< No data coming$/;"	e	enum:EsockStat
+EsockStat_readyToRead	APIs/networking_api.h	/^    EsockStat_readyToRead,$/;"	e	enum:EsockStat
+EsockStat_readyToRead	networking/src/networking.h	/^	EsockStat_readyToRead,		\/\/\/< Data received, ready for reading$/;"	e	enum:EsockStat
+EsockStat_readyToWrite	APIs/networking_api.h	/^    EsockStat_readyToWrite,$/;"	e	enum:EsockStat
+EsockStat_readyToWrite	networking/src/networking.h	/^	EsockStat_readyToWrite,		\/\/\/< Ready for writing$/;"	e	enum:EsockStat
+EsplitterState	generic/src/splitter.h	/^typedef enum EsplitterState$/;"	g
+EsplitterState	generic/src/splitter.h	/^}EsplitterState;$/;"	t	typeref:enum:EsplitterState
+EsplitterState_Feed	generic/src/splitter.h	/^	EsplitterState_Feed		= 1,$/;"	e	enum:EsplitterState
+EsplitterState_Inited	generic/src/splitter.h	/^	EsplitterState_Inited 	= 0,$/;"	e	enum:EsplitterState
+EsplitterState_Splitted	generic/src/splitter.h	/^	EsplitterState_Splitted	= 2$/;"	e	enum:EsplitterState
+EstructType	APIs/networking_api.h	/^typedef enum EstructType$/;"	g
+EstructType	APIs/networking_api.h	/^}EstructType;$/;"	t	typeref:enum:EstructType
+EstructType	networking/src/networking.h	/^typedef enum EstructType$/;"	g
+EstructType	networking/src/networking.h	/^}EstructType;$/;"	t	typeref:enum:EstructType
+EstructType_NmbrOf	APIs/networking_api.h	/^    EstructType_NmbrOf$/;"	e	enum:EstructType
+EstructType_NmbrOf	networking/src/networking.h	/^	EstructType_NmbrOf				\/\/\/< Not to be used, internal value.$/;"	e	enum:EstructType
+EstructType_TCPconn	APIs/networking_api.h	/^    EstructType_TCPconn = 0,$/;"	e	enum:EstructType
+EstructType_TCPconn	networking/src/networking.h	/^	EstructType_TCPconn = 0,		\/\/\/< TCP\/IP connection$/;"	e	enum:EstructType
+EstructType_UDPconn	APIs/networking_api.h	/^    EstructType_UDPconn,$/;"	e	enum:EstructType
+EstructType_UDPconn	networking/src/networking.h	/^	EstructType_UDPconn,			\/\/\/< UDP connection$/;"	e	enum:EstructType
+EupperlayerStructType	upperlayer/src/irc_abstraction_defines.h	/^typedef enum EupperlayerStructType$/;"	g
+EupperlayerStructType	upperlayer/src/irc_abstraction_defines.h	/^}EupperlayerStructType;$/;"	t	typeref:enum:EupperlayerStructType
+EupperlayerStructType_Channel	upperlayer/src/irc_abstraction_defines.h	/^    EupperlayerStructType_Channel = 1$/;"	e	enum:EupperlayerStructType
+EupperlayerStructType_Server	upperlayer/src/irc_abstraction_defines.h	/^    EupperlayerStructType_Server = 0,$/;"	e	enum:EupperlayerStructType
+EuserHandlerType	user_storage/src/user.h	/^typedef enum EuserHandlerType$/;"	g
+EuserHandlerType	user_storage/src/user.h	/^}EuserHandlerType;$/;"	t	typeref:enum:EuserHandlerType
+EuserHandlerType_Online	user_storage/src/user.h	/^	EuserHandlerType_Online$/;"	e	enum:EuserHandlerType
+EuserHandlerType_Permanent	user_storage/src/user.h	/^	EuserHandlerType_Permanent 	= 0,$/;"	e	enum:EuserHandlerType
+EuserIdentMode	user_storage/src/user.h	/^typedef enum EuserIdentMode$/;"	g
+EuserIdentMode	user_storage/src/user.h	/^}EuserIdentMode;$/;"	t	typeref:enum:EuserIdentMode
+EuserIdentMode_Hostmask	user_storage/src/user.h	/^	EuserIdentMode_Hostmask	= 2,$/;"	e	enum:EuserIdentMode
+EuserIdentMode_NmbrOf	user_storage/src/user.h	/^	EuserIdentMode_NmbrOf   = 3$/;"	e	enum:EuserIdentMode
+EuserIdentMode_Passwd	user_storage/src/user.h	/^	EuserIdentMode_Passwd	= 1,$/;"	e	enum:EuserIdentMode
+EuserIdentMode_RegNick	user_storage/src/user.h	/^	EuserIdentMode_RegNick	= 0,$/;"	e	enum:EuserIdentMode
+FILE_DATA_BUF_LEN	parsers/src/config_file_parser.h	47;"	d
+FILEparseParseF	parsers/src/config_file_parser.h	/^typedef int (*FILEparseParseF)(struct SFILEparser *_this);$/;"	t
+FILEparserResultGetF	parsers/src/config_file_parser.h	/^typedef char *(*FILEparserResultGetF)(struct SFILEparserResult *);$/;"	t
+FILEparserResultGetParamF	parsers/src/config_file_parser.h	/^typedef char *(*FILEparserResultGetParamF)(struct SFILEparserResult *,int paramno);$/;"	t
+FMT_INITIAL_LEN	generic/src/generic.c	35;"	d	file:
+FileParserFeed	parsers/src/config_file_parser.c	/^static EparserRetVal FileParserFeed(Sparser *_this_, char *data, size_t datasize, EparserState *state)$/;"	f	file:
+GUARD_LIMIT	generic/src/MbotRingBuff.c	21;"	d	file:
+G_bitsinslot	generic/src/MbotBitset.h	/^static unsigned const int G_bitsinslot=sizeof(size_t)*8;$/;"	v
+G_cfg_inited	config/src/config.c	/^int G_cfg_inited=0;$/;"	v
+G_mbot_allowed_attribs	config/src/mbot_pseudo_xml.c	/^static const char *G_mbot_allowed_attribs[]={"name","type","length","value"};$/;"	v	file:
+G_permanent_user_storage	user_storage/src/permanent_storage.c	/^SIRCuserHandlerPermanent *G_permanent_user_storage;$/;"	v
+G_printFilterLevel	generic/src/generic.c	/^EPrintLevel G_printFilterLevel = PRINT_FILTER_DEFAULT;$/;"	v
+GetChannelsToJoin	upperlayer/src/irc_abstraction_defines.h	/^	GetChansF GetChannelsToJoin;$/;"	m	struct:Sirc_servers
+GetChansF	upperlayer/src/irc_abstraction_defines.h	/^typedef int (*GetChansF)(struct Sirc_servers *);$/;"	t
+GetConfig	config/src/config.c	/^void *GetConfig(unsigned int key,size_t *valuesize)$/;"	f
+HELPERS_H	APIs/cexplode.h	29;"	d
+HELPERS_H	generic/src/helpers.h	33;"	d
+HOST	test/src/dicebot.c	39;"	d	file:
+HOST	test/src/main.c	34;"	d	file:
+INCLIBDIR	da_bot_client/make/Makefile	/^INCLIBDIR := -L$(BUILDROOT)\/generic\/$(LIB_FOLDER) -L$(BUILDROOT)\/networking\/$(LIB_FOLDER) -L$(BUILDROOT)\/parsers\/$(LIB_FOLDER) -L$(BUILDROOT)\/config\/$(LIB_FOLDER) -L$(BUILDROOT)\/startup\/$(LIB_FOLDER) -L$(BUILDROOT)\/callbackhandler\/$(LIB_FOLDER) -L$(BUILDROOT)\/usercallbacks\/$(LIB_FOLDER)$/;"	m
+INCLIBDIR	test/make/Makefile	/^INCLIBDIR := -L$(BUILDROOT)\/generic\/$(LIB_FOLDER) -L$(BUILDROOT)\/networking\/$(LIB_FOLDER) -L$(BUILDROOT)\/parsers\/$(LIB_FOLDER) -L$(BUILDROOT)\/config\/$(LIB_FOLDER) -L$(BUILDROOT)\/startup\/$(LIB_FOLDER) -L$(BUILDROOT)\/callbackhandler\/$(LIB_FOLDER) -L$(BUILDROOT)\/usercallbacks\/$(LIB_FOLDER) -L$(BUILDROOT)\/user_storage\/$(LIB_FOLDER) -L$(BUILDROOT)\/upperlayer\/$(LIB_FOLDER)$/;"	m
+INCLIBS	da_bot_client/make/Makefile	/^INCLIBS := -lMazBot_networking -lMazBot_startup -lMazBot_parsers -lMazBot_config -lMazBot_callbackhandler -lMazBot_usercallbacks -lMazBot_generic -pthread$/;"	m
+INCLIBS	test/make/Makefile	/^INCLIBS := -lMazBot_startup -lMazBot_upperlayer -lMazBot_user_storage -lMazBot_networking -lMazBot_parsers -lMazBot_config -lMazBot_usercallbacks -lMazBot_callbackhandler -lMazBot_generic -pthread$/;"	m
+INCLUDE	callbackhandler/make/Makefile	/^export INCLUDE := -I $(COMPONENT_HOME)$(SRC_FOLDER)$/;"	m
+INCLUDE	config/make/Makefile	/^export INCLUDE := -I $(COMPONENT_HOME)$(SRC_FOLDER)$/;"	m
+INCLUDE	da_bot_client/make/Makefile	/^export INCLUDE := -I $(COMPONENT_HOME)$(SRC_FOLDER)$/;"	m
+INCLUDE	generic/make/Makefile	/^export INCLUDE := -I $(COMPONENT_HOME)$(SRC_FOLDER)$/;"	m
+INCLUDE	networking/make/Makefile	/^export INCLUDE := -I $(COMPONENT_HOME)$(SRC_FOLDER)$/;"	m
+INCLUDE	parsers/make/Makefile	/^export INCLUDE := -I $(COMPONENT_HOME)$(SRC_FOLDER)$/;"	m
+INCLUDE	startup/make/Makefile	/^export INCLUDE := -I $(COMPONENT_HOME)$(SRC_FOLDER)$/;"	m
+INCLUDE	test/make/Makefile	/^export INCLUDE := -I $(COMPONENT_HOME)$(SRC_FOLDER)$/;"	m
+INCLUDE	upperlayer/make/Makefile	/^export INCLUDE := -I $(COMPONENT_HOME)$(SRC_FOLDER)$/;"	m
+INCLUDE	user_storage/make/Makefile	/^export INCLUDE := -I $(COMPONENT_HOME)$(SRC_FOLDER)$/;"	m
+INCLUDE	usercallbacks/make/Makefile	/^export INCLUDE := -I $(COMPONENT_HOME)$(SRC_FOLDER)$/;"	m
+IPRINT	APIs/generic_api.h	82;"	d
+IPRINT	generic/src/generic.h	195;"	d
+IPRINTC	generic/src/generic.h	106;"	d
+IRC_ABSTRACTION_DEFINES_H	upperlayer/src/irc_abstraction_defines.h	26;"	d
+IRC_CHANNEL_MAX	APIs/parsers_api.h	39;"	d
+IRC_CHANNEL_MAX	generic/src/definitions.h	40;"	d
+IRC_CMD_MAX	APIs/parsers_api.h	41;"	d
+IRC_CMD_MAX	generic/src/definitions.h	42;"	d
+IRC_DATA_BUF_LEN	parsers/src/irc_protocol_parser.h	33;"	d
+IRC_HOST_MAX	APIs/parsers_api.h	37;"	d
+IRC_HOST_MAX	generic/src/definitions.h	38;"	d
+IRC_HOST_PREFIX_CHAR	parsers/src/irc_protocol_definitions.h	36;"	d
+IRC_HOST_PREFIX_STR	parsers/src/irc_protocol_definitions.h	35;"	d
+IRC_MSG_MAX	generic/src/definitions.h	45;"	d
+IRC_MSG_MAX_LEN	parsers/src/irc_protocol_definitions.h	30;"	d
+IRC_MSG_SEPARATOR_STR	parsers/src/irc_protocol_definitions.h	27;"	d
+IRC_NICK_MAX	APIs/parsers_api.h	36;"	d
+IRC_NICK_MAX	generic/src/definitions.h	37;"	d
+IRC_PARAMS_MAX	APIs/parsers_api.h	42;"	d
+IRC_PARAMS_MAX	generic/src/definitions.h	43;"	d
+IRC_PASSWORD_MAX	generic/src/definitions.h	44;"	d
+IRC_PREFIX_IND_CHAR	parsers/src/irc_protocol_definitions.h	29;"	d
+IRC_PREFIX_IND_STR	parsers/src/irc_protocol_definitions.h	28;"	d
+IRC_PREFIX_MAX	APIs/parsers_api.h	40;"	d
+IRC_PREFIX_MAX	generic/src/definitions.h	41;"	d
+IRC_PROTO_PARAM_MAX_AMNT	parsers/src/irc_protocol_definitions.h	37;"	d
+IRC_SERVER_MAX	APIs/parsers_api.h	38;"	d
+IRC_SERVER_MAX	generic/src/definitions.h	39;"	d
+IRC_SPACE_CHAR	parsers/src/irc_protocol_definitions.h	32;"	d
+IRC_SPACE_STR	parsers/src/irc_protocol_definitions.h	31;"	d
+IRC_USER_PREFIX_CHAR	parsers/src/irc_protocol_definitions.h	34;"	d
+IRC_USER_PREFIX_STR	parsers/src/irc_protocol_definitions.h	33;"	d
+IRCfreeresult	parsers/src/irc_protocol_parser.c	/^static void IRCfreeresult(SparserResult **result)$/;"	f	file:
+IRCgetresults	parsers/src/irc_protocol_parser.c	/^static SparserResult *IRCgetresults(Sparser *_this_, EparserState *state)$/;"	f	file:
+IRCparse	parsers/src/irc_protocol_parser.c	/^static EparserRetVal IRCparse(SIRCparser *_this)$/;"	f	file:
+IRCparseParseF	parsers/src/irc_protocol_parser.h	/^typedef int (*IRCparseParseF)(struct SIRCparser *_this);$/;"	t
+IRCparserReset	parsers/src/irc_protocol_parser.c	/^static void IRCparserReset(SIRCparser *_this)$/;"	f	file:
+IRCparserResultGetF	APIs/parsers_api.h	/^typedef char *(*IRCparserResultGetF)(struct SIRCparserResult *);$/;"	t
+IRCparserResultGetF	parsers/src/irc_protocol_parser.h	/^typedef char *(*IRCparserResultGetF)(struct SIRCparserResult *);$/;"	t
+IRCparserResultGetParamF	APIs/parsers_api.h	/^typedef char *(*IRCparserResultGetParamF)(struct SIRCparserResult *,int paramno);$/;"	t
+IRCparserResultGetParamF	parsers/src/irc_protocol_parser.h	/^typedef char *(*IRCparserResultGetParamF)(struct SIRCparserResult *,int paramno);$/;"	t
+IRCparserUninit	parsers/src/irc_protocol_parser.c	/^static void IRCparserUninit(Sparser **_this_)$/;"	f	file:
+IRCparserfeed	parsers/src/irc_protocol_parser.c	/^static EparserRetVal IRCparserfeed(struct Sparser *_this_,char *data,size_t datasize, EparserState *state)$/;"	f	file:
+IRCparserinit	parsers/src/irc_protocol_parser.c	/^SIRCparser *IRCparserinit(void)$/;"	f
+IRCpreparse	parsers/src/irc_protocol_parser.c	/^int IRCpreparse(SIRCparser *_this)$/;"	f
+IRCsend	upperlayer/src/irc_abstraction_defines.h	/^	IRCsendF         IRCsend;$/;"	m	struct:Sirc_servers
+IRCsend	upperlayer/src/irc_server_abstraction.c	/^static int IRCsend(Sirc_servers *_this,size_t sendsize, char *senddata)$/;"	f	file:
+IRCsendF	upperlayer/src/irc_abstraction_defines.h	/^typedef int (*IRCsendF)(struct Sirc_servers *_this,size_t sendsize, char *senddata);$/;"	t
+ISTYPECONN	networking/src/networking.h	48;"	d
+ISTYPESANE	networking/src/networking.h	47;"	d
+InitResult	parsers/src/irc_protocol_parser.c	/^static SIRCparserResult * InitResult()$/;"	f	file:
+InitSirc_server	upperlayer/src/irc_server_abstraction.c	/^Sirc_servers *InitSirc_server(SServerConfigs *servercfg)$/;"	f
+IrcCfgAllocNewTag	config/src/mbot_pseudo_xml.c	/^static SmbotPseudoxmlTag *IrcCfgAllocNewTag(SmbotPseudoxmlTag **taglist)$/;"	f	file:
+IrcCfgFinalizeNewTag	config/src/mbot_pseudo_xml.c	/^static void IrcCfgFinalizeNewTag(SmbotPseudoxmlTag *newtag)$/;"	f	file:
+IrcConfigRead	config/src/irc_config.c	/^static int IrcConfigRead(SircConfig *_this)$/;"	f	file:
+IrcConfigRead	config/src/irc_config.h	/^	IrcConfigReadF IrcConfigRead;$/;"	m	struct:SircConfig
+IrcConfigReadF	config/src/irc_config.h	/^typedef int (*IrcConfigReadF)(struct SircConfig *_this);$/;"	t
+LIB_FOLDER	make/generic.mak	/^export LIB_FOLDER := lib\/$/;"	m
+LINEFEED	callbackhandler/src/internal_callbacks.c	/^static const char LINEFEED[3]={(unsigned char)13,(unsigned int)10,'\\0'};$/;"	v	file:
+LINEFEED	upperlayer/src/irc_server_abstraction.c	/^static const char LINEFEED[3]={(unsigned char)13,(unsigned int)10,'\\0'};$/;"	v	file:
+LVL1_TXT	generic/src/generic.h	60;"	d
+LVL2_TXT	generic/src/generic.h	61;"	d
+LVL3_TXT	generic/src/generic.h	62;"	d
+LVL4_TXT	generic/src/generic.h	63;"	d
+LVL5_TXT	generic/src/generic.h	64;"	d
+LVL6_TXT	generic/src/generic.h	65;"	d
+LVL_TXT_LEN	generic/src/generic.h	59;"	d
+MAX_RX_QUEUES	upperlayer/src/irc_abstraction_defines.h	45;"	d
+MAZBOT_V4_CONFIG	config/src/config.h	23;"	d
+MAZBOT_V4_SPLITTER_H	generic/src/splitter.h	26;"	d
+MAZBOT_V_4_GENERIC_API_H	APIs/generic_api.h	27;"	d
+MAZBOT_V_4_NETWORKING_API_H	APIs/networking_api.h	25;"	d
+MAZBOT_V_4_PARSERS_API_H	APIs/parsers_api.h	24;"	d
+MAZBOT_v4_CALLBACKHANDLER_H	callbackhandler/src/callbackhandler.h	25;"	d
+MAZBOT_v4_DEFAULTCALLBACKS_H	callbackhandler/src/defaultcallbacks.h	24;"	d
+MAZBOT_v4_EVENT_STORAGE_H	callbackhandler/src/event_storage.h	26;"	d
+MAZBOT_v4_STARTUPLEVELS_H	startup/src/startuplevels.h	23;"	d
+MAZBOT_v4_STARTUPLOCKS_H	startup/src/startuplocks.h	24;"	d
+MAZBOT_v4_STARTUP_CONFIGS_H	startup/src/startup_configs.h	23;"	d
+MAZBOT_v4_USER_CALLBACKS_H	usercallbacks/src/user_callbacks.h	3;"	d
+MAZB_DEFINITIONS_H	generic/src/definitions.h	23;"	d
+MAZB_GENERIC_H	generic/src/generic.h	30;"	d
+MAZB_NETWORKING_H	networking/src/networking.h	31;"	d
+MAZB_TCP_H	networking/src/TCP.h	28;"	d
+MAZZERT	APIs/generic_api.h	52;"	d
+MAZZERT	APIs/generic_api.h	62;"	d
+MAZZERT	generic/src/generic.h	47;"	d
+MAZZERT	generic/src/generic.h	57;"	d
+MAZ_BOOLEAN	APIs/generic_api.h	/^typedef int MAZ_BOOLEAN;$/;"	t
+MAZ_BOOLEAN	generic/src/definitions.h	/^typedef int MAZ_BOOLEAN;$/;"	t
+MAZ_BOT_V4_CONFIG_NUMBERS_H	config/src/configNumbers.h	24;"	d
+MAZ_BOT_V4_FILE_PROTO_PARSER_H	parsers/src/config_file_parser.h	26;"	d
+MAZ_BOT_V4_IRC_PROTO_PARSER_H	parsers/src/irc_protocol_parser.h	24;"	d
+MAZ_BOT_V4_PARSER_H	parsers/src/parser.h	29;"	d
+MAZ_BOT_V4_USER_H	user_storage/src/user.h	24;"	d
+MAZ_FALSE	APIs/generic_api.h	38;"	d
+MAZ_FALSE	generic/src/definitions.h	36;"	d
+MAZ_TRUE	APIs/generic_api.h	37;"	d
+MAZ_TRUE	generic/src/definitions.h	35;"	d
+MBOTBITSET_H	generic/src/MbotBitset.h	31;"	d
+MBOTPUSKURIT_H	generic/src/MbotRingBuff.h	15;"	d
+MBOT_ATTRS_MAX	config/src/mbot_pseudo_xml.c	28;"	d	file:
+MBOT_CBRET_INTERNAL_ERROR	callbackhandler/src/internal_callbacks.h	8;"	d
+MBOT_CBRET_INTERNAL_ERROR_FATAL	callbackhandler/src/internal_callbacks.h	7;"	d
+MBOT_CBRET_NO_CBS	callbackhandler/src/internal_callbacks.h	20;"	d
+MBOT_CBRET_NO_CHAN_CBS	callbackhandler/src/internal_callbacks.h	17;"	d
+MBOT_CBRET_NO_INTERNAL_CBS	callbackhandler/src/internal_callbacks.h	15;"	d
+MBOT_CBRET_NO_INTERNAL_CHAN_CBS	callbackhandler/src/internal_callbacks.h	11;"	d
+MBOT_CBRET_NO_INTERNAL_SRV_CBS	callbackhandler/src/internal_callbacks.h	13;"	d
+MBOT_CBRET_NO_SRV_CBS	callbackhandler/src/internal_callbacks.h	18;"	d
+MBOT_CBRET_NO_USER_CBS	callbackhandler/src/internal_callbacks.h	16;"	d
+MBOT_CBRET_NO_USER_CHAN_CBS	callbackhandler/src/internal_callbacks.h	10;"	d
+MBOT_CBRET_NO_USER_SRV_CBS	callbackhandler/src/internal_callbacks.h	12;"	d
+MBOT_CBRET_USER_ERROR	callbackhandler/src/internal_callbacks.h	9;"	d
+MBOT_INTERNAL_CALLBACKS_H	callbackhandler/src/internal_callbacks.h	3;"	d
+MBOT_IRCHELPERS_H	generic/src/irchelpers.h	2;"	d
+MBOT_IRC_CONFIG_H	config/src/irc_config.h	25;"	d
+MBOT_NULLSAFE_FREE	generic/src/generic.h	221;"	d
+MBOT_ONLINE_STORAGE_H	user_storage/src/online_storage.h	2;"	d
+MBOT_PSEUDO_XML_H	config/src/mbot_pseudo_xml.h	24;"	d
+MBOT_V4_IRC_DEFINITIONS_H	parsers/src/irc_definitions.h	27;"	d
+MVaBitmapTest	generic/src/MbotPackedArray.c	/^void MVaBitmapTest()$/;"	f
+MazPrint	generic/src/generic.c	/^void MazPrint(EPrintLevel level, const char *fmt,...)$/;"	f
+MazPrint2	generic/src/generic.c	/^void MazPrint2(EPrintLevel level, char *file, unsigned int fileline, const char *fmt,...)$/;"	f
+MazPrintSetLevel	generic/src/generic.c	/^void MazPrintSetLevel(EPrintLevel level)$/;"	f
+MbotAtomic32	generic/src/helpers.h	/^typedef struct MbotAtomic32 $/;"	s
+MbotAtomic32	generic/src/helpers.h	/^}MbotAtomic32;$/;"	t	typeref:struct:MbotAtomic32
+MbotAtomic32Init	generic/src/helpers.c	/^MbotAtomic32 * MbotAtomic32Init()$/;"	f
+MbotAtomic32Uninit	generic/src/helpers.c	/^void MbotAtomic32Uninit(MbotAtomic32 **_this_)$/;"	f
+MbotBitsetGet	generic/src/MbotBitset.h	/^static __inline__ size_t MbotBitsetGet(SMbotBitsSet *_this,unsigned int index)$/;"	f
+MbotBitsetInit	generic/src/MbotBitset.c	/^SMbotBitsSet * MbotBitsetInit(unsigned int numofitems)$/;"	f
+MbotBitsetSet	generic/src/MbotBitset.h	/^static __inline__ unsigned int MbotBitsetSet(SMbotBitsSet *_this,unsigned int index)$/;"	f
+MbotBitsetUnSet	generic/src/MbotBitset.h	/^static __inline__ unsigned int MbotBitsetUnSet(SMbotBitsSet *_this,unsigned int index)$/;"	f
+MbotBitsetUninit	generic/src/MbotBitset.c	/^void MbotBitsetUninit(SMbotBitsSet **_this_)$/;"	f
+MbotCfgLock	config/src/config.c	/^static sem_t MbotCfgLock;$/;"	v	file:
+MbotPackedArrayDestroy	generic/src/MbotPackedArray.c	/^void MbotPackedArrayDestroy(SPackedArray **map)$/;"	f
+MbotPackedArrayGetState	generic/src/MbotPackedArray.c	/^unsigned char MbotPackedArrayGetState(SPackedArray *_this, unsigned int item)$/;"	f
+MbotPackedArrayInit	generic/src/MbotPackedArray.c	/^SPackedArray * MbotPackedArrayInit(unsigned char states, unsigned int items)$/;"	f
+MbotPackedArraySetState	generic/src/MbotPackedArray.c	/^int MbotPackedArraySetState(SPackedArray *_this, unsigned int item, unsigned char state)$/;"	f
+Mbot_buffer	generic/src/MbotRingBuff.h	/^typedef struct Mbot_buffer$/;"	s
+Mbot_buffer	generic/src/MbotRingBuff.h	/^}Mbot_buffer;$/;"	t	typeref:struct:Mbot_buffer
+Mbot_puskuriIntData	generic/src/MbotRingBuff.h	/^typedef struct Mbot_puskuriIntData$/;"	s
+Mbot_puskuriIntData	generic/src/MbotRingBuff.h	/^}Mbot_puskuriIntData;$/;"	t	typeref:struct:Mbot_puskuriIntData
+Mbot_revchange_cb	usercallbacks/src/Mbot_revchange_cb.c	/^void *Mbot_revchange_cb(SServerCallbackArgs args)$/;"	f
+Mbot_user_getmynick	upperlayer/src/irc_server_abstraction.c	/^char *Mbot_user_getmynick(void *handle)$/;"	f
+Mbot_user_irc_send	upperlayer/src/irc_server_abstraction.c	/^int Mbot_user_irc_send(void *handle,char *msg, size_t len)$/;"	f
+OBJECT_FILES	callbackhandler/make/Makefile	/^OBJECT_FILES := $(addsuffix .o, $(basename $(SOURCE_FILES)))$/;"	m
+OBJECT_FILES	config/make/Makefile	/^OBJECT_FILES := $(addsuffix .o, $(basename $(SOURCE_FILES)))$/;"	m
+OBJECT_FILES	da_bot_client/make/Makefile	/^OBJECT_FILES := $(addsuffix .o, $(basename $(SOURCE_FILES)))$/;"	m
+OBJECT_FILES	generic/make/Makefile	/^OBJECT_FILES := $(addsuffix .o, $(basename $(SOURCE_FILES)))$/;"	m
+OBJECT_FILES	networking/make/Makefile	/^OBJECT_FILES := $(addsuffix .o, $(basename $(SOURCE_FILES)))$/;"	m
+OBJECT_FILES	parsers/make/Makefile	/^OBJECT_FILES := $(addsuffix .o, $(basename $(SOURCE_FILES)))$/;"	m
+OBJECT_FILES	startup/make/Makefile	/^OBJECT_FILES := $(addsuffix .o, $(basename $(SOURCE_FILES)))$/;"	m
+OBJECT_FILES	test/make/Makefile	/^OBJECT_FILES := $(addsuffix .o, $(basename $(SOURCE_FILES)))$/;"	m
+OBJECT_FILES	upperlayer/make/Makefile	/^OBJECT_FILES := $(addsuffix .o, $(basename $(SOURCE_FILES)))$/;"	m
+OBJECT_FILES	user_storage/make/Makefile	/^OBJECT_FILES := $(addsuffix .o, $(basename $(SOURCE_FILES)))$/;"	m
+OBJECT_FILES	usercallbacks/make/Makefile	/^OBJECT_FILES := $(addsuffix .o, $(basename $(SOURCE_FILES)))$/;"	m
+OBJ_FOLDER	make/generic.mak	/^export OBJ_FOLDER := obj\/$/;"	m
+OBJ_W_PATH	callbackhandler/make/Makefile	/^OBJ_W_PATH := $(addprefix $(COMPONENT_HOME)$(OBJ_FOLDER), $(OBJECT_FILES))$/;"	m
+OBJ_W_PATH	config/make/Makefile	/^OBJ_W_PATH := $(addprefix $(COMPONENT_HOME)$(OBJ_FOLDER), $(OBJECT_FILES))$/;"	m
+OBJ_W_PATH	da_bot_client/make/Makefile	/^OBJ_W_PATH := $(addprefix $(COMPONENT_HOME)$(OBJ_FOLDER), $(OBJECT_FILES))$/;"	m
+OBJ_W_PATH	generic/make/Makefile	/^OBJ_W_PATH := $(addprefix $(COMPONENT_HOME)$(OBJ_FOLDER), $(OBJECT_FILES))$/;"	m
+OBJ_W_PATH	networking/make/Makefile	/^OBJ_W_PATH := $(addprefix $(COMPONENT_HOME)$(OBJ_FOLDER), $(OBJECT_FILES))$/;"	m
+OBJ_W_PATH	parsers/make/Makefile	/^OBJ_W_PATH := $(addprefix $(COMPONENT_HOME)$(OBJ_FOLDER), $(OBJECT_FILES))$/;"	m
+OBJ_W_PATH	startup/make/Makefile	/^OBJ_W_PATH := $(addprefix $(COMPONENT_HOME)$(OBJ_FOLDER), $(OBJECT_FILES))$/;"	m
+OBJ_W_PATH	test/make/Makefile	/^OBJ_W_PATH := $(addprefix $(COMPONENT_HOME)$(OBJ_FOLDER), $(OBJECT_FILES))$/;"	m
+OBJ_W_PATH	upperlayer/make/Makefile	/^OBJ_W_PATH := $(addprefix $(COMPONENT_HOME)$(OBJ_FOLDER), $(OBJECT_FILES))$/;"	m
+OBJ_W_PATH	user_storage/make/Makefile	/^OBJ_W_PATH := $(addprefix $(COMPONENT_HOME)$(OBJ_FOLDER), $(OBJECT_FILES))$/;"	m
+OBJ_W_PATH	usercallbacks/make/Makefile	/^OBJ_W_PATH := $(addprefix $(COMPONENT_HOME)$(OBJ_FOLDER), $(OBJECT_FILES))$/;"	m
+ONLINEUSER_NICKTOINDEX	user_storage/src/online_storage.h	9;"	d
+ORIGINATOR_SEPARATOR_CHAR	callbackhandler/src/event_storage.c	38;"	d	file:
+ORIGINATOR_SEPARATOR_STR	callbackhandler/src/event_storage.c	39;"	d	file:
+OWN_ID_LEN	APIs/parsers_api.h	34;"	d
+OWN_ID_LEN	parsers/src/parser.h	31;"	d
+OnlineUserStorage_add	user_storage/src/online_storage.c	/^static int OnlineUserStorage_add(SMbotOnlineUserStorage *_this,char *nick, char *host, char *passwd,int lvl)$/;"	f	file:
+OnlineUserStorage_addF	user_storage/src/online_storage.h	/^typedef int (*OnlineUserStorage_addF)(struct SMbotOnlineUserStorage *_this,char *nick, char *host, char *passwd,int lvl);$/;"	t
+OnlineUserStorage_del	user_storage/src/online_storage.c	/^static int OnlineUserStorage_del(SMbotOnlineUserStorage *_this, char *nick)$/;"	f	file:
+OnlineUserStorage_delF	user_storage/src/online_storage.h	/^typedef int (*OnlineUserStorage_delF)(struct SMbotOnlineUserStorage *_this, char *nick);$/;"	t
+OnlineUserStorage_elem_seek	user_storage/src/online_storage.c	/^static mbot_linkedList *OnlineUserStorage_elem_seek(SMbotOnlineUserStorage *_this,char *nick)$/;"	f	file:
+OnlineUserStorage_elem_seekF	user_storage/src/online_storage.h	/^typedef mbot_linkedList * (*OnlineUserStorage_elem_seekF)(struct SMbotOnlineUserStorage *_this, char *nick);$/;"	t
+OnlineUserStorage_seek	user_storage/src/online_storage.c	/^static SMbotOnlineUsers * OnlineUserStorage_seek(SMbotOnlineUserStorage *_this,char *nick)$/;"	f	file:
+OnlineUserStorage_seekF	user_storage/src/online_storage.h	/^typedef SMbotOnlineUsers * (*OnlineUserStorage_seekF)(struct SMbotOnlineUserStorage *_this,char *nick);$/;"	t
+OnlinestorageInit	user_storage/src/online_storage.c	/^SMbotOnlineUserStorage * OnlinestorageInit(char *server,char *channel)$/;"	f
+PACKEDARRAYTEST	generic/src/MbotPackedArray.c	30;"	d	file:
+PACKEDARRAY_BITMASK_BIT	generic/src/MbotPackedArray.c	/^static const unsigned short int PACKEDARRAY_BITMASK_BIT[16]   ={1,2,4,8 ,16,32,64 ,128,256,512 ,1024,2048,4096,8192 ,16384,32768};$/;"	v	file:
+PACKEDARRAY_FIRST_BITS_SET	generic/src/MbotPackedArray.c	/^static const unsigned short int PACKEDARRAY_FIRST_BITS_SET[16]={1,3,7,15,31,63,127,255,511,1023,2047,4095,8191,16383,32767,65535};$/;"	v	file:
+PACKEDARRAY_H	generic/src/MbotPackedArray.h	50;"	d
+PACKEDARRAY_MASK_N_BITS	generic/src/MbotPackedArray.c	65;"	d	file:
+PACKEDARRAY_ZEROBITMASKFOR16	generic/src/MbotPackedArray.c	57;"	d	file:
+PACKEDARRAY_ZEROBITMASKFOR8	generic/src/MbotPackedArray.c	47;"	d	file:
+PARSER_RESULT_FILE	parsers/src/config_file_parser.h	45;"	d
+PARSER_RESULT_IRC	parsers/src/parser.h	/^    PARSER_RESULT_IRC               = 1,$/;"	e	enum:EparserResultType
+POLLEMALL	networking/src/networking.c	49;"	d	file:
+PORT	test/src/dicebot.c	40;"	d	file:
+PORT	test/src/main.c	35;"	d	file:
+POSSIBLE_EVENT_TAG_NAMES_AMNT	config/src/event_config.h	34;"	d
+PPRINT	APIs/generic_api.h	97;"	d
+PPRINT	generic/src/generic.h	216;"	d
+PPRINTC	generic/src/generic.h	154;"	d
+PRINT_FILTER_DEFAULT	generic/src/definitions.h	31;"	d
+PRINT_FILTER_DEFAULT	generic/src/definitions.h	33;"	d
+PSEUDOXML_ATTRIB_SEPARATOR	config/src/mbot_pseudo_xml.h	26;"	d
+PUSKURIHEADER_SIZE	generic/src/MbotRingBuff.c	19;"	d	file:
+ParserDataFeedF	APIs/parsers_api.h	/^typedef EparserRetVal (*ParserDataFeedF)(struct Sparser *_this,char *data,size_t datasize, EparserState *state);$/;"	t
+ParserDataFeedF	parsers/src/parser.h	/^typedef EparserRetVal (*ParserDataFeedF)(struct Sparser *_this,char *data,size_t datasize, EparserState *state);$/;"	t
+ParserInit	parsers/src/parser.c	/^Sparser *ParserInit(EparserType type)$/;"	f
+ParserInitF	parsers/src/parser.h	/^typedef struct Sparser *(*ParserInitF)(EparserType type);$/;"	t	typeref:struct:ParserInitF
+ParserResultFreeF	APIs/parsers_api.h	/^typedef void (*ParserResultFreeF)(struct SparserResult **result);$/;"	t
+ParserResultFreeF	parsers/src/parser.h	/^typedef void (*ParserResultFreeF)(struct SparserResult **result);$/;"	t
+ParserResultGetF	APIs/parsers_api.h	/^typedef SparserResult * (*ParserResultGetF)(struct Sparser *_this, EparserState *state);$/;"	t
+ParserResultGetF	parsers/src/parser.h	/^typedef SparserResult * (*ParserResultGetF)(struct Sparser *_this, EparserState *state);$/;"	t
+ParserUninitF	parsers/src/parser.h	/^typedef void (*ParserUninitF)(struct Sparser **);$/;"	t
+PermUserStorageInit	user_storage/src/permanent_storage.c	/^SIRCuserHandler *PermUserStorageInit(EuserHandlerType type, EuserIdentMode mode)$/;"	f
+PermUserStorageSyncFromFile	user_storage/src/permanent_storage.c	/^static int PermUserStorageSyncFromFile(SIRCuserHandlerPermanent *_this)$/;"	f	file:
+PermUserStorageSyncToFile	user_storage/src/permanent_storage.c	/^static int PermUserStorageSyncToFile(SIRCuserHandlerPermanent *_this)$/;"	f	file:
+PollTimedEventsF	upperlayer/src/irc_abstraction_defines.h	/^typedef void (*PollTimedEventsF)( void *,ETimedEvent); \/\/Either Sirc_servers or Sirc_channels - depending on if we poll server or chann queue$/;"	t
+PrintComp	generic/src/generic.h	/^typedef enum PrintComp$/;"	g
+PrintComp	generic/src/generic.h	/^}PrintComp;$/;"	t	typeref:enum:PrintComp
+PrintComp_Cexpl	generic/src/generic.h	/^	PrintComp_Cexpl = 3,$/;"	e	enum:PrintComp
+PrintComp_IrcCfg	generic/src/generic.h	/^	PrintComp_IrcCfg = 5,$/;"	e	enum:PrintComp
+PrintComp_Last	generic/src/generic.h	/^	PrintComp_Last$/;"	e	enum:PrintComp
+PrintComp_PackAr	generic/src/generic.h	/^	PrintComp_PackAr = 6,$/;"	e	enum:PrintComp
+PrintComp_Parser	generic/src/generic.h	/^	PrintComp_Parser = 4,$/;"	e	enum:PrintComp
+PrintComp_bitset	generic/src/generic.h	/^	PrintComp_bitset = 7,$/;"	e	enum:PrintComp
+PrintComp_callback	generic/src/generic.h	/^	PrintComp_callback = 8,$/;"	e	enum:PrintComp
+PrintComp_gen	generic/src/generic.h	/^	PrintComp_gen = 0,$/;"	e	enum:PrintComp
+PrintComp_netw	generic/src/generic.h	/^	PrintComp_netw = 1,$/;"	e	enum:PrintComp
+PrintComp_ringbuff	generic/src/generic.h	/^	PrintComp_ringbuff = 7,$/;"	e	enum:PrintComp
+PrintComp_splitter	generic/src/generic.h	/^	PrintComp_splitter = 2,$/;"	e	enum:PrintComp
+READPOLL	networking/src/networking.c	48;"	d	file:
+RECVBUFF	test/src/dicebot.c	38;"	d	file:
+RECVBUFF	test/src/main.c	30;"	d	file:
+RECVBUFF_SIZE	upperlayer/src/irc_server_abstraction.c	34;"	d	file:
+REG_FAILURE	usercallbacks/src/user_callbacks.h	11;"	d
+REG_SUCCESS	usercallbacks/src/user_callbacks.h	7;"	d
+REPLACE_DEFAULT_CALLBACK	usercallbacks/src/user_callbacks.h	9;"	d
+SANITY_CHECK_EVENT_ADD	config/src/event_config.h	36;"	d
+SChannel	da_bot_client/src/server.h	/^typedef struct SChannel$/;"	s
+SChannel	da_bot_client/src/server.h	/^}SChannel;$/;"	t	typeref:struct:SChannel
+SChannelConfigs	config/src/channel_config.h	/^typedef struct SChannelConfigs$/;"	s
+SChannelConfigs	config/src/channel_config.h	/^}SChannelConfigs;$/;"	t	typeref:struct:SChannelConfigs
+SConfigResult_Callback	parsers/src/config_file_parser.h	/^typedef struct SConfigResult_Callback$/;"	s
+SConfigResult_Callback	parsers/src/config_file_parser.h	/^}SConfigResult_Callback;$/;"	t	typeref:struct:SConfigResult_Callback
+SENDDATA	test/src/dicebot.c	41;"	d	file:
+SENDDATA	test/src/main.c	36;"	d	file:
+SENDDATA2	test/src/dicebot.c	42;"	d	file:
+SERVERTASK_MAX	upperlayer/src/irc_abstraction_defines.h	28;"	d
+SERVER_CONFIG_H	config/src/server_config.h	25;"	d
+SFILEparser	parsers/src/config_file_parser.h	/^typedef struct SFILEparser$/;"	s
+SFILEparser	parsers/src/config_file_parser.h	/^}SFILEparser;$/;"	t	typeref:struct:SFILEparser
+SFILEparserResult	parsers/src/config_file_parser.h	/^typedef struct SFILEparserResult$/;"	s
+SFILEparserResult	parsers/src/config_file_parser.h	/^}SFILEparserResult;$/;"	t	typeref:struct:SFILEparserResult
+SIRC_user	APIs/parsers_api.h	/^typedef struct SIRC_user$/;"	s
+SIRC_user	APIs/parsers_api.h	/^}SIRC_user;$/;"	t	typeref:struct:SIRC_user
+SIRC_user	parsers/src/irc_definitions.h	/^typedef struct SIRC_user$/;"	s
+SIRC_user	parsers/src/irc_definitions.h	/^}SIRC_user;$/;"	t	typeref:struct:SIRC_user
+SIRCparser	parsers/src/irc_protocol_parser.h	/^typedef struct SIRCparser$/;"	s
+SIRCparser	parsers/src/irc_protocol_parser.h	/^}SIRCparser;$/;"	t	typeref:struct:SIRCparser
+SIRCparserResult	APIs/parsers_api.h	/^typedef struct SIRCparserResult$/;"	s
+SIRCparserResult	APIs/parsers_api.h	/^}SIRCparserResult;$/;"	t	typeref:struct:SIRCparserResult
+SIRCparserResult	parsers/src/irc_protocol_parser.h	/^typedef struct SIRCparserResult$/;"	s
+SIRCparserResult	parsers/src/irc_protocol_parser.h	/^}SIRCparserResult;$/;"	t	typeref:struct:SIRCparserResult
+SIRCparserResultGetCmd	parsers/src/irc_protocol_parser.c	/^static char *SIRCparserResultGetCmd(SIRCparserResult *result)$/;"	f	file:
+SIRCparserResultGetParam	parsers/src/irc_protocol_parser.c	/^static char *SIRCparserResultGetParam(SIRCparserResult *result, int paramno)$/;"	f	file:
+SIRCparserResultGetPrefix	parsers/src/irc_protocol_parser.c	/^static char *SIRCparserResultGetPrefix(SIRCparserResult *result)$/;"	f	file:
+SIRCuserHandler	user_storage/src/user.h	/^typedef struct SIRCuserHandler$/;"	s
+SIRCuserHandler	user_storage/src/user.h	/^}SIRCuserHandler;$/;"	t	typeref:struct:SIRCuserHandler
+SIRCuserHandlerPermSyncFromFileF	user_storage/src/user.h	/^typedef int (*SIRCuserHandlerPermSyncFromFileF)(struct SIRCuserHandlerPermanent *);$/;"	t
+SIRCuserHandlerPermSyncToFileF	user_storage/src/user.h	/^typedef int (*SIRCuserHandlerPermSyncToFileF)(struct SIRCuserHandlerPermanent *);$/;"	t
+SIRCuserHandlerPermanent	user_storage/src/user.h	/^typedef struct SIRCuserHandlerPermanent$/;"	s
+SIRCuserHandlerPermanent	user_storage/src/user.h	/^}SIRCuserHandlerPermanent;$/;"	t	typeref:struct:SIRCuserHandlerPermanent
+SMbotBitsSet	generic/src/MbotBitset.h	/^typedef struct SMbotBitsSet$/;"	s
+SMbotBitsSet	generic/src/MbotBitset.h	/^}SMbotBitsSet;$/;"	t	typeref:struct:SMbotBitsSet
+SMbotEvent	callbackhandler/src/event_storage.h	/^typedef struct SMbotEvent$/;"	s
+SMbotEvent	callbackhandler/src/event_storage.h	/^}SMbotEvent;$/;"	t	typeref:struct:SMbotEvent
+SMbotEventStorage	callbackhandler/src/event_storage.h	/^typedef struct SMbotEventStorage$/;"	s
+SMbotEventStorage	callbackhandler/src/event_storage.h	/^}SMbotEventStorage;$/;"	t	typeref:struct:SMbotEventStorage
+SMbotHopEvent	callbackhandler/src/event_storage.h	/^typedef struct SMbotHopEvent$/;"	s
+SMbotHopEvent	callbackhandler/src/event_storage.h	/^}SMbotHopEvent;$/;"	t	typeref:struct:SMbotHopEvent
+SMbotOnlineUserStorage	user_storage/src/online_storage.h	/^typedef struct SMbotOnlineUserStorage$/;"	s
+SMbotOnlineUserStorage	user_storage/src/online_storage.h	/^}SMbotOnlineUserStorage;$/;"	t	typeref:struct:SMbotOnlineUserStorage
+SMbotOnlineUsers	user_storage/src/online_storage.h	/^typedef struct SMbotOnlineUsers$/;"	s
+SMbotOnlineUsers	user_storage/src/online_storage.h	/^}SMbotOnlineUsers;$/;"	t	typeref:struct:SMbotOnlineUsers
+SMbotTextEvent	callbackhandler/src/event_storage.h	/^typedef struct SMbotTextEvent$/;"	s
+SMbotTextEvent	callbackhandler/src/event_storage.h	/^}SMbotTextEvent;$/;"	t	typeref:struct:SMbotTextEvent
+SMbot_rx_queues	upperlayer/src/irc_abstraction_defines.h	/^typedef struct SMbot_rx_queues$/;"	s
+SMbot_rx_queues	upperlayer/src/irc_abstraction_defines.h	/^}SMbot_rx_queues;$/;"	t	typeref:struct:SMbot_rx_queues
+SOURCE_FILES	callbackhandler/make/Makefile	/^SOURCE_FILES := callback_register.c defaultcallbacks.c event_storage.c callbackhandler.c internal_callbacks.c$/;"	m
+SOURCE_FILES	config/make/Makefile	/^SOURCE_FILES   := config.c irc_config.c channel_config.c mbot_pseudo_xml.c server_config.c server_events.c $/;"	m
+SOURCE_FILES	da_bot_client/make/Makefile	/^SOURCE_FILES := botV02.c$/;"	m
+SOURCE_FILES	generic/make/Makefile	/^SOURCE_FILES := generic.c helpers.c splitter.c MbotPackedArray.c MbotBitset.c MbotRingBuff.c irchelpers.c$/;"	m
+SOURCE_FILES	networking/make/Makefile	/^SOURCE_FILES := networking.c TCP.c$/;"	m
+SOURCE_FILES	parsers/make/Makefile	/^SOURCE_FILES   := irc_protocol_parser.c parser.c config_file_parser.c basic_file_parser.c$/;"	m
+SOURCE_FILES	startup/make/Makefile	/^SOURCE_FILES := startup_configs.c  startuplevels.c  startuplocks.c$/;"	m
+SOURCE_FILES	test/make/Makefile	/^SOURCE_FILES := irc_cfg_test.c$/;"	m
+SOURCE_FILES	upperlayer/make/Makefile	/^SOURCE_FILES := irc_server_abstraction.c irc_channel_abstraction.c$/;"	m
+SOURCE_FILES	user_storage/make/Makefile	/^SOURCE_FILES := permanent_storage.c$/;"	m
+SOURCE_FILES	usercallbacks/make/Makefile	/^SOURCE_FILES := user_callbacks.c Mbot_revchange_cb.c$/;"	m
+SPackedArray	generic/src/MbotPackedArray.c	/^typedef struct  SPackedArray$/;"	s	file:
+SPackedArray	generic/src/MbotPackedArray.c	/^}SPackedArray;$/;"	t	typeref:struct:SPackedArray	file:
+SRC_FOLDER	make/generic.mak	/^export SRC_FOLDER := src\/$/;"	m
+SRC_W_PATH	callbackhandler/make/Makefile	/^SRC_W_PATH := $(addprefix $(COMPONENT_HOME)$(SRC_FOLDER), $(SOURCE_FILES))$/;"	m
+SRC_W_PATH	config/make/Makefile	/^SRC_W_PATH := $(addprefix $(COMPONENT_HOME)$(SRC_FOLDER), $(SOURCE_FILES))$/;"	m
+SRC_W_PATH	da_bot_client/make/Makefile	/^SRC_W_PATH := $(addprefix $(COMPONENT_HOME)$(SRC_FOLDER), $(SOURCE_FILES))$/;"	m
+SRC_W_PATH	generic/make/Makefile	/^SRC_W_PATH := $(addprefix $(COMPONENT_HOME)$(SRC_FOLDER), $(SOURCE_FILES))$/;"	m
+SRC_W_PATH	networking/make/Makefile	/^SRC_W_PATH := $(addprefix $(COMPONENT_HOME)$(SRC_FOLDER), $(SOURCE_FILES))$/;"	m
+SRC_W_PATH	parsers/make/Makefile	/^SRC_W_PATH := $(addprefix $(COMPONENT_HOME)$(SRC_FOLDER), $(SOURCE_FILES))$/;"	m
+SRC_W_PATH	startup/make/Makefile	/^SRC_W_PATH := $(addprefix $(COMPONENT_HOME)$(SRC_FOLDER), $(SOURCE_FILES))$/;"	m
+SRC_W_PATH	test/make/Makefile	/^SRC_W_PATH := $(addprefix $(COMPONENT_HOME)$(SRC_FOLDER), $(SOURCE_FILES))$/;"	m
+SRC_W_PATH	upperlayer/make/Makefile	/^SRC_W_PATH := $(addprefix $(COMPONENT_HOME)$(SRC_FOLDER), $(SOURCE_FILES))$/;"	m
+SRC_W_PATH	user_storage/make/Makefile	/^SRC_W_PATH := $(addprefix $(COMPONENT_HOME)$(SRC_FOLDER), $(SOURCE_FILES))$/;"	m
+SRC_W_PATH	usercallbacks/make/Makefile	/^SRC_W_PATH := $(addprefix $(COMPONENT_HOME)$(SRC_FOLDER), $(SOURCE_FILES))$/;"	m
+SServer	da_bot_client/src/server.h	/^typedef struct SServer$/;"	s
+SServer	da_bot_client/src/server.h	/^}SServer;$/;"	t	typeref:struct:SServer
+SServerCallbackArgs	callbackhandler/src/callbackhandler.h	/^typedef struct SServerCallbackArgs$/;"	s
+SServerCallbackArgs	callbackhandler/src/callbackhandler.h	/^}SServerCallbackArgs;$/;"	t	typeref:struct:SServerCallbackArgs
+SServerCallbackList	callbackhandler/src/callbackhandler.h	/^typedef struct SServerCallbackList$/;"	s
+SServerCallbackList	callbackhandler/src/callbackhandler.h	/^}SServerCallbackList;$/;"	t	typeref:struct:SServerCallbackList
+SServerConfigs	config/src/server_config.h	/^typedef struct SServerConfigs$/;"	s
+SServerConfigs	config/src/server_config.h	/^}SServerConfigs;$/;"	t	typeref:struct:SServerConfigs
+SServerEventInputUnit	config/src/event_config.h	/^typedef struct SServerEventInputUnit$/;"	s
+SServerEventInputUnit	config/src/event_config.h	/^}SServerEventInputUnit;$/;"	t	typeref:struct:SServerEventInputUnit
+SServerEventOutputUnit	config/src/event_config.h	/^typedef struct SServerEventOutputUnit$/;"	s
+SServerEventOutputUnit	config/src/event_config.h	/^}SServerEventOutputUnit;$/;"	t	typeref:struct:SServerEventOutputUnit
+SServerEvents	config/src/event_config.h	/^typedef struct SServerEvents$/;"	s
+SServerEvents	config/src/event_config.h	/^}SServerEvents;$/;"	t	typeref:struct:SServerEvents
+SSplitter	generic/src/splitter.h	/^typedef struct SSplitter$/;"	s
+SSplitter	generic/src/splitter.h	/^}SSplitter;$/;"	t	typeref:struct:SSplitter
+SSplitterResult	generic/src/splitter.h	/^typedef struct SSplitterResult$/;"	s
+SSplitterResult	generic/src/splitter.h	/^}SSplitterResult;$/;"	t	typeref:struct:SSplitterResult
+STARTLEVEL_AMNT	startup/src/startuplevels.c	29;"	d	file:
+STCPconn	networking/src/TCP.h	/^typedef struct STCPconn$/;"	s
+STCPconn	networking/src/TCP.h	/^}STCPconn;$/;"	t	typeref:struct:STCPconn
+STimedEvents	upperlayer/src/irc_abstraction_defines.h	/^typedef struct STimedEvents$/;"	s
+STimedEvents	upperlayer/src/irc_abstraction_defines.h	/^}STimedEvents;$/;"	t	typeref:struct:STimedEvents
+SUPP_PROTOCOLS	networking/src/networking.h	50;"	d
+SUpperlayerIrcMsg	upperlayer/src/irc_abstraction_defines.h	/^typedef struct SUpperlayerIrcMsg$/;"	s
+SUpperlayerIrcMsg	upperlayer/src/irc_abstraction_defines.h	/^}SUpperlayerIrcMsg;$/;"	t	typeref:struct:SUpperlayerIrcMsg
+Sall_callbacks_list	config/src/irc_config.h	/^typedef struct Sall_callbacks_list$/;"	s
+Sall_callbacks_list	config/src/irc_config.h	/^}Sall_callbacks_list;$/;"	t	typeref:struct:Sall_callbacks_list
+SbasicConfig	config/src/config.h	/^typedef struct SbasicConfig$/;"	s
+SbasicConfig	config/src/config.h	/^}SbasicConfig;$/;"	t	typeref:struct:SbasicConfig
+SbasicFileParser	parsers/src/basic_file_parser.h	/^typedef struct SbasicFileParser$/;"	s
+SbasicFileParser	parsers/src/basic_file_parser.h	/^}SbasicFileParser;$/;"	t	typeref:struct:SbasicFileParser
+SbasicParserFreeF	parsers/src/basic_file_parser.h	/^typedef void (*SbasicParserFreeF )(struct SbasicFileParser **_this);$/;"	t
+SbasicParserResult	parsers/src/basic_file_parser.h	/^typedef struct SbasicParserResult$/;"	s
+SbasicParserResult	parsers/src/basic_file_parser.h	/^}SbasicParserResult;$/;"	t	typeref:struct:SbasicParserResult
+SbasicParserResultGetNextF	parsers/src/basic_file_parser.h	/^typedef SbasicConfig *(*SbasicParserResultGetNextF)(struct SbasicParserResult *_this);$/;"	t
+ScallbackConf	parsers/src/config_file_parser.h	/^typedef struct ScallbackConf$/;"	s
+ScallbackConf	parsers/src/config_file_parser.h	/^}ScallbackConf;$/;"	t	typeref:struct:ScallbackConf
+Sconn	APIs/networking_api.h	/^typedef struct Sconn$/;"	s
+Sconn	APIs/networking_api.h	/^}Sconn;$/;"	t	typeref:struct:Sconn
+Sconn	networking/src/networking.h	/^typedef struct Sconn$/;"	s
+Sconn	networking/src/networking.h	/^}Sconn;$/;"	t	typeref:struct:Sconn
+ServerArmReconnTimerF	upperlayer/src/irc_abstraction_defines.h	/^typedef void (*ServerArmReconnTimerF)(struct Sirc_servers *);$/;"	t
+ServerCallbackF	callbackhandler/src/callbackhandler.h	/^typedef void *(*ServerCallbackF)(SServerCallbackArgs args);$/;"	t
+ServerConfigsCfgAdd	config/src/server_config.c	/^static int ServerConfigsCfgAdd(SServerConfigs *_this,SmbotPseudoxmlTag* serverRootTag)$/;"	f	file:
+ServerConfigsCfgAdd	config/src/server_config.h	/^    ServerConfigsCfgAddF ServerConfigsCfgAdd;$/;"	m	struct:SServerConfigs
+ServerConfigsCfgAddF	config/src/server_config.h	/^typedef int (*ServerConfigsCfgAddF)(struct SServerConfigs *_this,SmbotPseudoxmlTag* serverRootTag);$/;"	t
+ServerConnect	upperlayer/src/irc_abstraction_defines.h	/^	ServerConnectF ServerConnect;$/;"	m	struct:Sirc_servers
+ServerConnect	upperlayer/src/irc_server_abstraction.c	/^static  int ServerConnect(Sirc_servers *_this)$/;"	f	file:
+ServerConnectF	upperlayer/src/irc_abstraction_defines.h	/^typedef int (*ServerConnectF)(struct Sirc_servers *_this);$/;"	t
+ServerDisconnectedCleanupF	upperlayer/src/irc_abstraction_defines.h	/^typedef void (*ServerDisconnectedCleanupF)(struct Sirc_servers *);$/;"	t
+SetConfig	config/src/config.c	/^EconfigRet SetConfig(unsigned int key,void *value,size_t valuesize)$/;"	f
+SextendedBasicConfig	config/src/config.h	/^typedef struct SextendedBasicConfig$/;"	s
+SextendedBasicConfig	config/src/config.h	/^}SextendedBasicConfig;$/;"	t	typeref:struct:SextendedBasicConfig
+SircConfig	config/src/irc_config.h	/^typedef struct SircConfig$/;"	s
+SircConfig	config/src/irc_config.h	/^}SircConfig;$/;"	t	typeref:struct:SircConfig
+SircUser	user_storage/src/user.h	/^typedef struct SircUser$/;"	s
+SircUser	user_storage/src/user.h	/^}SircUser;$/;"	t	typeref:struct:SircUser
+Sirc_channels	upperlayer/src/irc_abstraction_defines.h	/^typedef struct Sirc_channels$/;"	s
+Sirc_channels	upperlayer/src/irc_abstraction_defines.h	/^}Sirc_channels;$/;"	t	typeref:struct:Sirc_channels
+Sirc_servers	upperlayer/src/irc_abstraction_defines.h	/^typedef struct Sirc_servers$/;"	s
+Sirc_servers	upperlayer/src/irc_abstraction_defines.h	/^}Sirc_servers;$/;"	t	typeref:struct:Sirc_servers
+SmbotPseudoxmlTag	config/src/mbot_pseudo_xml.h	/^typedef struct SmbotPseudoxmlTag$/;"	s
+SmbotPseudoxmlTag	config/src/mbot_pseudo_xml.h	/^}SmbotPseudoxmlTag;$/;"	t	typeref:struct:SmbotPseudoxmlTag
+Smbot_cfgcb	config/src/config.h	/^typedef struct Smbot_cfgcb$/;"	s
+Smbot_cfgcb	config/src/config.h	/^}Smbot_cfgcb;$/;"	t	typeref:struct:Smbot_cfgcb
+Sparser	APIs/parsers_api.h	/^typedef struct Sparser$/;"	s
+Sparser	APIs/parsers_api.h	/^}Sparser;$/;"	t	typeref:struct:Sparser
+Sparser	parsers/src/parser.h	/^typedef struct Sparser$/;"	s
+Sparser	parsers/src/parser.h	/^}Sparser;$/;"	t	typeref:struct:Sparser
+SparserResult	APIs/parsers_api.h	/^typedef struct SparserResult$/;"	s
+SparserResult	APIs/parsers_api.h	/^}SparserResult;$/;"	t	typeref:struct:SparserResult
+SparserResult	parsers/src/parser.h	/^typedef struct SparserResult$/;"	s
+SparserResult	parsers/src/parser.h	/^}SparserResult;$/;"	t	typeref:struct:SparserResult
+SplitterFeedF	generic/src/splitter.h	/^typedef int (*SplitterFeedF)(struct SSplitter *_this,char *data);$/;"	t
+SplitterInit	generic/src/splitter.c	/^SSplitter * SplitterInit(char **separators,int amntOfSeps)$/;"	f
+SplitterInitF	generic/src/splitter.h	/^typedef struct SSplitter* (*SplitterInitF) (char **separators,int amntOfSeps);$/;"	t	typeref:struct:SplitterInitF
+SplitterSplit	generic/src/splitter.c	/^SSplitterResult * SplitterSplit(SSplitter *_this)$/;"	f
+SplitterSplitF	generic/src/splitter.h	/^typedef SSplitterResult * (*SplitterSplitF)(struct SSplitter *);$/;"	t
+SplitterUninit	generic/src/splitter.c	/^static void SplitterUninit(SSplitter **_this_)$/;"	f	file:
+SplitterUninitF	generic/src/splitter.h	/^typedef void (*SplitterUninitF)(struct SSplitter **);$/;"	t
+Sstartuplock	startup/src/startuplocks.h	/^typedef struct Sstartuplock$/;"	s
+Sstartuplock	startup/src/startuplocks.h	/^}Sstartuplock;$/;"	t	typeref:struct:Sstartuplock
+StorageInit	user_storage/src/permanent_storage.c	/^SIRCuserHandler *StorageInit(EuserHandlerType type, EuserIdentMode mode)$/;"	f
+StorageInit	user_storage/src/user.c	/^SIRCuserHandler *StorageInit(EuserHandlerType type, EuserIdentMode mode)$/;"	f
+SuserChanLevelBondage	user_storage/src/user.h	/^typedef struct SuserChanLevelBondage$/;"	s
+SuserChanLevelBondage	user_storage/src/user.h	/^}SuserChanLevelBondage;$/;"	t	typeref:struct:SuserChanLevelBondage
+SuserStorageUser	user_storage/src/user.h	/^typedef struct SuserStorageUser$/;"	s
+SuserStorageUser	user_storage/src/user.h	/^}SuserStorageUser;$/;"	t	typeref:struct:SuserStorageUser
+TCPSANITYCHECK	networking/src/TCP.c	38;"	d	file:
+TCPSend	networking/src/TCP.c	/^size_t TCPSend(Sconn *_this_,void *data,size_t datasize)$/;"	f
+TCPconnect	networking/src/TCP.c	/^EnetwRetval TCPconnect(Sconn *_this_,char *domain,unsigned short int port)$/;"	f
+TCPcreate_socket	networking/src/TCP.c	/^EnetwRetval TCPcreate_socket(Sconn *_this_)$/;"	f
+TCPinit	networking/src/TCP.c	/^STCPconn *TCPinit(void)$/;"	f
+TCPnbrecv	networking/src/TCP.c	/^size_t TCPnbrecv(Sconn *_this_,void *buff,size_t buflen,struct timeval tmo)$/;"	f
+TCPrecv	networking/src/TCP.c	/^size_t TCPrecv(Sconn *_this_,void *buff,size_t buflen)$/;"	f
+TCPuninit	networking/src/TCP.c	/^void TCPuninit(Sconn **_this_)$/;"	f
+TEST_STR_AMNT	test/src/cexplodetest.c	5;"	d	file:
+TRIMCHAR	test/src/trimtest.c	6;"	d	file:
+TRIMTYPES	test/src/trimtest.c	5;"	d	file:
+TX_QUEUE_SIZE	upperlayer/src/irc_abstraction_defines.h	30;"	d
+TempUserStorageAddByHost	user_storage/src/permanent_storage.c	/^static int TempUserStorageAddByHost(SIRCuserHandler *_this, char *nickhost_toadd,char *server,mbot_linkedList *lvlchan)$/;"	f	file:
+TempUserStorageAddByPasswd	user_storage/src/permanent_storage.c	/^static int TempUserStorageAddByPasswd(SIRCuserHandler *_this,char *nickhost, char *server,mbot_linkedList *lvlchan, char *passwd)$/;"	f	file:
+TempUserStorageChange	user_storage/src/permanent_storage.c	/^static int TempUserStorageChange(SIRCuserHandler *_this, char *nickhost,char *server, SuserChanLevelBondage chanlevel,char *password)$/;"	f	file:
+TempUserStorageChangeByHost	user_storage/src/permanent_storage.c	/^static int TempUserStorageChangeByHost(SIRCuserHandler *_this, char *nickhost,char *server, SuserChanLevelBondage chanlevel)$/;"	f	file:
+TempUserStorageChangeByPasswd	user_storage/src/permanent_storage.c	/^static int TempUserStorageChangeByPasswd(SIRCuserHandler *_this, char *nickhost,char *server, SuserChanLevelBondage chanlevel,char *passwd)$/;"	f	file:
+TempUserStorageDel	user_storage/src/permanent_storage.c	/^static int TempUserStorageDel(SIRCuserHandler *_this,char *nickhost, char *server,char *chan,char *password)$/;"	f	file:
+TempUserStorageDelByHost	user_storage/src/permanent_storage.c	/^static int TempUserStorageDelByHost(SIRCuserHandler *_this,char *nickhost, char *server,char *chan)$/;"	f	file:
+TempUserStorageDelByPasswd	user_storage/src/permanent_storage.c	/^static int TempUserStorageDelByPasswd(SIRCuserHandler *_this,char *nickhost,char *server,char *chan, char *passwd)$/;"	f	file:
+Tircchan	generic/src/definitions.h	/^typedef char Tircchan[IRC_CHANNEL_MAX];$/;"	t
+Tirchost	generic/src/definitions.h	/^typedef char Tirchost[IRC_HOST_MAX];$/;"	t
+Tircnick	generic/src/definitions.h	/^typedef char Tircnick[IRC_NICK_MAX];$/;"	t
+Tircpass	generic/src/definitions.h	/^typedef char Tircpass[IRC_PASSWORD_MAX];$/;"	t
+Tircserver	generic/src/definitions.h	/^typedef char Tircserver[IRC_SERVER_MAX];$/;"	t
+TxQueueFlush	upperlayer/src/irc_abstraction_defines.h	/^	TxQueueFlushF TxQueueFlush;$/;"	m	struct:Sirc_servers
+TxQueueFlush	upperlayer/src/irc_server_abstraction.c	/^static int TxQueueFlush(struct Sirc_servers *_this)$/;"	f	file:
+TxQueueFlushF	upperlayer/src/irc_abstraction_defines.h	/^typedef int (*TxQueueFlushF)(struct Sirc_servers *_this);$/;"	t
+UNABLE_TO_JOIN	upperlayer/src/irc_abstraction_defines.h	48;"	d
+URL_MAX	callbackhandler/src/callbackhandler.h	27;"	d
+USERCB_RET_FAIL	usercallbacks/src/user_callbacks.h	14;"	d
+USERCB_RET_FAIL_FATAL	usercallbacks/src/user_callbacks.h	15;"	d
+USERCB_RET_SUCCESS	usercallbacks/src/user_callbacks.h	13;"	d
+USERLIST_USER	upperlayer/src/irc_abstraction_defines.h	47;"	d
+USER_LIST_SIZE	user_storage/src/user.h	44;"	d
+Undress255	generic/src/MbotRingBuff.h	27;"	d
+Undress4095	generic/src/MbotRingBuff.h	65;"	d
+Undress_xxx	generic/src/MbotRingBuff.c	/^Mbot_buffer *Undress_xxx(size_t slot_size,size_t mask)$/;"	f
+WPRINT	APIs/generic_api.h	87;"	d
+WPRINT	generic/src/generic.h	202;"	d
+WPRINTC	generic/src/generic.h	121;"	d
+WRITEPOLL	networking/src/networking.c	47;"	d	file:
+_details	docs/html/structCexplodeStrings.html	/^<hr\/><a name="_details"><\/a><h2>Detailed Description<\/h2>$/;"	a
+_details	docs/html/structMbotAtomic32.html	/^<hr\/><a name="_details"><\/a><h2>Detailed Description<\/h2>$/;"	a
+act_size	generic/src/MbotRingBuff.h	/^    size_t act_size;$/;"	m	struct:Mbot_buffer
+addLenAttrib	config/src/mbot_pseudo_xml.c	/^static int addLenAttrib(SmbotPseudoxmlTag *newtag,char *value)$/;"	f	file:
+addNameAttrib	config/src/mbot_pseudo_xml.c	/^static int addNameAttrib(SmbotPseudoxmlTag *newtag,char *value)$/;"	f	file:
+addTypeAttrib	config/src/mbot_pseudo_xml.c	/^static int addTypeAttrib(SmbotPseudoxmlTag *newtag,char *value)$/;"	f	file:
+addUserByNickHostF	user_storage/src/user.h	/^typedef int (*addUserByNickHostF)(struct SIRCuserHandler *_this, char *nickhost_toadd,char *server,mbot_linkedList *lvlchan);$/;"	t
+addUserByNickPasswdF	user_storage/src/user.h	/^typedef int (*addUserByNickPasswdF)(struct SIRCuserHandler *_this,char *nickhost, char *server,mbot_linkedList *lvlchan, char *passwd);$/;"	t
+addValueAttrib	config/src/mbot_pseudo_xml.c	/^static int addValueAttrib(SmbotPseudoxmlTag *newtag,char *value)$/;"	f	file:
+add_channel_def_events	upperlayer/src/irc_abstraction_defines.h	/^	Chanadd_channel_def_eventsF add_channel_def_events;$/;"	m	struct:Sirc_channels
+add_channel_def_events	upperlayer/src/irc_abstraction_defines.h	/^	add_channel_def_eventsF add_channel_def_events;$/;"	m	struct:Sirc_servers
+add_channel_def_eventsF	upperlayer/src/irc_abstraction_defines.h	/^typedef int (*add_channel_def_eventsF)(struct Sirc_servers *_this,char *chann,FILE *readfile);$/;"	t
+add_event	callbackhandler/src/event_storage.h	/^	add_eventF add_event;$/;"	m	struct:SMbotEventStorage
+add_eventF	callbackhandler/src/event_storage.h	/^typedef int (*add_eventF)(struct SMbotEventStorage*,ScallbackConf *eventspec);$/;"	t
+allowed_event_tags	config/src/server_events.c	/^const char *allowed_event_tags[POSSIBLE_EVENT_TAG_NAMES_AMNT] = {"eventtype","userlevel","triggerstring","outputto","outputchan","inputfrom","outputstring"};$/;"	v
+am_I_the_hiawatha	generic/src/MbotPackedArray.c	/^static char am_I_the_hiawatha()$/;"	f	file:
+amnt	APIs/cexplode.h	/^    int amnt;$/;"	m	struct:CexplodeStrings
+amnt	generic/src/helpers.h	/^    int amnt;$/;"	m	struct:CexplodeStrings
+amntOfCallbacks	parsers/src/config_file_parser.h	/^    int amntOfCallbacks;$/;"	m	struct:SConfigResult_Callback
+amntOfOriginators	parsers/src/config_file_parser.h	/^    int amntOfOriginators;$/;"	m	struct:ScallbackConf
+amntofchannels	config/src/server_config.h	/^    int amntofchannels;$/;"	m	struct:SServerConfigs
+amntofchannels	upperlayer/src/irc_abstraction_defines.h	/^	int amntofchannels;$/;"	m	struct:Sirc_servers
+amntofevents	config/src/channel_config.h	/^	int amntofevents;					\/\/\/< amount of events which configs we have$/;"	m	struct:SChannelConfigs
+amntofevents	config/src/irc_config.h	/^	int amntofevents;					\/\/\/< amount of events which configs we have$/;"	m	struct:SircConfig
+amntofevents	config/src/server_config.h	/^	int amntofevents;					\/\/\/< amount of events which configs we have$/;"	m	struct:SServerConfigs
+amntofevents	upperlayer/src/irc_abstraction_defines.h	/^	int amntofevents;$/;"	m	struct:Sirc_servers
+amntoflines	generic/src/splitter.h	/^	int amntoflines;$/;"	m	struct:SSplitter
+amntofservers	config/src/irc_config.h	/^	int amntofservers;                  \/\/\/< amount of servers which configurations we have$/;"	m	struct:SircConfig
+args	callbackhandler/src/callbackhandler.h	/^		SServerCallbackArgs args;$/;"	m	struct:SServerCallbackList
+arm_reconn_timer	upperlayer/src/irc_abstraction_defines.h	/^	ChannelArmReconnTimerF arm_reconn_timer;$/;"	m	struct:Sirc_channels
+arm_reconn_timer	upperlayer/src/irc_abstraction_defines.h	/^	ServerArmReconnTimerF arm_reconn_timer;$/;"	m	struct:Sirc_servers
+base	generic/src/MbotRingBuff.h	/^    void *base;$/;"	m	struct:Mbot_buffer
+bitch	generic/src/MbotBitset.h	/^    size_t *bitch;$/;"	m	struct:SMbotBitsSet
+bitsinitem	generic/src/MbotPackedArray.c	/^    unsigned int bitsinitem;$/;"	m	struct:SPackedArray	file:
+buff	upperlayer/src/irc_abstraction_defines.h	/^	Mbot_buffer buff;$/;"	m	struct:SMbot_rx_queues
+buff255_cloth	generic/src/MbotRingBuff.h	59;"	d
+buff255_grope	generic/src/MbotRingBuff.h	52;"	d
+buff255_peep	generic/src/MbotRingBuff.h	37;"	d
+buff4095_cloth	generic/src/MbotRingBuff.h	80;"	d
+buff4095_grope	generic/src/MbotRingBuff.h	75;"	d
+buff4095_peep	generic/src/MbotRingBuff.h	70;"	d
+buff_cloth	generic/src/MbotRingBuff.c	/^void buff_cloth(Mbot_buffer **buff)$/;"	f
+buff_xxx_getNreset_corrupt	generic/src/MbotRingBuff.c	/^unsigned int buff_xxx_getNreset_corrupt(Mbot_buffer  *buff)$/;"	f
+buff_xxx_grope	generic/src/MbotRingBuff.c	/^void buff_xxx_grope(Mbot_buffer *buff,void *data,unsigned int mask)$/;"	f
+buff_xxx_peep	generic/src/MbotRingBuff.c	/^void *buff_xxx_peep(Mbot_buffer *buff,unsigned int mask)$/;"	f
+callback	callbackhandler/src/callbackhandler.h	/^	    ServerCallbackF callback;$/;"	m	struct:SServerCallbackList
+callbackConfigs	parsers/src/config_file_parser.h	/^    ScallbackConf *callbackConfigs;$/;"	m	struct:SConfigResult_Callback
+callback_reg	callbackhandler/src/callback_register.c	/^int callback_reg(unsigned int eventid,ServerCallbackF cbf, void *useropaque, size_t userdatasize, void *systemopaque)$/;"	f
+callback_register_hook	usercallbacks/src/user_callbacks.c	/^int callback_register_hook(void *systemopaque)$/;"	f
+callback_send_to_irc	callbackhandler/src/defaultcallbacks.c	/^ECallbackRetval callback_send_to_irc(void *callbackhandle)$/;"	f
+callback_wait_data_irc	callbackhandler/src/defaultcallbacks.c	/^ECallbackRetval callback_wait_data_irc(void *callbackhandle,char *datatowait,char **recvddata,struct timespec timetowait)$/;"	f
+callbacklist_add	callbackhandler/src/callbackhandler.c	/^int callbacklist_add(SServerCallbackList *list,ServerCallbackF cb,void *userptr)$/;"	f
+callbacklist_add	config/src/irc_config.h	/^	callbacklist_addF callbacklist_add;$/;"	m	struct:SircConfig
+callbacklist_addF	config/src/irc_config.h	/^typedef int (*callbacklist_addF)(struct SircConfig *_this, unsigned int eventid,void *useropaque,ServerCallbackF cbf);$/;"	t
+callbacklist_init	callbackhandler/src/callbackhandler.c	/^int callbacklist_init(SServerCallbackList **lpp,ServerCallbackF cb,void *userptr)$/;"	f
+callbacks_for_this_event	callbackhandler/src/event_storage.h	/^    mbot_linkedList *callbacks_for_this_event;$/;"	m	struct:SMbotEvent
+cbf	config/src/irc_config.h	/^	ServerCallbackF cbf;$/;"	m	struct:Sall_callbacks_list
+cblist	config/src/event_config.h	/^	SServerCallbackList *cblist;$/;"	m	struct:SServerEvents
+cblist	config/src/irc_config.h	/^	Sall_callbacks_list *cblist;$/;"	m	struct:SircConfig
+cfg	config/src/config.h	/^	SbasicConfig cfg;$/;"	m	struct:SextendedBasicConfig
+cfgCallbackResGetEventF	parsers/src/config_file_parser.h	/^typedef ScallbackConf *(*cfgCallbackResGetEventF)(SparserResult *);$/;"	t
+cfgInit	config/src/config.c	/^int cfgInit(void)$/;"	f
+cfgUninit	config/src/config.c	/^void cfgUninit(void)$/;"	f
+cfgcallbacklist_add	config/src/irc_config.c	/^static int cfgcallbacklist_add(SircConfig *_this, unsigned int eventid,void *useropaque,ServerCallbackF cbf)$/;"	f	file:
+cfgfile	parsers/src/config_file_parser.h	/^    FILE *cfgfile;$/;"	m	struct:SFILEparser
+cfgfilename	user_storage/src/user.h	/^	char                                *cfgfilename;$/;"	m	struct:SIRCuserHandlerPermanent
+cfgid	config/src/config.h	/^    unsigned int cfgid;$/;"	m	struct:SbasicConfig
+cfgs	parsers/src/basic_file_parser.h	/^    mbot_linkedList * cfgs; \/\/linked list of SbasicConfig structs$/;"	m	struct:SbasicParserResult
+chan	config/src/channel_config.h	/^    Tircchan chan;$/;"	m	struct:SChannelConfigs
+chan_handle_identify_cmm	callbackhandler/src/internal_callbacks.c	/^EMbotCallbackRet chan_handle_identify_cmm(Sirc_channels *_this,SIRCparserResult *res)$/;"	f
+chan_handle_internal_join_cmm	callbackhandler/src/internal_callbacks.c	/^EMbotCallbackRet chan_handle_internal_join_cmm(Sirc_channels *_this,SIRCparserResult *res)$/;"	f
+chan_handle_join_cmm	upperlayer/src/irc_channel_abstraction.c	/^static EMbotCallbackRet chan_handle_join_cmm(Sirc_channels *_this,SIRCparserResult *res)$/;"	f	file:
+chan_handle_nick	callbackhandler/src/internal_callbacks.c	/^EMbotCallbackRet chan_handle_nick(Sirc_channels *_this,SIRCparserResult *res)$/;"	f
+chan_handle_part	callbackhandler/src/internal_callbacks.c	/^EMbotCallbackRet chan_handle_part(Sirc_channels *_this,SIRCparserResult *res)$/;"	f
+chan_handle_part_cmm	upperlayer/src/irc_channel_abstraction.c	/^static int chan_handle_part_cmm(Sirc_channels *_this,SIRCparserResult *res)$/;"	f	file:
+chan_handle_pm_cmm	upperlayer/src/irc_channel_abstraction.c	/^static int chan_handle_pm_cmm(Sirc_channels *_this,SIRCparserResult *res)$/;"	f	file:
+chan_handle_pm_subcmms	upperlayer/src/irc_channel_abstraction.c	/^static EMbotCallbackRet chan_handle_pm_subcmms(Sirc_channels *_this,SIRCparserResult *res)$/;"	f	file:
+chan_handle_userlist_user	callbackhandler/src/internal_callbacks.c	/^EMbotCallbackRet chan_handle_userlist_user(Sirc_channels *_this,struct SIRCparserResult *res)$/;"	f
+chan_handle_version_cmm	callbackhandler/src/internal_callbacks.c	/^EMbotCallbackRet chan_handle_version_cmm(Sirc_channels *_this,SIRCparserResult *res)$/;"	f
+chan_joined	upperlayer/src/irc_abstraction_defines.h	/^	unsigned int chan_joined;$/;"	m	struct:Sirc_channels
+chan_known_inter_cmm	upperlayer/src/irc_channel_abstraction.c	/^static const char *chan_known_inter_cmm[]={"PRIVMSG",USERLIST_USER,"JOIN","PART","NICK"};\/\/,UNABLE_TO_JOIN};$/;"	v	file:
+chan_known_inter_cmm_amnt	upperlayer/src/irc_abstraction_defines.h	235;"	d
+chan_known_inter_subcomm_pm	upperlayer/src/irc_channel_abstraction.c	/^static const char *chan_known_inter_subcomm_pm[]={"!IDENTIFY","\\1VERSION\\1"};$/;"	v	file:
+chan_known_inter_subcomm_pm_amnt	upperlayer/src/irc_abstraction_defines.h	234;"	d
+chan_online_users	upperlayer/src/irc_abstraction_defines.h	/^	SMbotOnlineUserStorage *chan_online_users;$/;"	m	struct:Sirc_channels
+chanevents	da_bot_client/src/server.h	/^Sevents chanevents;$/;"	m	struct:SChannel
+chanlevels	user_storage/src/user.h	/^	mbot_linkedList *chanlevels; \/\/onlinechans$/;"	m	struct:SuserStorageUser
+channel	APIs/parsers_api.h	/^    char channel[IRC_CHANNEL_MAX];$/;"	m	struct:SIRC_user
+channel	parsers/src/irc_definitions.h	/^	char channel[IRC_CHANNEL_MAX];$/;"	m	struct:SIRC_user
+channel	parsers/src/irc_protocol_parser.h	/^	char *channel;$/;"	m	struct:SIRCparser
+channel	upperlayer/src/irc_abstraction_defines.h	/^	Tircchan channel;$/;"	m	struct:Sirc_channels
+channel	user_storage/src/user.h	/^	char channel[IRC_CHANNEL_MAX];$/;"	m	struct:SuserChanLevelBondage
+channelConfigInit	config/src/channel_config.c	/^SChannelConfigs * channelConfigInit(SServerConfigs *myserver)$/;"	f
+channelEventConfAdd	config/src/channel_config.c	/^static int channelEventConfAdd(SChannelConfigs *_this,SmbotPseudoxmlTag *eventRootTag)$/;"	f	file:
+channelEventConfAdd	config/src/channel_config.h	/^	channelEventConfAddF channelEventConfAdd;$/;"	m	struct:SChannelConfigs
+channelEventConfAddF	config/src/channel_config.h	/^typedef int (*channelEventConfAddF)(struct SChannelConfigs *_this,SmbotPseudoxmlTag *eventRootTag);$/;"	t
+channelname	user_storage/src/online_storage.h	/^	char							channelname[IRC_CHANNEL_MAX];$/;"	m	struct:SMbotOnlineUserStorage
+channels	config/src/server_config.h	/^    SChannelConfigs **channels;$/;"	m	struct:SServerConfigs
+channels	da_bot_client/src/server.h	/^	mbot_linkedList * channels; \/\/SChannel structs in data$/;"	m	struct:SServer
+channels	upperlayer/src/irc_abstraction_defines.h	/^	struct Sirc_channels **channels;$/;"	m	struct:Sirc_servers	typeref:struct:Sirc_servers::Sirc_channels
+checkjoinstate	upperlayer/src/irc_abstraction_defines.h	/^	checkjoinstateF checkjoinstate;$/;"	m	struct:Sirc_channels
+checkjoinstate	upperlayer/src/irc_channel_abstraction.c	/^static int checkjoinstate(Sirc_channels *_this)$/;"	f	file:
+checkjoinstateF	upperlayer/src/irc_abstraction_defines.h	/^typedef int (*checkjoinstateF)(struct Sirc_channels *_this);$/;"	t
+clear_basic_configs	startup/src/startup_configs.c	/^void clear_basic_configs(void)$/;"	f
+clear_callback_configs	startup/src/startuplevels.c	/^void clear_callback_configs()$/;"	f
+clear_event_configs	startup/src/startup_configs.c	/^void clear_event_configs(void)$/;"	f
+closed	config/src/mbot_pseudo_xml.h	/^	int closed;$/;"	m	struct:SmbotPseudoxmlTag
+configListenerF	config/src/config.h	/^typedef void (*configListenerF)(int key,void *value, size_t valuesize, void *opaque);$/;"	t
+config_array	config/src/config.c	/^SextendedBasicConfig *config_array[E_nmbr_of_configs+1];$/;"	v
+configfile	config/src/irc_config.h	/^    char *configfile;                   \/\/\/< name of the file where configs were read from$/;"	m	struct:SircConfig
+connInit	networking/src/networking.c	/^Sconn *connInit(EstructType type)$/;"	f
+connect	APIs/networking_api.h	/^    connectF            connect;$/;"	m	struct:Sconn
+connect	networking/src/networking.h	/^	connectF			connect;$/;"	m	struct:Sconn
+connectF	APIs/networking_api.h	/^typedef EnetwRetval (*connectF)(struct Sconn *,char *,unsigned short int);$/;"	t
+connectF	networking/src/networking.h	/^typedef EnetwRetval (*connectF)(struct Sconn *,char *,unsigned short int);$/;"	t
+connect_and_run	startup/src/startuplevels.c	/^void connect_and_run()$/;"	f
+connectible	APIs/networking_api.h	/^    MAZ_BOOLEAN         connectible;$/;"	m	struct:Sconn
+connectible	networking/src/networking.h	/^	MAZ_BOOLEAN			connectible;	\/\/\/< internal (whether used protocol is connectible)$/;"	m	struct:Sconn
+connection	networking/src/TCP.h	/^	Sconn		connection;$/;"	m	struct:STCPconn
+connection	upperlayer/src/irc_abstraction_defines.h	/^	Sconn *connection;$/;"	m	struct:Sirc_servers
+copyprefixtonickmask	generic/src/irchelpers.c	/^int copyprefixtonickmask(char *prefix, char **nick, char **mask)$/;"	f
+corrupted	generic/src/MbotRingBuff.h	/^	MbotAtomic32 *corrupted;$/;"	m	struct:Mbot_buffer
+create_socket	APIs/networking_api.h	/^    sockCreateF         create_socket;$/;"	m	struct:Sconn
+create_socket	networking/src/networking.c	/^int create_socket(EstructType proto)$/;"	f
+create_socket	networking/src/networking.h	/^	sockCreateF			create_socket;$/;"	m	struct:Sconn
+data	config/src/config.h	/^    void *data;$/;"	m	struct:SbasicConfig
+data	generic/src/helpers.h	/^    void *data;$/;"	m	struct:mbot_linkedList
+database	generic/src/MbotPackedArray.c	/^    unsigned char *database;$/;"	m	struct:SPackedArray	file:
+dataend	parsers/src/config_file_parser.h	/^	unsigned long long int dataend;$/;"	m	struct:SFILEparser
+dataend	parsers/src/irc_protocol_parser.h	/^	unsigned long long int dataend;$/;"	m	struct:SIRCparser
+datasize	config/src/config.h	/^    size_t datasize;$/;"	m	struct:SbasicConfig
+datastart	parsers/src/config_file_parser.h	/^	unsigned long long int datastart;$/;"	m	struct:SFILEparser
+datastart	parsers/src/irc_protocol_parser.h	/^	unsigned long long int datastart;$/;"	m	struct:SIRCparser
+datatoparse	parsers/src/config_file_parser.h	/^	char datatoparse[FILE_DATA_BUF_LEN+1]; \/\/+1 char for NULL mark possibly written before handing data to Cexplode$/;"	m	struct:SFILEparser
+datatoparse	parsers/src/irc_protocol_parser.h	/^	char datatoparse[IRC_DATA_BUF_LEN+1]; \/\/+1 char for NULL mark possibly written before handing data to Cexplode$/;"	m	struct:SIRCparser
+dbsize	generic/src/MbotPackedArray.c	/^    size_t dbsize;$/;"	m	struct:SPackedArray	file:
+debug	test/src/irc_cfg_test.c	1;"	d	file:
+default_cb_text	callbackhandler/src/event_storage.h	/^	char *default_cb_text;$/;"	m	struct:SMbotEvent
+defaultcb_LocalJoinEvent	callbackhandler/src/defaultcallbacks.c	/^void *defaultcb_LocalJoinEvent(SServerCallbackArgs args)$/;"	f
+defaultcb_LocalPartEvent	callbackhandler/src/defaultcallbacks.c	/^void *defaultcb_LocalPartEvent(SServerCallbackArgs args)$/;"	f
+defaultcb_LocalTxtEvent	callbackhandler/src/defaultcallbacks.c	/^void *defaultcb_LocalTxtEvent(SServerCallbackArgs args)$/;"	f
+defaultcb_WebJoinEvent	callbackhandler/src/defaultcallbacks.c	/^void *defaultcb_WebJoinEvent(SServerCallbackArgs args)$/;"	f
+defaultcb_WebPartEvent	callbackhandler/src/defaultcallbacks.c	/^void *defaultcb_WebPartEvent(SServerCallbackArgs args)$/;"	f
+defaultcb_WebTxtEvent	callbackhandler/src/defaultcallbacks.c	/^void *defaultcb_WebTxtEvent(SServerCallbackArgs args)$/;"	f
+deinit_startlevel1	startup/src/startuplevels.c	/^int deinit_startlevel1()$/;"	f
+deinit_startlevel2	startup/src/startuplevels.c	/^int deinit_startlevel2()$/;"	f
+deinit_startlevel3	startup/src/startuplevels.c	/^int deinit_startlevel3()$/;"	f
+deinit_startlevel4	startup/src/startuplevels.c	/^int deinit_startlevel4()$/;"	f
+deinit_startlevel5	startup/src/startuplevels.c	/^int deinit_startlevel5()$/;"	f
+depth	config/src/mbot_pseudo_xml.h	/^	unsigned int depth;$/;"	m	struct:SmbotPseudoxmlTag
+destroy	APIs/networking_api.h	/^    uninitF             destroy;$/;"	m	struct:Sconn
+destroy	networking/src/networking.h	/^	uninitF 			destroy;$/;"	m	struct:Sconn
+disableprint	generic/src/generic.c	/^void disableprint(PrintComp cmp)$/;"	f
+disconnect	startup/src/startuplevels.c	/^void disconnect()$/;"	f
+disconnected_flush	upperlayer/src/irc_abstraction_defines.h	/^	ChannelDisconnectedCleanupF disconnected_flush;$/;"	m	struct:Sirc_channels
+disconnected_flush	upperlayer/src/irc_abstraction_defines.h	/^	ServerDisconnectedCleanupF disconnected_flush;$/;"	m	struct:Sirc_servers
+domain	config/src/server_config.h	/^	Tircserver domain;$/;"	m	struct:SServerConfigs
+dummyconnect	networking/src/networking.c	/^EnetwRetval dummyconnect(Sconn *_this,char *domain,unsigned short int port)$/;"	f
+dumpbitmap	generic/src/MbotPackedArray.c	/^static void dumpbitmap(SPackedArray *map)$/;"	f	file:
+elemseek	user_storage/src/online_storage.h	/^	OnlineUserStorage_elem_seekF 	elemseek;$/;"	m	struct:SMbotOnlineUserStorage
+eventGet	parsers/src/config_file_parser.h	/^	cfgCallbackResGetEventF eventGet;$/;"	m	struct:SConfigResult_Callback
+eventId	callbackhandler/src/event_storage.h	/^    int eventId; \/\/Must be first in here?$/;"	m	struct:SMbotEvent
+eventId	config/src/event_config.h	/^	unsigned int eventId;$/;"	m	struct:SServerEvents
+eventType	config/src/event_config.h	/^	EMbotcallbackEventType eventType;$/;"	m	struct:SServerEvents
+event_string	config/src/event_config.h	/^	char *event_string;$/;"	m	struct:SServerEvents
+eventid	config/src/irc_config.h	/^	unsigned int eventid;$/;"	m	struct:Sall_callbacks_list
+events	config/src/channel_config.h	/^	SServerEvents **events;$/;"	m	struct:SChannelConfigs
+events	config/src/irc_config.h	/^	SServerEvents **events;             \/\/\/< struct containing global events $/;"	m	struct:SircConfig
+events	config/src/server_config.h	/^	SServerEvents **events;$/;"	m	struct:SServerConfigs
+events	upperlayer/src/irc_abstraction_defines.h	/^	SMbotEventStorage *events;$/;"	m	struct:Sirc_channels
+eventtype	upperlayer/src/irc_abstraction_defines.h	/^	ETimedEvent eventtype;$/;"	m	struct:STimedEvents
+examplecallback	usercallbacks/src/user_callbacks.c	/^static void * examplecallback(SServerCallbackArgs args)$/;"	f	file:
+exploded	parsers/src/irc_protocol_parser.h	/^	CexplodeStrings exploded;$/;"	m	struct:SIRCparser
+explosionindex	generic/src/splitter.h	/^*\/	int *explosionindex;$/;"	m	struct:SSplitter
+exptime	upperlayer/src/irc_abstraction_defines.h	/^	struct timespec exptime;$/;"	m	struct:STimedEvents	typeref:struct:STimedEvents::timespec
+feed	APIs/parsers_api.h	/^    ParserDataFeedF     feed;$/;"	m	struct:Sparser
+feed	generic/src/splitter.h	/^    SplitterFeedF feed;$/;"	m	struct:SSplitter
+feed	parsers/src/parser.h	/^	ParserDataFeedF 	feed;$/;"	m	struct:Sparser
+fileparRes	parsers/src/config_file_parser.h	/^	SFILEparserResult fileparRes;$/;"	m	struct:SConfigResult_Callback
+findUser	user_storage/src/user.h	/^    findUserFromPermStorageF            findUser;$/;"	m	struct:SIRCuserHandlerPermanent
+findUserFromPermStorage	user_storage/src/permanent_storage.c	/^static SuserStorageUser *findUserFromPermStorage(SIRCuserHandler *_this, char *nickhost, char *server,char *passwd)$/;"	f	file:
+findUserFromPermStorageF	user_storage/src/user.h	/^typedef SuserStorageUser * (*findUserFromPermStorageF)(struct SIRCuserHandler *_this,char *nickhost,char *server, char *passwd);$/;"	t
+find_by_idandcbtype	callbackhandler/src/event_storage.h	/^	find_event_by_idandcbtypeF find_by_idandcbtype;$/;"	m	struct:SMbotEventStorage
+find_chan_no	upperlayer/src/irc_abstraction_defines.h	/^	find_chan_noF find_chan_no;$/;"	m	struct:Sirc_servers
+find_chan_noF	upperlayer/src/irc_abstraction_defines.h	/^typedef int (*find_chan_noF)(struct Sirc_servers *_this,char *chann);$/;"	t
+find_chanlvl	user_storage/src/permanent_storage.c	/^static mbot_linkedList * find_chanlvl(SIRCuserHandler *_this,mbot_linkedList *userlistitem,char *chan)$/;"	f	file:
+find_event_by_idandcbtypeF	callbackhandler/src/event_storage.h	/^typedef SMbotEvent *(*find_event_by_idandcbtypeF)(struct SMbotEventStorage*, int id, EMbotcallbackEventType type);$/;"	t
+find_user	user_storage/src/permanent_storage.c	/^static mbot_linkedList * find_user(SIRCuserHandler *_this,char *nickhost, char *server, char *passwd,int verifypass)$/;"	f	file:
+first	config/src/mbot_pseudo_xml.h	/^	struct SmbotPseudoxmlTag *first;		\/\/\/< first tag in this level$/;"	m	struct:SmbotPseudoxmlTag	typeref:struct:SmbotPseudoxmlTag::SmbotPseudoxmlTag
+free	APIs/parsers_api.h	/^	ParserResultFreeF free;$/;"	m	struct:SparserResult
+free	generic/src/splitter.h	/^	splitterResFreeF free;$/;"	m	struct:SSplitterResult
+free	parsers/src/basic_file_parser.h	/^    SbasicParserFreeF free;$/;"	m	struct:SbasicFileParser
+free	parsers/src/parser.h	/^	ParserResultFreeF free;$/;"	m	struct:SparserResult
+func	config/src/config.h	/^	configListenerF func;$/;"	m	struct:Smbot_cfgcb
+gen	APIs/parsers_api.h	/^    SparserResult 	gen;	\/\/\/< generic parser results struct$/;"	m	struct:SIRCparserResult
+gen	callbackhandler/src/event_storage.h	/^	SMbotEvent gen;$/;"	m	struct:SMbotHopEvent
+gen	callbackhandler/src/event_storage.h	/^	SMbotEvent gen;$/;"	m	struct:SMbotTextEvent
+gen	parsers/src/basic_file_parser.h	/^    Sparser gen;$/;"	m	struct:SbasicFileParser
+gen	parsers/src/basic_file_parser.h	/^    SparserResult gen;$/;"	m	struct:SbasicParserResult
+gen	parsers/src/config_file_parser.h	/^	SparserResult gen; \/\/\/<common for all parser results$/;"	m	struct:SFILEparserResult
+gen	parsers/src/irc_protocol_parser.h	/^	SparserResult gen; \/\/\/<common for all parser results$/;"	m	struct:SIRCparserResult
+generic_configs	config/src/server_config.h	/^	struct SircConfig *generic_configs;$/;"	m	struct:SServerConfigs	typeref:struct:SServerConfigs::SircConfig
+get	generic/src/splitter.h	/^	splitterResGetF get;$/;"	m	struct:SSplitterResult
+getConnections	test/src/botV02.c	/^int getConnections(Sconn **servers,int *srvamnt)$/;"	f
+getNextCfgs	parsers/src/basic_file_parser.h	/^    SbasicParserResultGetNextF getNextCfgs;$/;"	m	struct:SbasicParserResult
+getNth	generic/src/splitter.h	/^	splitterResGetNthF getNth;$/;"	m	struct:SSplitterResult
+get_basic_configs	startup/src/startup_configs.c	/^int get_basic_configs(void)$/;"	f
+get_cb_for_event	config/src/irc_config.c	/^static ServerCallbackF get_cb_for_event(SircConfig *_this,unsigned int eventId,void **usercbdata)$/;"	f	file:
+get_cb_for_event	config/src/irc_config.h	/^	get_cb_for_eventF get_cb_for_event;$/;"	m	struct:SircConfig
+get_cb_for_eventF	config/src/irc_config.h	/^typedef ServerCallbackF (*get_cb_for_eventF)(struct SircConfig *_this,unsigned int eventId,void **usercbdata);$/;"	t
+get_default_callbacks	test/src/botV02.c	/^int get_default_callbacks(serverstructs,srvamnt)$/;"	f
+get_default_cb	callbackhandler/src/defaultcallbacks.c	/^ServerCallbackF get_default_cb(EMbotcallbackEventType cbtype)$/;"	f
+get_event_configs	startup/src/startup_configs.c	/^int get_event_configs(void)$/;"	f
+get_result	APIs/parsers_api.h	/^    ParserResultGetF    get_result;$/;"	m	struct:Sparser
+get_result	parsers/src/parser.h	/^	ParserResultGetF 	get_result;$/;"	m	struct:Sparser
+get_tags	config/src/mbot_pseudo_xml.c	/^int get_tags(SmbotPseudoxmlTag **tag, FILE *cfgfile)$/;"	f
+get_user_configs	startup/src/startup_configs.c	/^int get_user_configs(void)$/;"	f
+getcmd	APIs/parsers_api.h	/^	IRCparserResultGetF getcmd;			\/\/\/<way to get command Returns char * takes (SIRCparserResult *result)$/;"	m	struct:SIRCparserResult
+getcmd	parsers/src/irc_protocol_parser.h	/^	IRCparserResultGetF getcmd;			\/\/\/<way to get command Returns char * takes (SIRCparserResult *result)$/;"	m	struct:SIRCparserResult
+getoonbaby	da_bot_client/src/botV02.c	/^void getoonbaby(int amntofservers)$/;"	f
+getparam	APIs/parsers_api.h	/^	IRCparserResultGetParamF getparam;	\/\/\/<way to get Nth param Returns char * takes (SIRCparserResult *,int paramno)$/;"	m	struct:SIRCparserResult
+getparam	parsers/src/irc_protocol_parser.h	/^	IRCparserResultGetParamF getparam;	\/\/\/<way to get Nth param Returns char * takes (SIRCparserResult *,int paramno)$/;"	m	struct:SIRCparserResult
+getprefix	APIs/parsers_api.h	/^	IRCparserResultGetF getprefix;		\/\/\/<way to get prefix Returns char * takes (SIRCparserResult *result)$/;"	m	struct:SIRCparserResult
+getprefix	parsers/src/irc_protocol_parser.h	/^	IRCparserResultGetF getprefix;		\/\/\/<way to get prefix Returns char * takes (SIRCparserResult *result)$/;"	m	struct:SIRCparserResult
+handle	callbackhandler/src/callbackhandler.h	/^	void *handle;  \/* $/;"	m	struct:SServerCallbackArgs
+handle_tag	config/src/mbot_pseudo_xml.c	/^static int handle_tag(SmbotPseudoxmlTag **taglist, char *string)$/;"	f	file:
+handler	user_storage/src/user.h	/^	SIRCuserHandler                     handler;$/;"	m	struct:SIRCuserHandlerPermanent
+hasprefix	APIs/parsers_api.h	/^    int 			hasprefix;		\/\/\/< Internal use $/;"	m	struct:SIRCparserResult
+hasprefix	parsers/src/irc_protocol_parser.h	/^	int hasprefix;	   \/\/\/<internal use$/;"	m	struct:SIRCparserResult
+head	generic/src/helpers.h	/^    struct mbot_linkedList *head;$/;"	m	struct:mbot_linkedList	typeref:struct:mbot_linkedList::mbot_linkedList
+helpprint	generic/src/splitter.c	/^static void helpprint(CexplodeStrings exp)$/;"	f	file:
+hiawatha	generic/src/MbotPackedArray.c	/^    unsigned char hiawatha;$/;"	m	struct:SPackedArray	file:
+host	APIs/parsers_api.h	/^    char host[IRC_HOST_MAX];$/;"	m	struct:SIRC_user
+host	parsers/src/irc_definitions.h	/^	char host[IRC_HOST_MAX];$/;"	m	struct:SIRC_user
+host	user_storage/src/online_storage.h	/^    char host[IRC_HOST_MAX];$/;"	m	struct:SMbotOnlineUsers
+host	user_storage/src/user.h	/^	Tirchost host;$/;"	m	struct:SircUser
+host	user_storage/src/user.h	/^	char host[IRC_HOST_MAX];$/;"	m	struct:SuserStorageUser
+id	parsers/src/config_file_parser.h	/^    int id;$/;"	m	struct:ScallbackConf
+identmode	user_storage/src/user.h	/^	EuserIdentMode identmode;$/;"	m	struct:SircUser
+index	APIs/cexplode.h	/^	int index;$/;"	m	struct:CexplodeStrings
+index	generic/src/helpers.h	/^	int index;$/;"	m	struct:CexplodeStrings
+init	generic/src/splitter.h	/^	SplitterInitF init;$/;"	m	struct:SSplitter
+init	generic/src/splitter.h	/^	splitterResInitF init;$/;"	m	struct:SSplitterResult
+init	startup/src/startuplocks.h	/^	startuplock_initF init;$/;"	m	struct:Sstartuplock
+initF	APIs/networking_api.h	/^typedef struct Sconn * (*initF)(void);$/;"	t	typeref:struct:initF
+initF	networking/src/networking.h	/^typedef struct Sconn * (*initF)(void);$/;"	t	typeref:struct:initF
+initSirc_Sirc_channels	upperlayer/src/irc_channel_abstraction.c	/^Sirc_channels *initSirc_Sirc_channels(SChannelConfigs *cfg,Sirc_servers *myserv)$/;"	f
+init_startlevel1	startup/src/startuplevels.c	/^int init_startlevel1()$/;"	f
+init_startlevel2	startup/src/startuplevels.c	/^int init_startlevel2()$/;"	f
+init_startlevel3	startup/src/startuplevels.c	/^int init_startlevel3()$/;"	f
+init_startlevel4	startup/src/startuplevels.c	/^int init_startlevel4()$/;"	f
+init_startlevel5	startup/src/startuplevels.c	/^int init_startlevel5()$/;"	f
+init_startuplocks	startup/src/startuplevels.c	/^static int init_startuplocks()$/;"	f	file:
+initialize	APIs/networking_api.h	/^    initF               initialize;$/;"	m	struct:Sconn
+initialize	networking/src/networking.h	/^	initF				initialize;	$/;"	m	struct:Sconn
+initstuplock	startup/src/startuplocks.c	/^Sstartuplock *initstuplock()$/;"	f
+inputname	config/src/event_config.h	/^	char *inputname; \/\/\/< channel\/nick where input is obtained (in chan events defaults to current chan, in server events, defaults to any chan on server. With global events defaults to any chan)$/;"	m	struct:SServerEventInputUnit
+inputsource	config/src/event_config.h	/^	EMbotEventLocation inputsource;$/;"	m	struct:SServerEventInputUnit
+inputsrc	config/src/event_config.h	/^	SServerEventInputUnit inputsrc;$/;"	m	struct:SServerEvents
+ircConfigGetServer	config/src/irc_config.c	/^static SServerConfigs * ircConfigGetServer(struct SircConfig *_this, int serverno)$/;"	f	file:
+ircConfigGetServer	config/src/irc_config.h	/^	ircConfigGetServerF ircConfigGetServer;$/;"	m	struct:SircConfig
+ircConfigGetServerF	config/src/irc_config.h	/^typedef SServerConfigs * (*ircConfigGetServerF)(struct SircConfig *_this, int serverno);$/;"	t
+ircConfigGetServeramnt	config/src/irc_config.c	/^static int ircConfigGetServeramnt(SircConfig *_this)$/;"	f	file:
+ircConfigGetServeramnt	config/src/irc_config.h	/^	ircConfigGetServeramntF ircConfigGetServeramnt;$/;"	m	struct:SircConfig
+ircConfigGetServeramntF	config/src/irc_config.h	/^typedef int (*ircConfigGetServeramntF)(struct SircConfig *_this);$/;"	t
+ircConfigInit	config/src/irc_config.c	/^SircConfig *ircConfigInit(char *configfile)$/;"	f
+ircEventConfAdd	config/src/irc_config.c	/^static int ircEventConfAdd(SircConfig *_this,SmbotPseudoxmlTag *eventRootTag)$/;"	f	file:
+ircEventConfAdd	config/src/irc_config.h	/^	ircEventConfAddF ircEventConfAdd;$/;"	m	struct:SircConfig
+ircEventConfAddF	config/src/irc_config.h	/^typedef int (*ircEventConfAddF)(struct SircConfig *_this,SmbotPseudoxmlTag *eventRootTag);$/;"	t
+ircUserConfAdd	config/src/irc_config.c	/^int ircUserConfAdd(void *_this_,SmbotPseudoxmlTag *userRootTag)$/;"	f
+ircUserConfAdd	config/src/irc_config.h	/^	ircUserConfAddF ircUserConfAdd;$/;"	m	struct:SircConfig
+ircUserConfAddF	config/src/irc_config.h	/^typedef int (*ircUserConfAddF)(void *_this_,SmbotPseudoxmlTag *userRootTag);$/;"	t
+irc_channel_join	upperlayer/src/irc_abstraction_defines.h	/^	Channel_joinF irc_channel_join;$/;"	m	struct:Sirc_channels
+irc_conn	da_bot_client/src/server.h	/^	Sconn *irc_conn;  \/\/TCP connection to IRC server.$/;"	m	struct:SServer
+ircparser	upperlayer/src/irc_abstraction_defines.h	/^	Sparser *ircparser;$/;"	m	struct:Sirc_servers
+isOwnerF	user_storage/src/user.h	/^typedef int (*isOwnerF)(struct SIRCuserHandler *_this, char *nick,char *ownerpasswd);$/;"	t
+is_owner	user_storage/src/user.h	/^	isOwnerF				is_owner;$/;"	m	struct:SIRCuserHandler
+is_required_level_found	upperlayer/src/irc_abstraction_defines.h	/^static __inline__ int is_required_level_found(SServerEvents *evnt, SMbotOnlineUserStorage *storage, char *nick)$/;"	f
+isdisabled	generic/src/generic.c	/^int isdisabled(PrintComp cmp)$/;"	f
+islocked	startup/src/startuplocks.h	/^	startuplock_islockedF islocked;$/;"	m	struct:Sstartuplock
+islockedstuplock	startup/src/startuplocks.c	/^static int islockedstuplock(Sstartuplock *_this)$/;"	f	file:
+items	generic/src/MbotPackedArray.c	/^    unsigned int items;$/;"	m	struct:SPackedArray	file:
+iterator	generic/src/splitter.h	/^	int iterator;$/;"	m	struct:SSplitterResult
+iterator	parsers/src/config_file_parser.h	/^    int iterator;$/;"	m	struct:SConfigResult_Callback
+known_commands	upperlayer/src/irc_server_abstraction.c	/^const char *known_commands[known_commands_amnt]={"JOIN","PART","PRIVMSG"};$/;"	v
+known_commands_amnt	upperlayer/src/irc_abstraction_defines.h	54;"	d
+l00001	docs/html/helpers_8h_source.html	/^<h1>helpers.h<\/h1><a href="helpers_8h.html">Go to the documentation of this file.<\/a><div class="fragment"><pre class="fragment"><a name="l00001"><\/a>00001 $/;"	a
+l00002	docs/html/helpers_8h_source.html	/^<a name="l00002"><\/a>00002 <span class="comment">\/* **********************************************************************\/<\/span>$/;"	a
+l00003	docs/html/helpers_8h_source.html	/^<a name="l00003"><\/a>00003 <span class="comment">\/*                                                                      *<\/span>$/;"	a
+l00004	docs/html/helpers_8h_source.html	/^<a name="l00004"><\/a>00004 <span class="comment"> *      Implementation of php&apos;s explode written in C                    *<\/span>$/;"	a
+l00005	docs/html/helpers_8h_source.html	/^<a name="l00005"><\/a>00005 <span class="comment"> *      Written by  Maz (2008)                                          *<\/span>$/;"	a
+l00006	docs/html/helpers_8h_source.html	/^<a name="l00006"><\/a>00006 <span class="comment"> *      http:\/\/maz-programmersdiary.blogspot.com\/                       *<\/span>$/;"	a
+l00007	docs/html/helpers_8h_source.html	/^<a name="l00007"><\/a>00007 <span class="comment"> *                                                                      *<\/span>$/;"	a
+l00008	docs/html/helpers_8h_source.html	/^<a name="l00008"><\/a>00008 <span class="comment"> *      You&apos;re free to use this piece of code.                          *<\/span>$/;"	a
+l00009	docs/html/helpers_8h_source.html	/^<a name="l00009"><\/a>00009 <span class="comment"> *      You can also modify it freely, but if you                       *<\/span>$/;"	a
+l00010	docs/html/helpers_8h_source.html	/^<a name="l00010"><\/a>00010 <span class="comment"> *      improve this, you must write the improved code                  *<\/span>$/;"	a
+l00011	docs/html/helpers_8h_source.html	/^<a name="l00011"><\/a>00011 <span class="comment"> *      in comments at:                                                 *<\/span>$/;"	a
+l00012	docs/html/helpers_8h_source.html	/^<a name="l00012"><\/a>00012 <span class="comment"> *      http:\/\/maz-programmersdiary.blogspot.com\/                       *<\/span>$/;"	a
+l00013	docs/html/helpers_8h_source.html	/^<a name="l00013"><\/a>00013 <span class="comment"> *      or at:                                                          *<\/span>$/;"	a
+l00014	docs/html/helpers_8h_source.html	/^<a name="l00014"><\/a>00014 <span class="comment"> *      http:\/\/c-ohjelmoijanajatuksia.blogspot.com\/                     *<\/span>$/;"	a
+l00015	docs/html/helpers_8h_source.html	/^<a name="l00015"><\/a>00015 <span class="comment"> *      or mail the corrected version to me at                          *<\/span>$/;"	a
+l00016	docs/html/helpers_8h_source.html	/^<a name="l00016"><\/a>00016 <span class="comment"> *      Mazziesaccount@gmail.com                                        *<\/span>$/;"	a
+l00017	docs/html/helpers_8h_source.html	/^<a name="l00017"><\/a>00017 <span class="comment"> *                                                                      *<\/span>$/;"	a
+l00018	docs/html/helpers_8h_source.html	/^<a name="l00018"><\/a>00018 <span class="comment"> *      Revision History:                                               *<\/span>$/;"	a
+l00019	docs/html/helpers_8h_source.html	/^<a name="l00019"><\/a>00019 <span class="comment"> *                                                                      *<\/span>$/;"	a
+l00020	docs/html/helpers_8h_source.html	/^<a name="l00020"><\/a>00020 <span class="comment"> *      - 0.0.6 15.08.2009\/Maz  Fixed atomic CAS                        *<\/span>$/;"	a
+l00021	docs/html/helpers_8h_source.html	/^<a name="l00021"><\/a>00021 <span class="comment"> *      - 0.0.5 11.08.2009\/Maz  Added Cexplode_free_allButPieces        *<\/span>$/;"	a
+l00022	docs/html/helpers_8h_source.html	/^<a name="l00022"><\/a>00022 <span class="comment"> *      - 0.0.4 11.08.2009\/Maz  Added atomic ops and                    *<\/span>$/;"	a
+l00023	docs/html/helpers_8h_source.html	/^<a name="l00023"><\/a>00023 <span class="comment"> *                              mbot_ll                                 *<\/span>$/;"	a
+l00024	docs/html/helpers_8h_source.html	/^<a name="l00024"><\/a>00024 <span class="comment"> *      -v0.0.3 31.07.2009\/Maz  Added Cexplode_concat                   *<\/span>$/;"	a
+l00025	docs/html/helpers_8h_source.html	/^<a name="l00025"><\/a>00025 <span class="comment"> *                              (untested)                              *<\/span>$/;"	a
+l00026	docs/html/helpers_8h_source.html	/^<a name="l00026"><\/a>00026 <span class="comment"> *      -v0.0.2 21.07.2009\/Maz  Some additions for better               *<\/span>$/;"	a
+l00027	docs/html/helpers_8h_source.html	/^<a name="l00027"><\/a>00027 <span class="comment"> *                              usability in MazBotV4                   *<\/span>$/;"	a
+l00028	docs/html/helpers_8h_source.html	/^<a name="l00028"><\/a>00028 <span class="comment"> *      -v0.0.1 16.09.2008\/Maz                                          *<\/span>$/;"	a
+l00029	docs/html/helpers_8h_source.html	/^<a name="l00029"><\/a>00029 <span class="comment"> *                                                                      *\/<\/span>$/;"	a
+l00030	docs/html/helpers_8h_source.html	/^<a name="l00030"><\/a>00030 <span class="comment">\/* ******************************************************************** *\/<\/span>$/;"	a
+l00031	docs/html/helpers_8h_source.html	/^<a name="l00031"><\/a>00031 $/;"	a
+l00032	docs/html/helpers_8h_source.html	/^<a name="l00032"><\/a>00032 <span class="preprocessor">#ifndef HELPERS_H<\/span>$/;"	a
+l00033	docs/html/helpers_8h_source.html	/^<a name="l00033"><\/a>00033 <span class="preprocessor"><\/span><span class="preprocessor">#define HELPERS_H<\/span>$/;"	a
+l00034	docs/html/helpers_8h_source.html	/^<a name="l00034"><\/a>00034 <span class="preprocessor"><\/span>$/;"	a
+l00035	docs/html/helpers_8h_source.html	/^<a name="l00035"><\/a>00035 <span class="comment">\/* Some Cexplode calls support using this special item define *\/<\/span>$/;"	a
+l00036	docs/html/helpers_8h_source.html	/^<a name="l00036"><\/a><a class="code" href="helpers_8h.html#abfdc88c318ac17df371af7b475163783">00036<\/a> <span class="preprocessor">#define CEXPLODE_LAST_ITEM 0xFFFFFFFF<\/span>$/;"	a
+l00037	docs/html/helpers_8h_source.html	/^<a name="l00037"><\/a>00037 <span class="preprocessor"><\/span>$/;"	a
+l00038	docs/html/helpers_8h_source.html	/^<a name="l00038"><\/a>00038 <span class="preprocessor">#include &lt;stdio.h&gt;<\/span>$/;"	a
+l00039	docs/html/helpers_8h_source.html	/^<a name="l00039"><\/a>00039 <span class="preprocessor">#include &lt;string.h&gt;<\/span>$/;"	a
+l00040	docs/html/helpers_8h_source.html	/^<a name="l00040"><\/a>00040 <span class="preprocessor">#include &lt;stdlib.h&gt;<\/span>$/;"	a
+l00041	docs/html/helpers_8h_source.html	/^<a name="l00041"><\/a>00041 <span class="preprocessor">#include &lt;semaphore.h&gt;<\/span>$/;"	a
+l00042	docs/html/helpers_8h_source.html	/^<a name="l00042"><\/a>00042 $/;"	a
+l00046	docs/html/helpers_8h_source.html	/^<a name="l00046"><\/a><a class="code" href="structMbotAtomic32.html">00046<\/a> <span class="keyword">typedef<\/span> <span class="keyword">struct <\/span><a class="code" href="structMbotAtomic32.html" title="Struct for 32bit wide integer type used in atomic operations.">MbotAtomic32<\/a> $/;"	a
+l00047	docs/html/helpers_8h_source.html	/^<a name="l00047"><\/a>00047 {$/;"	a
+l00048	docs/html/helpers_8h_source.html	/^<a name="l00048"><\/a><a class="code" href="structMbotAtomic32.html#af20004ad939f9f9ec5987e2a0bb11525">00048<\/a>     <span class="keyword">volatile<\/span> <span class="keywordtype">unsigned<\/span> <span class="keywordtype">int<\/span> <a class="code" href="structMbotAtomic32.html#af20004ad939f9f9ec5987e2a0bb11525">value<\/a>;$/;"	a
+l00049	docs/html/helpers_8h_source.html	/^<a name="l00049"><\/a><a class="code" href="structMbotAtomic32.html#a57e5f989454185402d689672f370a749">00049<\/a>     sem_t <a class="code" href="structMbotAtomic32.html#a57e5f989454185402d689672f370a749" title="If non x86 arch is used, these atomic ops are dummies using semaphore.">sem<\/a>;      $/;"	a
+l00050	docs/html/helpers_8h_source.html	/^<a name="l00050"><\/a>00050 }<a class="code" href="structMbotAtomic32.html" title="Struct for 32bit wide integer type used in atomic operations.">MbotAtomic32<\/a>;$/;"	a
+l00051	docs/html/helpers_8h_source.html	/^<a name="l00051"><\/a>00051 $/;"	a
+l00052	docs/html/helpers_8h_source.html	/^<a name="l00052"><\/a>00052 $/;"	a
+l00056	docs/html/helpers_8h_source.html	/^<a name="l00056"><\/a><a class="code" href="structCexplodeStrings.html">00056<\/a> <span class="keyword">typedef<\/span> <span class="keyword">struct <\/span><a class="code" href="structCexplodeStrings.html" title="Struct for Cexplode object.">CexplodeStrings<\/a>$/;"	a
+l00057	docs/html/helpers_8h_source.html	/^<a name="l00057"><\/a>00057 {$/;"	a
+l00058	docs/html/helpers_8h_source.html	/^<a name="l00058"><\/a><a class="code" href="structCexplodeStrings.html#acc09a340188aa980b12384c6aaeb619b">00058<\/a>     <span class="keywordtype">int<\/span> <a class="code" href="structCexplodeStrings.html#acc09a340188aa980b12384c6aaeb619b">amnt<\/a>;$/;"	a
+l00059	docs/html/helpers_8h_source.html	/^<a name="l00059"><\/a><a class="code" href="structCexplodeStrings.html#a00cbca77782f1d0a06611d6c6ea7f545">00059<\/a>     <span class="keywordtype">char<\/span> **<a class="code" href="structCexplodeStrings.html#a00cbca77782f1d0a06611d6c6ea7f545">strings<\/a>;$/;"	a
+l00060	docs/html/helpers_8h_source.html	/^<a name="l00060"><\/a><a class="code" href="structCexplodeStrings.html#a8038fdec34026e3dfb00bc9324fb0331">00060<\/a>     <span class="keywordtype">char<\/span> *<a class="code" href="structCexplodeStrings.html#a8038fdec34026e3dfb00bc9324fb0331">separator<\/a>;$/;"	a
+l00061	docs/html/helpers_8h_source.html	/^<a name="l00061"><\/a><a class="code" href="structCexplodeStrings.html#ab55c61027a3737d4bb906bef2a61794b">00061<\/a>     <span class="keywordtype">int<\/span> <a class="code" href="structCexplodeStrings.html#ab55c61027a3737d4bb906bef2a61794b">sepwasatend<\/a>;$/;"	a
+l00062	docs/html/helpers_8h_source.html	/^<a name="l00062"><\/a><a class="code" href="structCexplodeStrings.html#a4ba004e7bf4de5cf5280379693180d3a">00062<\/a>     <span class="keywordtype">int<\/span> <a class="code" href="structCexplodeStrings.html#a4ba004e7bf4de5cf5280379693180d3a">startedWdelim<\/a>;$/;"	a
+l00063	docs/html/helpers_8h_source.html	/^<a name="l00063"><\/a><a class="code" href="structCexplodeStrings.html#a750b5d744c39a06bfb13e6eb010e35d0">00063<\/a>     <span class="keywordtype">int<\/span> <a class="code" href="structCexplodeStrings.html#a750b5d744c39a06bfb13e6eb010e35d0">index<\/a>;$/;"	a
+l00064	docs/html/helpers_8h_source.html	/^<a name="l00064"><\/a>00064 }<a class="code" href="structCexplodeStrings.html" title="Struct for Cexplode object.">CexplodeStrings<\/a>;$/;"	a
+l00065	docs/html/helpers_8h_source.html	/^<a name="l00065"><\/a>00065 $/;"	a
+l00069	docs/html/helpers_8h_source.html	/^<a name="l00069"><\/a><a class="code" href="helpers_8h.html#a56c8f0f14ff2d468fabe0d3f568181df">00069<\/a> <span class="keyword">typedef<\/span> <span class="keyword">enum<\/span> <a class="code" href="helpers_8h.html#a56c8f0f14ff2d468fabe0d3f568181df" title="enumeration for Cexplodei&amp;#39;s error return values">ECexplodeRet<\/a>$/;"	a
+l00070	docs/html/helpers_8h_source.html	/^<a name="l00070"><\/a>00070 {$/;"	a
+l00071	docs/html/helpers_8h_source.html	/^<a name="l00071"><\/a><a class="code" href="helpers_8h.html#a56c8f0f14ff2d468fabe0d3f568181dfaaa011f9fda77271b2b6da4802a542aab">00071<\/a>     <a class="code" href="helpers_8h.html#a56c8f0f14ff2d468fabe0d3f568181dfaaa011f9fda77271b2b6da4802a542aab">ECexplodeRet_InternalFailure<\/a>    = -666,$/;"	a
+l00072	docs/html/helpers_8h_source.html	/^<a name="l00072"><\/a><a class="code" href="helpers_8h.html#a56c8f0f14ff2d468fabe0d3f568181dfaa2ae017306e779c0558ea650bbc9fc78">00072<\/a>     <a class="code" href="helpers_8h.html#a56c8f0f14ff2d468fabe0d3f568181dfaa2ae017306e779c0558ea650bbc9fc78">ECexplodeRet_InvalidParams<\/a>         = -667$/;"	a
+l00073	docs/html/helpers_8h_source.html	/^<a name="l00073"><\/a>00073 }<a class="code" href="helpers_8h.html#a56c8f0f14ff2d468fabe0d3f568181df" title="enumeration for Cexplodei&amp;#39;s error return values">ECexplodeRet<\/a>;$/;"	a
+l00074	docs/html/helpers_8h_source.html	/^<a name="l00074"><\/a>00074 $/;"	a
+l00085	docs/html/helpers_8h_source.html	/^<a name="l00085"><\/a>00085 <span class="keywordtype">int<\/span> <a class="code" href="helpers_8h.html#a64d6e9e5a93f8eab6d85501b9b50f5b4" title="Removes the previously returned piece.">Cexplode_removeCurrent<\/a>(<a class="code" href="structCexplodeStrings.html" title="Struct for Cexplode object.">CexplodeStrings<\/a> *exp_obj);$/;"	a
+l00086	docs/html/helpers_8h_source.html	/^<a name="l00086"><\/a>00086 $/;"	a
+l00098	docs/html/helpers_8h_source.html	/^<a name="l00098"><\/a>00098 <span class="keywordtype">char<\/span> *<a class="code" href="helpers_8h.html#a0c82e1b2630b7538bc756ffc7eaaeb9e" title="Removes Nth piece from cexplode Must not be called before calling Cexplode If removed...">Cexplode_removeNth<\/a>(<span class="keywordtype">int<\/span> nro,<a class="code" href="structCexplodeStrings.html" title="Struct for Cexplode object.">CexplodeStrings<\/a> *exp_obj);$/;"	a
+l00099	docs/html/helpers_8h_source.html	/^<a name="l00099"><\/a>00099 $/;"	a
+l00108	docs/html/helpers_8h_source.html	/^<a name="l00108"><\/a>00108 <span class="keywordtype">int<\/span> <a class="code" href="helpers_8h.html#a87aaf2c06db8e04dab417d61ced26c87" title="Get the amount of pieces in exploded object Must not be called before calling Cexplode...">Cexplode_getAmnt<\/a>(<a class="code" href="structCexplodeStrings.html" title="Struct for Cexplode object.">CexplodeStrings<\/a> exp_obj);$/;"	a
+l00109	docs/html/helpers_8h_source.html	/^<a name="l00109"><\/a>00109 $/;"	a
+l00122	docs/html/helpers_8h_source.html	/^<a name="l00122"><\/a>00122 <span class="keywordtype">int<\/span> <a class="code" href="helpers_8h.html#a1c975295ecd9dc44ad145b912924d09f" title="Explodes string to pieces according to delimiter. Result is stored in exp_obj and...">Cexplode<\/a>(<span class="keyword">const<\/span> <span class="keywordtype">char<\/span> *<span class="keywordtype">string<\/span>,<span class="keyword">const<\/span> <span class="keywordtype">char<\/span> *delim, <a class="code" href="structCexplodeStrings.html" title="Struct for Cexplode object.">CexplodeStrings<\/a> *exp_obj );$/;"	a
+l00123	docs/html/helpers_8h_source.html	/^<a name="l00123"><\/a>00123 $/;"	a
+l00132	docs/html/helpers_8h_source.html	/^<a name="l00132"><\/a>00132 <span class="keywordtype">int<\/span> <a class="code" href="helpers_8h.html#a3bde5412faee7e4bd72fb176e9512753" title="Peeks if there&amp;#39;s another result in exp_obj. Must not be called before calling...">Cexplode_nextexists<\/a>(<a class="code" href="structCexplodeStrings.html" title="Struct for Cexplode object.">CexplodeStrings<\/a> exp_obj);$/;"	a
+l00133	docs/html/helpers_8h_source.html	/^<a name="l00133"><\/a>00133 $/;"	a
+l00143	docs/html/helpers_8h_source.html	/^<a name="l00143"><\/a>00143 <span class="keywordtype">char<\/span> *<a class="code" href="helpers_8h.html#a70206fa6bc4d5b81df9368a8bcf04d6a" title="Retrieve&amp;#39;s Nth exploded piece - first is first (index starts from 1, not from...">Cexplode_getNth<\/a>(<span class="keywordtype">int<\/span> index,<a class="code" href="structCexplodeStrings.html" title="Struct for Cexplode object.">CexplodeStrings<\/a> *exp_obj);$/;"	a
+l00144	docs/html/helpers_8h_source.html	/^<a name="l00144"><\/a>00144 $/;"	a
+l00152	docs/html/helpers_8h_source.html	/^<a name="l00152"><\/a>00152 <span class="keywordtype">char<\/span> *<a class="code" href="helpers_8h.html#ad5313efc1607b587d5f50f9e7da53ac6" title="Get&amp;#39;s the first exploded piece. Same as Cexplode_getNth(1,*exp_obj);.">Cexplode_getfirst<\/a>(<a class="code" href="structCexplodeStrings.html" title="Struct for Cexplode object.">CexplodeStrings<\/a> *exp_obj);$/;"	a
+l00153	docs/html/helpers_8h_source.html	/^<a name="l00153"><\/a>00153 $/;"	a
+l00161	docs/html/helpers_8h_source.html	/^<a name="l00161"><\/a>00161 <span class="keywordtype">char<\/span> *<a class="code" href="helpers_8h.html#ad5a89f298b77859208dd3dfa89ed52bb" title="Get&amp;#39;s next piece. Returns NULL if no more pieces are around.">Cexplode_getnext<\/a>(<a class="code" href="structCexplodeStrings.html" title="Struct for Cexplode object.">CexplodeStrings<\/a> *exp_obj);$/;"	a
+l00169	docs/html/helpers_8h_source.html	/^<a name="l00169"><\/a>00169 <span class="keywordtype">char<\/span> *<a class="code" href="helpers_8h.html#ad26d2c6306f4e0bf10087eb2eee11f00" title="Gets last exploded piece.">Cexplode_getlast<\/a>(<a class="code" href="structCexplodeStrings.html" title="Struct for Cexplode object.">CexplodeStrings<\/a> *exp_obj);$/;"	a
+l00170	docs/html/helpers_8h_source.html	/^<a name="l00170"><\/a>00170 $/;"	a
+l00178	docs/html/helpers_8h_source.html	/^<a name="l00178"><\/a>00178 <span class="keywordtype">void<\/span> <a class="code" href="helpers_8h.html#aa24158d63e276373bcbbfa90ab6fb146" title="Frees resources allocated by call to Cexplode() - BEWARE frees also splitted pieces...">Cexplode_free<\/a>(<a class="code" href="structCexplodeStrings.html" title="Struct for Cexplode object.">CexplodeStrings<\/a> exp_obj);$/;"	a
+l00179	docs/html/helpers_8h_source.html	/^<a name="l00179"><\/a>00179 $/;"	a
+l00186	docs/html/helpers_8h_source.html	/^<a name="l00186"><\/a>00186 <span class="keywordtype">void<\/span> <a class="code" href="helpers_8h.html#ad8e605812dfbf6163681d9bab9319865" title="Frees resources allocated by call to Cexplode() - does not free splitted pieces.">Cexplode_free_allButPieces<\/a>(<a class="code" href="structCexplodeStrings.html" title="Struct for Cexplode object.">CexplodeStrings<\/a> exp_obj);$/;"	a
+l00187	docs/html/helpers_8h_source.html	/^<a name="l00187"><\/a>00187 $/;"	a
+l00195	docs/html/helpers_8h_source.html	/^<a name="l00195"><\/a>00195 <span class="keywordtype">size_t<\/span> <a class="code" href="helpers_8h.html#a699fb49d95ecd0e6dd6f78154d31d4b9" title="Gets the amount of chars from the start of the original string to the beginning of...">Cexplode_getlentilllast<\/a>(<a class="code" href="structCexplodeStrings.html" title="Struct for Cexplode object.">CexplodeStrings<\/a> exp_obj);$/;"	a
+l00196	docs/html/helpers_8h_source.html	/^<a name="l00196"><\/a>00196 $/;"	a
+l00204	docs/html/helpers_8h_source.html	/^<a name="l00204"><\/a>00204 <span class="keywordtype">int<\/span> <a class="code" href="helpers_8h.html#ac2408bb0b5a263ba5b658c3e76bd8aae" title="returns 1 if last chars in original string were the separator - else returns 0">Cexplode_sepwasatend<\/a>(<a class="code" href="structCexplodeStrings.html" title="Struct for Cexplode object.">CexplodeStrings<\/a> exp_obj);$/;"	a
+l00205	docs/html/helpers_8h_source.html	/^<a name="l00205"><\/a>00205 $/;"	a
+l00214	docs/html/helpers_8h_source.html	/^<a name="l00214"><\/a>00214 <span class="keywordtype">int<\/span> <a class="code" href="helpers_8h.html#ac5f54fec027cf99f81ac4a3edcc455ba" title="Concatenates two exp_objs into one. Modifies the first argument to contain new exp_obj...">Cexplode_concat<\/a>(<a class="code" href="structCexplodeStrings.html" title="Struct for Cexplode object.">CexplodeStrings<\/a> *first,<a class="code" href="structCexplodeStrings.html" title="Struct for Cexplode object.">CexplodeStrings<\/a> *second);$/;"	a
+l00215	docs/html/helpers_8h_source.html	/^<a name="l00215"><\/a>00215 $/;"	a
+l00216	docs/html/helpers_8h_source.html	/^<a name="l00216"><\/a>00216 $/;"	a
+l00221	docs/html/helpers_8h_source.html	/^<a name="l00221"><\/a>00221 <span class="keywordtype">int<\/span> <a class="code" href="helpers_8h.html#ab4c627dce0eaddfcd3d9d1b505a18713" title="removes trimchars from the beginning of a string.">mbot_ltrim<\/a>(<span class="keywordtype">char<\/span> *text, <span class="keywordtype">char<\/span> trimchar);$/;"	a
+l00222	docs/html/helpers_8h_source.html	/^<a name="l00222"><\/a>00222 $/;"	a
+l00227	docs/html/helpers_8h_source.html	/^<a name="l00227"><\/a>00227 <span class="keywordtype">int<\/span> <a class="code" href="helpers_8h.html#a9eed4d84ba25aac861d2f0e98ebea1c5" title="removes trailing trimchars from a string.">mbot_rtrim<\/a>(<span class="keywordtype">char<\/span> *text, <span class="keywordtype">char<\/span> trimchar);$/;"	a
+l00228	docs/html/helpers_8h_source.html	/^<a name="l00228"><\/a>00228 $/;"	a
+l00233	docs/html/helpers_8h_source.html	/^<a name="l00233"><\/a>00233 <span class="keywordtype">int<\/span> <a class="code" href="helpers_8h.html#ab752695ff718498402b26b700df6e47d" title="removes trailing trimchars as well as trimchars from the beginning of a string.">mbot_lrtrim<\/a>(<span class="keywordtype">char<\/span> *text, <span class="keywordtype">char<\/span> trimchar);$/;"	a
+l00234	docs/html/helpers_8h_source.html	/^<a name="l00234"><\/a>00234 $/;"	a
+l00239	docs/html/helpers_8h_source.html	/^<a name="l00239"><\/a>00239 <span class="keywordtype">int<\/span> <a class="code" href="helpers_8h.html#a03ca89b146a62235f864d1edf9a6c17a" title="removes all trimchars from a string.">mbot_trimall<\/a>(<span class="keywordtype">char<\/span> *text, <span class="keywordtype">char<\/span> trimchar);$/;"	a
+l00240	docs/html/helpers_8h_source.html	/^<a name="l00240"><\/a>00240 $/;"	a
+l00244	docs/html/helpers_8h_source.html	/^<a name="l00244"><\/a>00244 <a class="code" href="structMbotAtomic32.html" title="Struct for 32bit wide integer type used in atomic operations.">MbotAtomic32<\/a> * <a class="code" href="helpers_8h.html#a1b4ac4b4fdc05e131fe19317a7372f30" title="Creates 32bit atomic variable, compatible with mbot_atomic* operations.">MbotAtomic32Init<\/a>();$/;"	a
+l00249	docs/html/helpers_8h_source.html	/^<a name="l00249"><\/a>00249 <span class="keywordtype">void<\/span> <a class="code" href="helpers_8h.html#a95db6f58cb65aa522628a12b050e30a4" title="Uninitializes MbotAtomic32. This must not be called when it is possible someone is...">MbotAtomic32Uninit<\/a>(<a class="code" href="structMbotAtomic32.html" title="Struct for 32bit wide integer type used in atomic operations.">MbotAtomic32<\/a> **_this_);$/;"	a
+l00254	docs/html/helpers_8h_source.html	/^<a name="l00254"><\/a>00254 <span class="keywordtype">unsigned<\/span> <span class="keywordtype">int<\/span> <a class="code" href="helpers_8h.html#a5a8246f0a9d2ecb397669fee0db5354a" title="Get the value atomically.">mbot_atomicGet<\/a>(<a class="code" href="structMbotAtomic32.html" title="Struct for 32bit wide integer type used in atomic operations.">MbotAtomic32<\/a>* atomic);$/;"	a
+l00255	docs/html/helpers_8h_source.html	/^<a name="l00255"><\/a>00255 $/;"	a
+l00260	docs/html/helpers_8h_source.html	/^<a name="l00260"><\/a>00260 <span class="keywordtype">unsigned<\/span> <span class="keywordtype">int<\/span> <a class="code" href="helpers_8h.html#a7f3dbff0ae27bbe42ed27ca4667bc34c" title="Increase value atomically - returns value before increment.">mbot_atomicAdd<\/a>(<a class="code" href="structMbotAtomic32.html" title="Struct for 32bit wide integer type used in atomic operations.">MbotAtomic32<\/a>* atomic,<span class="keywordtype">unsigned<\/span> <span class="keywordtype">int<\/span> addition);$/;"	a
+l00261	docs/html/helpers_8h_source.html	/^<a name="l00261"><\/a>00261 $/;"	a
+l00266	docs/html/helpers_8h_source.html	/^<a name="l00266"><\/a>00266 <span class="keywordtype">unsigned<\/span> <span class="keywordtype">int<\/span> <a class="code" href="helpers_8h.html#a82788623f2bcdb4ea8744bf6ed4627b2" title="Decrease value atomically - returns value before decrement.">mbot_atomicDec<\/a>(<a class="code" href="structMbotAtomic32.html" title="Struct for 32bit wide integer type used in atomic operations.">MbotAtomic32<\/a>* atomic,<span class="keywordtype">unsigned<\/span> <span class="keywordtype">int<\/span> decrement);$/;"	a
+l00267	docs/html/helpers_8h_source.html	/^<a name="l00267"><\/a>00267 $/;"	a
+l00272	docs/html/helpers_8h_source.html	/^<a name="l00272"><\/a>00272 <span class="keywordtype">unsigned<\/span> <span class="keywordtype">int<\/span> <a class="code" href="helpers_8h.html#ac03b6050ac2b1ee4f6238a632169f77c" title="Decrease value atomically, if original value is greater than cmp. Returns original...">mbot_atomicDecIfGreater<\/a>(<a class="code" href="structMbotAtomic32.html" title="Struct for 32bit wide integer type used in atomic operations.">MbotAtomic32<\/a>* atomic,<span class="keywordtype">unsigned<\/span> <span class="keywordtype">int<\/span> decrement, <span class="keywordtype">unsigned<\/span> <span class="keywordtype">int<\/span> cmp);$/;"	a
+l00273	docs/html/helpers_8h_source.html	/^<a name="l00273"><\/a>00273 $/;"	a
+l00278	docs/html/helpers_8h_source.html	/^<a name="l00278"><\/a>00278 <span class="keywordtype">unsigned<\/span> <span class="keywordtype">int<\/span> <a class="code" href="helpers_8h.html#a4646872a8b03fd6ea4c2089199e1063d" title="Decrease value atomically, if original value is smaller than cmp. Returns original...">mbot_atomicDecIfSmaller<\/a>(<a class="code" href="structMbotAtomic32.html" title="Struct for 32bit wide integer type used in atomic operations.">MbotAtomic32<\/a>* atomic,<span class="keywordtype">unsigned<\/span> <span class="keywordtype">int<\/span> decrement, <span class="keywordtype">unsigned<\/span> <span class="keywordtype">int<\/span> cmp);$/;"	a
+l00279	docs/html/helpers_8h_source.html	/^<a name="l00279"><\/a>00279 $/;"	a
+l00284	docs/html/helpers_8h_source.html	/^<a name="l00284"><\/a>00284 <span class="keywordtype">unsigned<\/span> <span class="keywordtype">int<\/span> <a class="code" href="helpers_8h.html#a671ac1b259648d989ab1a029c28e2098" title="Increase value atomically, if original value is greater than cmp. Returns original...">mbot_atomicIncIfGreater<\/a>(<a class="code" href="structMbotAtomic32.html" title="Struct for 32bit wide integer type used in atomic operations.">MbotAtomic32<\/a>* atomic,<span class="keywordtype">unsigned<\/span> <span class="keywordtype">int<\/span> decrement, <span class="keywordtype">unsigned<\/span> <span class="keywordtype">int<\/span> cmp);$/;"	a
+l00285	docs/html/helpers_8h_source.html	/^<a name="l00285"><\/a>00285 $/;"	a
+l00290	docs/html/helpers_8h_source.html	/^<a name="l00290"><\/a>00290 <span class="keywordtype">unsigned<\/span> <span class="keywordtype">int<\/span> <a class="code" href="helpers_8h.html#ac7d98784c664e65af53c0b148f6d489d" title="Increase value atomically, if original value is smaller than cmp. Returns original...">mbot_atomicIncIfSmaller<\/a>(<a class="code" href="structMbotAtomic32.html" title="Struct for 32bit wide integer type used in atomic operations.">MbotAtomic32<\/a>* atomic,<span class="keywordtype">unsigned<\/span> <span class="keywordtype">int<\/span> decrement, <span class="keywordtype">unsigned<\/span> <span class="keywordtype">int<\/span> cmp);$/;"	a
+l00291	docs/html/helpers_8h_source.html	/^<a name="l00291"><\/a>00291 $/;"	a
+l00292	docs/html/helpers_8h_source.html	/^<a name="l00292"><\/a>00292 <span class="preprocessor">#ifdef ARCH_x86<\/span>$/;"	a
+l00293	docs/html/helpers_8h_source.html	/^<a name="l00293"><\/a>00293 <span class="preprocessor"><\/span>$/;"	a
+l00297	docs/html/helpers_8h_source.html	/^<a name="l00297"><\/a>00297 __inline__ <span class="keywordtype">unsigned<\/span> <span class="keywordtype">int<\/span> <a class="code" href="helpers_8h.html#aeda3837358237de6a1eb3b85a65e0a31">mbot_atomicCAS<\/a>(<a class="code" href="structMbotAtomic32.html" title="Struct for 32bit wide integer type used in atomic operations.">MbotAtomic32<\/a>* atomic, <span class="keywordtype">unsigned<\/span> <span class="keywordtype">int<\/span> old, <span class="keywordtype">unsigned<\/span> <span class="keywordtype">int<\/span> newval)$/;"	a
+l00298	docs/html/helpers_8h_source.html	/^<a name="l00298"><\/a>00298 {$/;"	a
+l00299	docs/html/helpers_8h_source.html	/^<a name="l00299"><\/a>00299     __asm__ __volatile__($/;"	a
+l00300	docs/html/helpers_8h_source.html	/^<a name="l00300"><\/a>00300     <span class="stringliteral">&quot;lock cmpxchgl %w0,%1&quot;<\/span> <span class="comment">\/* Swap value comp equals *\/<\/span>$/;"	a
+l00301	docs/html/helpers_8h_source.html	/^<a name="l00301"><\/a>00301     : <span class="stringliteral">&quot;+r&quot;<\/span>(newval)$/;"	a
+l00302	docs/html/helpers_8h_source.html	/^<a name="l00302"><\/a>00302     : <span class="stringliteral">&quot;m&quot;<\/span>(atomic-&gt;<a class="code" href="structMbotAtomic32.html#af20004ad939f9f9ec5987e2a0bb11525">value<\/a>), <span class="stringliteral">&quot;a&quot;<\/span>(old) <span class="comment">\/* According to Intel&apos;s manual, comp value must be in EAX register *\/<\/span>$/;"	a
+l00303	docs/html/helpers_8h_source.html	/^<a name="l00303"><\/a>00303     : <span class="stringliteral">&quot;memory&quot;<\/span>);$/;"	a
+l00304	docs/html/helpers_8h_source.html	/^<a name="l00304"><\/a>00304 $/;"	a
+l00305	docs/html/helpers_8h_source.html	/^<a name="l00305"><\/a>00305     <span class="keywordflow">return<\/span> old;$/;"	a
+l00306	docs/html/helpers_8h_source.html	/^<a name="l00306"><\/a>00306 } <span class="comment">\/* AaCpuAtomicCmpSwap32 *\/<\/span>$/;"	a
+l00307	docs/html/helpers_8h_source.html	/^<a name="l00307"><\/a>00307 <span class="preprocessor">#else<\/span>$/;"	a
+l00308	docs/html/helpers_8h_source.html	/^<a name="l00308"><\/a>00308 <span class="preprocessor"><\/span><span class="keywordtype">unsigned<\/span> <span class="keywordtype">int<\/span> <a class="code" href="helpers_8h.html#aeda3837358237de6a1eb3b85a65e0a31">mbot_atomicCAS<\/a>(<a class="code" href="structMbotAtomic32.html" title="Struct for 32bit wide integer type used in atomic operations.">MbotAtomic32<\/a>* atomic, <span class="keywordtype">unsigned<\/span> <span class="keywordtype">int<\/span> old, <span class="keywordtype">unsigned<\/span> <span class="keywordtype">int<\/span> newval);$/;"	a
+l00309	docs/html/helpers_8h_source.html	/^<a name="l00309"><\/a>00309 <span class="preprocessor">#endif<\/span>$/;"	a
+l00310	docs/html/helpers_8h_source.html	/^<a name="l00310"><\/a>00310 <span class="preprocessor"><\/span>$/;"	a
+l00311	docs/html/helpers_8h_source.html	/^<a name="l00311"><\/a>00311 <span class="comment">\/* Containers *\/<\/span>$/;"	a
+l00312	docs/html/helpers_8h_source.html	/^<a name="l00312"><\/a>00312 $/;"	a
+l00313	docs/html/helpers_8h_source.html	/^<a name="l00313"><\/a><a class="code" href="structmbot__linkedList.html">00313<\/a> <span class="keyword">typedef<\/span> <span class="keyword">struct <\/span><a class="code" href="structmbot__linkedList.html">mbot_linkedList<\/a>$/;"	a
+l00314	docs/html/helpers_8h_source.html	/^<a name="l00314"><\/a>00314 {$/;"	a
+l00315	docs/html/helpers_8h_source.html	/^<a name="l00315"><\/a><a class="code" href="structmbot__linkedList.html#a9e31d23ae5b7b5e29b5c6bc8f6fa4857">00315<\/a>     <span class="keyword">struct <\/span><a class="code" href="structmbot__linkedList.html">mbot_linkedList<\/a> *<a class="code" href="structmbot__linkedList.html#a9e31d23ae5b7b5e29b5c6bc8f6fa4857">head<\/a>;$/;"	a
+l00316	docs/html/helpers_8h_source.html	/^<a name="l00316"><\/a><a class="code" href="structmbot__linkedList.html#a9358b3eafe6c083bf3e12448a7d23b16">00316<\/a>     <span class="keyword">struct <\/span><a class="code" href="structmbot__linkedList.html">mbot_linkedList<\/a> *<a class="code" href="structmbot__linkedList.html#a9358b3eafe6c083bf3e12448a7d23b16">next<\/a>;$/;"	a
+l00317	docs/html/helpers_8h_source.html	/^<a name="l00317"><\/a><a class="code" href="structmbot__linkedList.html#abfe2d8ac93d17e08ee7aa3aaf4e95dfe">00317<\/a>     <span class="keyword">struct <\/span><a class="code" href="structmbot__linkedList.html">mbot_linkedList<\/a> *<a class="code" href="structmbot__linkedList.html#abfe2d8ac93d17e08ee7aa3aaf4e95dfe">prev<\/a>;$/;"	a
+l00318	docs/html/helpers_8h_source.html	/^<a name="l00318"><\/a><a class="code" href="structmbot__linkedList.html#a735984d41155bc1032e09bece8f8d66d">00318<\/a>     <span class="keywordtype">void<\/span> *<a class="code" href="structmbot__linkedList.html#a735984d41155bc1032e09bece8f8d66d">data<\/a>;$/;"	a
+l00319	docs/html/helpers_8h_source.html	/^<a name="l00319"><\/a>00319 }<a class="code" href="structmbot__linkedList.html">mbot_linkedList<\/a>;$/;"	a
+l00320	docs/html/helpers_8h_source.html	/^<a name="l00320"><\/a>00320 $/;"	a
+l00324	docs/html/helpers_8h_source.html	/^<a name="l00324"><\/a>00324 <a class="code" href="structmbot__linkedList.html">mbot_linkedList<\/a> *<a class="code" href="helpers_8h.html#aaba224cf37291b1eda34e81b7cb20908" title="Initializes linked list for use - returns ptr to list head.">mbot_ll_init<\/a>();$/;"	a
+l00328	docs/html/helpers_8h_source.html	/^<a name="l00328"><\/a>00328 <a class="code" href="structmbot__linkedList.html">mbot_linkedList<\/a> * <a class="code" href="helpers_8h.html#aff75d19cf19dd7b2f240d6b5db7ee9f1" title="Gets previous list item. - returns previous item, or NULL if error occurred\/first...">mbot_ll_get_prev<\/a>(<a class="code" href="structmbot__linkedList.html">mbot_linkedList<\/a> *_this);$/;"	a
+l00335	docs/html/helpers_8h_source.html	/^<a name="l00335"><\/a>00335 <a class="code" href="structmbot__linkedList.html">mbot_linkedList<\/a> * <a class="code" href="helpers_8h.html#a95294a003b1090373662c6078b7b7e1e" title="Get the head of the list Head can be used to maintain the location of empty list...">mbot_ll_head_get<\/a>(<a class="code" href="structmbot__linkedList.html">mbot_linkedList<\/a> *_this);$/;"	a
+l00336	docs/html/helpers_8h_source.html	/^<a name="l00336"><\/a>00336 $/;"	a
+l00340	docs/html/helpers_8h_source.html	/^<a name="l00340"><\/a>00340 <a class="code" href="structmbot__linkedList.html">mbot_linkedList<\/a> * <a class="code" href="helpers_8h.html#a1879101758161a8c84cb1328e139c48c" title="Get&amp;#39;s next element - NULL if error occurred, or last element was provided as...">mbot_ll_get_next<\/a>(<a class="code" href="structmbot__linkedList.html">mbot_linkedList<\/a> *_this);$/;"	a
+l00341	docs/html/helpers_8h_source.html	/^<a name="l00341"><\/a>00341 $/;"	a
+l00345	docs/html/helpers_8h_source.html	/^<a name="l00345"><\/a>00345 <a class="code" href="structmbot__linkedList.html">mbot_linkedList<\/a> * <a class="code" href="helpers_8h.html#a94dcac055f867e366648e84423a07a19" title="Get&amp;#39;s the first list element - returns first element or NULL if no elements stored...">mbot_ll_get_first<\/a>(<a class="code" href="structmbot__linkedList.html">mbot_linkedList<\/a> *_this);$/;"	a
+l00346	docs/html/helpers_8h_source.html	/^<a name="l00346"><\/a>00346 $/;"	a
+l00350	docs/html/helpers_8h_source.html	/^<a name="l00350"><\/a>00350 <a class="code" href="structmbot__linkedList.html">mbot_linkedList<\/a> * <a class="code" href="helpers_8h.html#a5f363fd2b3973f5fa633b69becc50fae" title="Gets the last element in list.">mbot_ll_get_last<\/a>(<a class="code" href="structmbot__linkedList.html">mbot_linkedList<\/a> *_this);$/;"	a
+l00351	docs/html/helpers_8h_source.html	/^<a name="l00351"><\/a>00351 $/;"	a
+l00356	docs/html/helpers_8h_source.html	/^<a name="l00356"><\/a>00356 <a class="code" href="structmbot__linkedList.html">mbot_linkedList<\/a> * <a class="code" href="helpers_8h.html#a769e3f1537a2deafaf1c2d5a5f54168e" title="Adds item to list (data). Does not do a copy of data. Any list item (including head)...">mbot_ll_add<\/a>(<a class="code" href="structmbot__linkedList.html">mbot_linkedList<\/a> *_this,<span class="keywordtype">void<\/span> *<a class="code" href="structmbot__linkedList.html#a735984d41155bc1032e09bece8f8d66d">data<\/a>);$/;"	a
+l00357	docs/html/helpers_8h_source.html	/^<a name="l00357"><\/a>00357 $/;"	a
+l00362	docs/html/helpers_8h_source.html	/^<a name="l00362"><\/a>00362 <a class="code" href="structmbot__linkedList.html">mbot_linkedList<\/a> * <a class="code" href="helpers_8h.html#aeb38ace1d40a50bcd134a3acac02a59f" title="removes given item from list - does not free memory.">mbot_ll_release<\/a>(<a class="code" href="structmbot__linkedList.html">mbot_linkedList<\/a> *_this);$/;"	a
+l00363	docs/html/helpers_8h_source.html	/^<a name="l00363"><\/a>00363 $/;"	a
+l00369	docs/html/helpers_8h_source.html	/^<a name="l00369"><\/a>00369 <a class="code" href="structmbot__linkedList.html">mbot_linkedList<\/a> * <a class="code" href="helpers_8h.html#a138c3d10e29df5cd4c297968b4060a3f" title="removes list item which holds data pointed by data. Any list item can be given in...">mbot_ll_safe_release<\/a>(<a class="code" href="structmbot__linkedList.html">mbot_linkedList<\/a> *_this,<span class="keywordtype">void<\/span> *<a class="code" href="structmbot__linkedList.html#a735984d41155bc1032e09bece8f8d66d">data<\/a>);$/;"	a
+l00370	docs/html/helpers_8h_source.html	/^<a name="l00370"><\/a>00370 $/;"	a
+l00374	docs/html/helpers_8h_source.html	/^<a name="l00374"><\/a>00374 <span class="keywordtype">void<\/span> * <a class="code" href="helpers_8h.html#a00376130aa19ea61cfaba96d7d4846f1" title="Gets data stored to an entry - entry and data are left untouched.">mbot_ll_dataGet<\/a>(<a class="code" href="structmbot__linkedList.html">mbot_linkedList<\/a> *_this);$/;"	a
+l00380	docs/html/helpers_8h_source.html	/^<a name="l00380"><\/a>00380 <span class="keywordtype">void<\/span> * <a class="code" href="helpers_8h.html#a92753b0d798628f305538fc6cb336c6d" title="Sets data to an list,.">mbot_ll_dataSet<\/a>(<a class="code" href="structmbot__linkedList.html">mbot_linkedList<\/a> *_this,<span class="keywordtype">void<\/span> *<a class="code" href="structmbot__linkedList.html#a735984d41155bc1032e09bece8f8d66d">data<\/a>);$/;"	a
+l00381	docs/html/helpers_8h_source.html	/^<a name="l00381"><\/a>00381 $/;"	a
+l00386	docs/html/helpers_8h_source.html	/^<a name="l00386"><\/a>00386 <a class="code" href="structmbot__linkedList.html">mbot_linkedList<\/a> * <a class="code" href="helpers_8h.html#a7c6856a86bfde414b76a317bf94f6a9f" title="Searchs through the list and returns element in which the held data matches data...">mbot_ll_seek<\/a>(<a class="code" href="structmbot__linkedList.html">mbot_linkedList<\/a> *_this, <span class="keywordtype">void<\/span> *<a class="code" href="structmbot__linkedList.html#a735984d41155bc1032e09bece8f8d66d">data<\/a>, <span class="keywordtype">size_t<\/span> datasize);$/;"	a
+l00387	docs/html/helpers_8h_source.html	/^<a name="l00387"><\/a>00387 $/;"	a
+l00394	docs/html/helpers_8h_source.html	/^<a name="l00394"><\/a>00394 <a class="code" href="structmbot__linkedList.html">mbot_linkedList<\/a> *<a class="code" href="helpers_8h.html#a1837ee000be4ff885fabb90fbab82341" title="Copies given list and itemsize bytes of data from each container to new list, and...">mbot_ll_copylist_wdata<\/a>(<a class="code" href="structmbot__linkedList.html">mbot_linkedList<\/a> *old,<span class="keywordtype">size_t<\/span> itemsize);$/;"	a
+l00395	docs/html/helpers_8h_source.html	/^<a name="l00395"><\/a>00395 $/;"	a
+l00399	docs/html/helpers_8h_source.html	/^<a name="l00399"><\/a>00399 <span class="keywordtype">void<\/span>  <a class="code" href="helpers_8h.html#a6ae40d44caf944ad6b34f1a84dfa1f51" title="Frees all entries from list, and destroys the list - does not free stored data. _this...">mbot_ll_destroy<\/a>(<a class="code" href="structmbot__linkedList.html">mbot_linkedList<\/a> **_this);$/;"	a
+l00400	docs/html/helpers_8h_source.html	/^<a name="l00400"><\/a>00400 <span class="preprocessor">#endif<\/span>$/;"	a
+letter_C	docs/html/classes.html	/^<tr><td><a name="letter_C"><\/a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&nbsp;&nbsp;C&nbsp;&nbsp;<\/div><\/td><\/tr><\/table>$/;"	a
+letter_M	docs/html/classes.html	/^<\/td><td><a class="el" href="structCexplodeStrings.html">CexplodeStrings<\/a>&nbsp;&nbsp;&nbsp;<\/td><td><a name="letter_M"><\/a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&nbsp;&nbsp;M&nbsp;&nbsp;<\/div><\/td><\/tr><\/table>$/;"	a
+level	user_storage/src/online_storage.h	/^	int level;$/;"	m	struct:SMbotOnlineUsers
+levelChangeByNickHostF	user_storage/src/user.h	/^typedef int(*levelChangeByNickHostF)(struct SIRCuserHandler *_this, char *nickhost_toachange, char *server, SuserChanLevelBondage chanlevel);$/;"	t
+levelChangeByPasswd	user_storage/src/user.h	/^typedef int(*levelChangeByPasswd)(struct SIRCuserHandler *_this, char *nickhost_toachange, char *server, SuserChanLevelBondage chanlevel,char *passwd);$/;"	t
+levelamnt	config/src/event_config.h	/^	int levelamnt;$/;"	m	struct:SServerEvents
+levellist	config/src/event_config.h	/^	EIRCuserLevel *levellist;$/;"	m	struct:SServerEvents
+listeners	config/src/config.h	/^	mbot_linkedList *listeners;	\/\/\/< Smbot_cfgcb type memebers$/;"	m	struct:SextendedBasicConfig
+localevent_add_default_event_stringF	callbackhandler/src/event_storage.h	/^typedef int (*localevent_add_default_event_stringF)(struct SMbotEventStorage*,int id, char *string);$/;"	t
+locationFilter	callbackhandler/src/event_storage.h	/^    EMbotEventLocation locationFilter;$/;"	m	struct:SMbotTextEvent
+locationoftxtevent	parsers/src/config_file_parser.h	/^	EMbotEventLocation locationoftxtevent;$/;"	m	struct:ScallbackConf
+lock	startup/src/startuplocks.h	/^	startuplock_lockF lock;$/;"	m	struct:Sstartuplock
+lockstuplock	startup/src/startuplocks.c	/^static void lockstuplock(Sstartuplock *_this)$/;"	f	file:
+lockval	startup/src/startuplocks.h	/^	MbotAtomic32 *lockval;$/;"	m	struct:Sstartuplock
+main	da_bot_client/src/botV02.c	/^int main(void)$/;"	f
+main	generic/src/ircsendtest.c	/^int main(void)$/;"	f
+main	generic/src/testgen.c	/^int main(void)$/;"	f
+main	networking/src/networking.c	/^int main(void)$/;"	f
+main	test/src/botV02.c	/^int main(void)$/;"	f
+main	test/src/cexplodetest.c	/^int main()$/;"	f
+main	test/src/dicebot.c	/^int main(void)$/;"	f
+main	test/src/helpers_test.c	/^int main(int argc,char *argv[])$/;"	f
+main	test/src/irc_cfg_test.c	/^int main(int argc, char *argv[])$/;"	f
+main	test/src/main.c	/^int main(void)$/;"	f
+main	test/src/parsertest.c	/^int main(void)$/;"	f
+main	test/src/randtest.c	/^int main(void)$/;"	f
+main	test/src/splittertest.c	/^int main(void)$/;"	f
+main	test/src/testfileconfparser.c	/^int main(void)$/;"	f
+main	test/src/trimtest.c	/^int main(void)$/;"	f
+matchcommands	test/src/dicebot.c	/^char *matchcommands[] = { "PRIVMSG", "PING" };$/;"	v
+matchparams	test/src/dicebot.c	/^char *matchparams[] = { ":!roll" };$/;"	v
+mazzert	generic/src/generic.c	/^void mazzert(char *explanation,char *file,int line)$/;"	f
+mbot_atomicAdd	generic/src/helpers.c	/^unsigned int mbot_atomicAdd(MbotAtomic32* atomic,unsigned int addition)$/;"	f
+mbot_atomicCAS	generic/src/helpers.c	/^unsigned int mbot_atomicCAS(MbotAtomic32* atomic, unsigned int old, unsigned int newval)$/;"	f
+mbot_atomicCAS	generic/src/helpers.h	/^__inline__ unsigned int mbot_atomicCAS(MbotAtomic32* atomic, unsigned int old, unsigned int newval)$/;"	f
+mbot_atomicDec	generic/src/helpers.c	/^unsigned int mbot_atomicDec(MbotAtomic32* atomic,unsigned int decrement)$/;"	f
+mbot_atomicDecIfGreater	generic/src/helpers.c	/^unsigned int mbot_atomicDecIfGreater(MbotAtomic32* atomic,unsigned int decrement, unsigned int cmp)$/;"	f
+mbot_atomicDecIfSmaller	generic/src/helpers.c	/^unsigned int mbot_atomicDecIfSmaller(MbotAtomic32* atomic,unsigned int decrement, unsigned int cmp)$/;"	f
+mbot_atomicGet	generic/src/helpers.c	/^unsigned int mbot_atomicGet(MbotAtomic32* atomic)$/;"	f
+mbot_atomicIncIfEqual	generic/src/helpers.c	/^unsigned int mbot_atomicIncIfEqual(MbotAtomic32* atomic,unsigned int decrement, unsigned int cmp)$/;"	f
+mbot_atomicIncIfGreater	generic/src/helpers.c	/^unsigned int mbot_atomicIncIfGreater(MbotAtomic32* atomic,unsigned int addition, unsigned int cmp)$/;"	f
+mbot_atomicIncIfNequal	generic/src/helpers.c	/^unsigned int mbot_atomicIncIfNequal(MbotAtomic32* atomic,unsigned int addition, unsigned int cmp)$/;"	f
+mbot_atomicIncIfSmaller	generic/src/helpers.c	/^unsigned int mbot_atomicIncIfSmaller(MbotAtomic32* atomic,unsigned int addition, unsigned int cmp)$/;"	f
+mbot_atomicSet	generic/src/helpers.c	/^unsigned int mbot_atomicSet(MbotAtomic32* atomic,unsigned int value)$/;"	f
+mbot_event_storages_uninitF	callbackhandler/src/event_storage.h	/^typedef void (*mbot_event_storages_uninitF)(struct SMbotEventStorage**);$/;"	t
+mbot_linkedList	generic/src/helpers.h	/^typedef struct mbot_linkedList$/;"	s
+mbot_linkedList	generic/src/helpers.h	/^}mbot_linkedList;$/;"	t	typeref:struct:mbot_linkedList
+mbot_ll_add	generic/src/helpers.c	/^mbot_linkedList * mbot_ll_add(mbot_linkedList *_this,void *data)$/;"	f
+mbot_ll_copylist_wdata	generic/src/helpers.c	/^mbot_linkedList *mbot_ll_copylist_wdata(mbot_linkedList *old,size_t itemsize)$/;"	f
+mbot_ll_dataGet	generic/src/helpers.c	/^void * mbot_ll_dataGet(mbot_linkedList *_this)$/;"	f
+mbot_ll_dataSet	generic/src/helpers.c	/^void * mbot_ll_dataSet(mbot_linkedList *_this,void *data)$/;"	f
+mbot_ll_destroy	generic/src/helpers.c	/^void  mbot_ll_destroy(mbot_linkedList **_this)$/;"	f
+mbot_ll_get_first	generic/src/helpers.c	/^mbot_linkedList * mbot_ll_get_first(mbot_linkedList *_this)$/;"	f
+mbot_ll_get_last	generic/src/helpers.c	/^mbot_linkedList * mbot_ll_get_last(mbot_linkedList *_this)$/;"	f
+mbot_ll_get_next	generic/src/helpers.c	/^mbot_linkedList * mbot_ll_get_next(mbot_linkedList *_this)$/;"	f
+mbot_ll_get_prev	generic/src/helpers.c	/^mbot_linkedList * mbot_ll_get_prev(mbot_linkedList *_this)$/;"	f
+mbot_ll_head_get	generic/src/helpers.c	/^mbot_linkedList * mbot_ll_head_get(mbot_linkedList *_this)$/;"	f
+mbot_ll_init	generic/src/helpers.c	/^mbot_linkedList *mbot_ll_init()$/;"	f
+mbot_ll_release	generic/src/helpers.c	/^mbot_linkedList * mbot_ll_release(mbot_linkedList *_this)$/;"	f
+mbot_ll_safe_release	generic/src/helpers.c	/^mbot_linkedList * mbot_ll_safe_release(mbot_linkedList *_this,void *data)$/;"	f
+mbot_ll_seek	generic/src/helpers.c	/^mbot_linkedList * mbot_ll_seek(mbot_linkedList *_this, void *data, size_t datasize)$/;"	f
+mbot_local_joinevent_storage	callbackhandler/src/event_storage.h	/^	SMbotHopEvent *mbot_local_joinevent_storage[EVENT_JOIN_STORAGE_SIZE];$/;"	m	struct:SMbotEventStorage
+mbot_local_partevent_storage	callbackhandler/src/event_storage.h	/^	SMbotHopEvent *mbot_local_partevent_storage[EVENT_PART_STORAGE_SIZE];$/;"	m	struct:SMbotEventStorage
+mbot_local_textevent_storage	callbackhandler/src/event_storage.h	/^	SMbotTextEvent *mbot_local_textevent_storage[EVENT_TEXT_STORAGE_SIZE];$/;"	m	struct:SMbotEventStorage
+mbot_lrtrim	generic/src/helpers.c	/^int mbot_lrtrim(char *text, char trimchar)$/;"	f
+mbot_ltrim	generic/src/helpers.c	/^int mbot_ltrim(char *text, char trimchar)$/;"	f
+mbot_rtrim	generic/src/helpers.c	/^int mbot_rtrim(char *text, char trimchar)$/;"	f
+mbot_trimall	generic/src/helpers.c	/^int mbot_trimall(char *text, char trimchar)$/;"	f
+mbot_web_joinevent_storage	callbackhandler/src/event_storage.h	/^	SMbotHopEvent *mbot_web_joinevent_storage[EVENT_JOIN_STORAGE_SIZE];$/;"	m	struct:SMbotEventStorage
+mbot_web_partevent_storage	callbackhandler/src/event_storage.h	/^	SMbotHopEvent *mbot_web_partevent_storage[EVENT_PART_STORAGE_SIZE];$/;"	m	struct:SMbotEventStorage
+mbot_web_textevent_storage	callbackhandler/src/event_storage.h	/^	SMbotTextEvent *mbot_web_textevent_storage[EVENT_TEXT_STORAGE_SIZE];$/;"	m	struct:SMbotEventStorage
+mode	user_storage/src/online_storage.h	/^    EuserIdentMode          		mode;$/;"	m	struct:SMbotOnlineUserStorage
+mode	user_storage/src/user.h	/^	EuserIdentMode	 		mode;$/;"	m	struct:SIRCuserHandler
+modmask	generic/src/MbotBitset.h	/^    size_t modmask;$/;"	m	struct:SMbotBitsSet
+msg	parsers/src/irc_protocol_parser.h	/^	char *msg;$/;"	m	struct:SIRCparser
+msg	upperlayer/src/irc_abstraction_defines.h	/^	char *msg;$/;"	m	struct:SUpperlayerIrcMsg
+mva_bitmap_read	generic/src/MbotPackedArray.c	/^static unsigned char mva_bitmap_read(SPackedArray *_this, unsigned char *slot,unsigned char offset)$/;"	f	file:
+mva_bitmap_write	generic/src/MbotPackedArray.c	/^static unsigned int mva_bitmap_write(SPackedArray *_this, unsigned char *slot,unsigned char offset, unsigned char value)$/;"	f	file:
+mycfg	upperlayer/src/irc_abstraction_defines.h	/^	SChannelConfigs *mycfg;$/;"	m	struct:Sirc_channels
+mycfg	upperlayer/src/irc_abstraction_defines.h	/^	SServerConfigs *mycfg;$/;"	m	struct:Sirc_servers
+mynick	config/src/irc_config.h	/^	Tircnick mynick;$/;"	m	struct:SircConfig
+mynick	config/src/server_config.h	/^	Tircnick mynick;$/;"	m	struct:SServerConfigs
+myserv	upperlayer/src/irc_abstraction_defines.h	/^	Sirc_servers *myserv;$/;"	m	struct:Sirc_channels
+myserver	config/src/channel_config.h	/^	struct SServerConfigs *myserver;$/;"	m	struct:SChannelConfigs	typeref:struct:SChannelConfigs::SServerConfigs
+mytype	upperlayer/src/irc_abstraction_defines.h	/^    EupperlayerStructType mytype;$/;"	m	struct:Sirc_channels
+mytype	upperlayer/src/irc_abstraction_defines.h	/^    EupperlayerStructType mytype;$/;"	m	struct:Sirc_servers
+name	config/src/mbot_pseudo_xml.h	/^	char *name;						\/\/\/< tag name;$/;"	m	struct:SmbotPseudoxmlTag
+nbrecvF	APIs/networking_api.h	/^typedef size_t (*nbrecvF)(struct Sconn *_this_,void *buff,size_t buflen,struct timeval );$/;"	t
+nbrecvF	networking/src/networking.h	/^typedef size_t (*nbrecvF)(struct Sconn *_this_,void *buff,size_t buflen,struct timeval );$/;"	t
+negotiate_server_conn	upperlayer/src/irc_abstraction_defines.h	/^	negotiate_server_connF negotiate_server_conn;$/;"	m	struct:Sirc_servers
+negotiate_server_conn	upperlayer/src/irc_server_abstraction.c	/^static int negotiate_server_conn(Sirc_servers *_this)$/;"	f	file:
+negotiate_server_connF	upperlayer/src/irc_abstraction_defines.h	/^typedef int (*negotiate_server_connF)(struct Sirc_servers *_this);$/;"	t
+netwpoll	networking/src/networking.c	/^static EsockStat netwpoll(Sconn *_this,struct timeval tmo,int polltype)$/;"	f	file:
+next	callbackhandler/src/callbackhandler.h	/^		struct SServerCallbackList *next;$/;"	m	struct:SServerCallbackList	typeref:struct:SServerCallbackList::SServerCallbackList
+next	config/src/irc_config.h	/^	struct Sall_callbacks_list *next;$/;"	m	struct:Sall_callbacks_list	typeref:struct:Sall_callbacks_list::Sall_callbacks_list
+next	config/src/mbot_pseudo_xml.h	/^	struct SmbotPseudoxmlTag *next;		\/\/\/< next tag in same level$/;"	m	struct:SmbotPseudoxmlTag	typeref:struct:SmbotPseudoxmlTag::SmbotPseudoxmlTag
+next	generic/src/helpers.h	/^    struct mbot_linkedList *next;$/;"	m	struct:mbot_linkedList	typeref:struct:mbot_linkedList::mbot_linkedList
+nick	APIs/parsers_api.h	/^    char nick[IRC_NICK_MAX];$/;"	m	struct:SIRC_user
+nick	parsers/src/irc_definitions.h	/^	char nick[IRC_NICK_MAX];$/;"	m	struct:SIRC_user
+nick	user_storage/src/online_storage.h	/^    char nick[IRC_NICK_MAX];$/;"	m	struct:SMbotOnlineUsers
+nick	user_storage/src/user.h	/^	Tircnick nick;$/;"	m	struct:SircUser
+nick	user_storage/src/user.h	/^	char nick[IRC_NICK_MAX];$/;"	m	struct:SuserStorageUser
+nick_change	user_storage/src/online_storage.c	/^static int nick_change(SMbotOnlineUserStorage *_this, char *oldnick,char *newnick)$/;"	f	file:
+nick_change	user_storage/src/online_storage.h	/^	nick_changeF					nick_change;$/;"	m	struct:SMbotOnlineUserStorage
+nick_changeF	user_storage/src/online_storage.h	/^typedef int (*nick_changeF)(struct SMbotOnlineUserStorage *_this, char *oldnick,char *newnick);$/;"	t
+nmbrofsplits	generic/src/splitter.h	/^	int nmbrofsplits;$/;"	m	struct:SSplitter
+non_block_recv	APIs/networking_api.h	/^    nbrecvF             non_block_recv;$/;"	m	struct:Sconn
+non_block_recv	networking/src/networking.h	/^	nbrecvF				non_block_recv;$/;"	m	struct:Sconn
+numofitems	generic/src/MbotBitset.h	/^    unsigned int numofitems;$/;"	m	struct:SMbotBitsSet
+numofparams	APIs/parsers_api.h	/^    int 			numofparams;	\/\/\/< Internal	$/;"	m	struct:SIRCparserResult
+numofparams	parsers/src/irc_protocol_parser.h	/^	int numofparams;   \/\/\/<internal use$/;"	m	struct:SIRCparserResult
+onemask	generic/src/MbotBitset.h	/^    size_t *onemask;$/;"	m	struct:SMbotBitsSet
+online_users	upperlayer/src/irc_abstraction_defines.h	/^	SMbotOnlineUserStorage *online_users;$/;"	m	struct:Sirc_servers
+onlineusers	da_bot_client/src/server.h	/^SuserHandler *onlineusers;$/;"	m	struct:SChannel
+onlineusers	user_storage/src/online_storage.h	/^    mbot_linkedList         		*onlineusers[USER_LIST_SIZE]; \/\/SMbotOnlineUsers$/;"	m	struct:SMbotOnlineUserStorage
+opaque	config/src/config.h	/^	void *opaque;$/;"	m	struct:Smbot_cfgcb
+originator_chan	parsers/src/config_file_parser.h	/^    char *originator_chan;$/;"	m	struct:ScallbackConf
+originators	callbackhandler/src/event_storage.h	/^	mbot_linkedList *originators;$/;"	m	struct:SMbotEvent
+outputdevice	config/src/event_config.h	/^	EMbotEventLocation outputdevice;$/;"	m	struct:SServerEventOutputUnit
+outputdst	config/src/event_config.h	/^	SServerEventOutputUnit outputdst;$/;"	m	struct:SServerEvents
+outputname	config/src/event_config.h	/^	char *outputname; \/\/\/< channel\/nick where output is directed (defaults to chan where event occurred)$/;"	m	struct:SServerEventOutputUnit
+own_id	APIs/parsers_api.h	/^    char                own_id[OWN_ID_LEN];$/;"	m	struct:Sparser
+own_id	parsers/src/parser.h	/^	char 				own_id[OWN_ID_LEN];$/;"	m	struct:Sparser
+ownernick	user_storage/src/user.h	/^	char					ownernick[IRC_NICK_MAX];$/;"	m	struct:SIRCuserHandler
+ownerpass	user_storage/src/user.h	/^	char					ownerpass[IRC_PASSWORD_MAX];$/;"	m	struct:SIRCuserHandler
+parenttag	config/src/mbot_pseudo_xml.h	/^	struct SmbotPseudoxmlTag *parenttag;		\/\/\/< upper level tags - see example$/;"	m	struct:SmbotPseudoxmlTag	typeref:struct:SmbotPseudoxmlTag::SmbotPseudoxmlTag
+parse_def_events	callbackhandler/src/event_storage.h	/^	parse_def_eventsF parse_def_events;$/;"	m	struct:SMbotEventStorage
+parse_def_eventsF	callbackhandler/src/event_storage.h	/^typedef int (*parse_def_eventsF)(struct SMbotEventStorage *_this,FILE *readfile);$/;"	t
+parsecommand	upperlayer/src/irc_abstraction_defines.h	/^	parsecommandF parsecommand;$/;"	m	struct:Sirc_channels
+parsecommand	upperlayer/src/irc_channel_abstraction.c	/^static EMbotCallbackRet parsecommand(Sirc_channels *_this,SIRCparserResult *res)$/;"	f	file:
+parsecommandF	upperlayer/src/irc_abstraction_defines.h	/^typedef EMbotCallbackRet (*parsecommandF)(struct Sirc_channels *_this,SIRCparserResult *res);$/;"	t
+parsed	APIs/parsers_api.h	/^	CexplodeStrings parsed;				\/\/\/<internal$/;"	m	struct:SIRCparserResult
+parsed	parsers/src/irc_protocol_parser.h	/^	CexplodeStrings parsed;				\/\/\/<internal$/;"	m	struct:SIRCparserResult
+parsed_data	callbackhandler/src/callbackhandler.h	/^	SIRCparserResult *parsed_data; \/* Parsed irc data in format explained at APIs\/parsers_api.h *\/$/;"	m	struct:SServerCallbackArgs
+parser	parsers/src/config_file_parser.h	/^    Sparser parser;$/;"	m	struct:SFILEparser
+parser	parsers/src/irc_protocol_parser.h	/^	Sparser parser;$/;"	m	struct:SIRCparser
+parserResultType	APIs/parsers_api.h	/^    int parserResultType;$/;"	m	struct:SparserResult
+parserResultType	parsers/src/parser.h	/^	EparserResultType parserResultType;$/;"	m	struct:SparserResult
+pass	user_storage/src/user.h	/^	Tircpass pass;$/;"	m	struct:SircUser
+passwd	user_storage/src/online_storage.h	/^	char passwd[IRC_PASSWORD_MAX];$/;"	m	struct:SMbotOnlineUsers
+password	user_storage/src/user.h	/^	char password[IRC_PASSWORD_MAX];$/;"	m	struct:SuserStorageUser
+perm_storage_inited	user_storage/src/permanent_storage.c	/^MbotAtomic32 * perm_storage_inited=NULL;$/;"	v
+pollEvents	upperlayer/src/irc_abstraction_defines.h	/^	PollTimedEventsF pollEvents;$/;"	m	struct:Sirc_servers
+pollF	APIs/networking_api.h	/^typedef EsockStat (*pollF) (struct Sconn *,struct timeval );$/;"	t
+pollF	networking/src/networking.h	/^typedef EsockStat (*pollF) (struct Sconn *,struct timeval ); $/;"	t
+port	config/src/server_config.h	/^    unsigned short int port;$/;"	m	struct:SServerConfigs
+prepare_for_sending	generic/src/irchelpers.c	/^char *prepare_for_sending(size_t *sendsize, const char *fmt,...)$/;"	f
+prev	config/src/mbot_pseudo_xml.h	/^	struct SmbotPseudoxmlTag *prev;		\/\/\/< previous tag in same level$/;"	m	struct:SmbotPseudoxmlTag	typeref:struct:SmbotPseudoxmlTag::SmbotPseudoxmlTag
+prev	generic/src/helpers.h	/^    struct mbot_linkedList *prev;$/;"	m	struct:mbot_linkedList	typeref:struct:mbot_linkedList::mbot_linkedList
+printServerInfo	config/src/irc_config.c	/^void printServerInfo(SircConfig *cfgs)$/;"	f
+printsdisabled	generic/src/generic.c	/^static int printsdisabled[PrintComp_Last]={0,0,0,0,0};$/;"	v	file:
+process_data	upperlayer/src/irc_abstraction_defines.h	/^	process_dataF process_data;$/;"	m	struct:Sirc_servers
+process_data	upperlayer/src/irc_server_abstraction.c	/^static EServerSuccess process_data(Sirc_servers *_this)$/;"	f	file:
+process_dataF	upperlayer/src/irc_abstraction_defines.h	/^typedef EServerSuccess (*process_dataF)(struct Sirc_servers *_this);$/;"	t
+puskuridbg1	generic/src/MbotRingBuff.c	23;"	d	file:
+puskuridbg1	generic/src/MbotRingBuff.c	28;"	d	file:
+puskuridbg2	generic/src/MbotRingBuff.c	24;"	d	file:
+puskuridbg2	generic/src/MbotRingBuff.c	29;"	d	file:
+puskuridbg3	generic/src/MbotRingBuff.c	25;"	d	file:
+puskuridbg3	generic/src/MbotRingBuff.c	30;"	d	file:
+puskuridbg4	generic/src/MbotRingBuff.c	26;"	d	file:
+puskuridbg4	generic/src/MbotRingBuff.c	31;"	d	file:
+queue_callbacks	upperlayer/src/irc_abstraction_defines.h	/^	queue_callbacksF queue_callbacks;$/;"	m	struct:Sirc_servers
+queue_callbacks	upperlayer/src/irc_server_abstraction.c	/^static int queue_callbacks(Sirc_servers *_this,SServerEvents *evnt,SIRCparserResult *res)$/;"	f	file:
+queue_callbacksF	upperlayer/src/irc_abstraction_defines.h	/^typedef int (*queue_callbacksF)(struct Sirc_servers *_this,SServerEvents *evnt,SIRCparserResult *res);$/;"	t
+queue_id	upperlayer/src/irc_abstraction_defines.h	/^	unsigned int queue_id;$/;"	m	struct:SMbot_rx_queues
+raw_add	user_storage/src/online_storage.h	/^	OnlineUserStorage_addF			raw_add;$/;"	m	struct:SMbotOnlineUserStorage
+raw_data	callbackhandler/src/callbackhandler.h	/^	char *raw_data; \/* Raw data as server passed it *\/$/;"	m	struct:SServerCallbackArgs
+raw_data	parsers/src/irc_protocol_parser.h	/^	char *raw_data;$/;"	m	struct:SIRCparserResult
+raw_del	user_storage/src/online_storage.h	/^	OnlineUserStorage_delF			raw_del;$/;"	m	struct:SMbotOnlineUserStorage
+readpoll	APIs/networking_api.h	/^    pollF               readpoll;$/;"	m	struct:Sconn
+readpoll	networking/src/networking.c	/^EsockStat readpoll(Sconn *_this,struct timeval tmo)$/;"	f
+readpoll	networking/src/networking.h	/^	pollF       		readpoll;$/;"	m	struct:Sconn
+recv	APIs/networking_api.h	/^    recvF               recv;$/;"	m	struct:Sconn
+recv	networking/src/networking.h	/^	recvF				recv;$/;"	m	struct:Sconn
+recvF	APIs/networking_api.h	/^typedef size_t (*recvF)(struct Sconn *_this_,void *buff,size_t buflen);$/;"	t
+recvF	networking/src/networking.h	/^typedef size_t (*recvF)(struct Sconn *_this_,void *buff,size_t buflen);$/;"	t
+registered_cbids	config/src/irc_config.h	/^	SMbotBitsSet *registered_cbids;$/;"	m	struct:SircConfig
+release	startup/src/startuplocks.h	/^	startuplock_releaseF release;$/;"	m	struct:Sstartuplock
+releasestuplock	startup/src/startuplocks.c	/^static void releasestuplock(Sstartuplock *_this)$/;"	f	file:
+removeNonFileCapableUserLevels	user_storage/src/permanent_storage.c	/^static int removeNonFileCapableUserLevels(mbot_linkedList *oldchans, mbot_linkedList *newchans)$/;"	f	file:
+removeUserByNickHostF	user_storage/src/user.h	/^typedef int(*removeUserByNickHostF)(struct SIRCuserHandler *_this,char *nickhost, char *server,char *chan);$/;"	t
+removeUserByNickPasswdF	user_storage/src/user.h	/^typedef int (*removeUserByNickPasswdF)(struct SIRCuserHandler *_this,char *nickhost,char *server,char *chan, char *passwd);$/;"	t
+res	generic/src/splitter.h	/^	SSplitterResult *res;$/;"	m	struct:SSplitter
+resamnt	generic/src/splitter.h	/^	int resamnt;$/;"	m	struct:SSplitterResult
+resolve_host	networking/src/networking.c	/^struct addrinfo * resolve_host(const char *host,EstructType type)$/;"	f
+result	parsers/src/basic_file_parser.h	/^    SbasicParserResult *result;$/;"	m	struct:SbasicFileParser
+result	parsers/src/config_file_parser.h	/^	SFILEparserResult *result;$/;"	m	struct:SFILEparser
+result	parsers/src/irc_protocol_parser.h	/^    mbot_linkedList *result;$/;"	m	struct:SIRCparser
+result_valid	generic/src/splitter.h	/^    int *result_valid;$/;"	m	struct:SSplitter
+revchangeproc	usercallbacks/src/Mbot_revchange_cb.c	/^void *revchangeproc(void *arg)$/;"	f
+rindex	generic/src/MbotRingBuff.h	/^    MbotAtomic32 *rindex;$/;"	m	struct:Mbot_buffer
+run_the_bot	test/src/botV02.c	/^void run_the_bot()$/;"	f
+rx_queues	upperlayer/src/irc_abstraction_defines.h	/^	SMbot_rx_queues *rx_queues[MAX_RX_QUEUES];$/;"	m	struct:Sirc_servers
+sanity_check_channel_events	config/src/channel_config.c	/^static int sanity_check_channel_events(SChannelConfigs *_this,SServerEvents *newevent)$/;"	f	file:
+sanity_check_irc_events	config/src/irc_config.c	/^static int sanity_check_irc_events(SircConfig *_this,SServerEvents *newevent)$/;"	f	file:
+sanity_check_server_events	config/src/server_config.c	/^static int sanity_check_server_events(SServerConfigs *_this,SServerEvents *newevent)$/;"	f	file:
+seek	user_storage/src/online_storage.h	/^	OnlineUserStorage_seekF 		seek;$/;"	m	struct:SMbotOnlineUserStorage
+sem	generic/src/helpers.h	/^	sem_t sem;		\/\/\/< If non x86 arch is used, these atomic ops are dummies using semaphore$/;"	m	struct:MbotAtomic32
+send	APIs/networking_api.h	/^    sendF               send;$/;"	m	struct:Sconn
+send	networking/src/networking.h	/^	sendF				send;$/;"	m	struct:Sconn
+sendF	APIs/networking_api.h	/^typedef size_t (*sendF)(struct Sconn *,void *,size_t);$/;"	t
+sendF	networking/src/networking.h	/^typedef size_t (*sendF)(struct Sconn *,void *,size_t); $/;"	t
+sendsize	upperlayer/src/irc_abstraction_defines.h	/^	size_t sendsize;$/;"	m	struct:SUpperlayerIrcMsg
+sepamnt	generic/src/splitter.h	/^	int sepamnt;$/;"	m	struct:SSplitter
+separator	APIs/cexplode.h	/^	char *separator;$/;"	m	struct:CexplodeStrings
+separator	generic/src/helpers.h	/^	char *separator;$/;"	m	struct:CexplodeStrings
+separators	generic/src/splitter.h	/^	char **separators;$/;"	m	struct:SSplitter
+sepwasatend	APIs/cexplode.h	/^	int sepwasatend;$/;"	m	struct:CexplodeStrings
+sepwasatend	generic/src/helpers.h	/^	int sepwasatend;$/;"	m	struct:CexplodeStrings
+server	APIs/networking_api.h	/^    struct sockaddr_in  server;$/;"	m	struct:Sconn	typeref:struct:Sconn::sockaddr_in
+server	APIs/parsers_api.h	/^    char server[IRC_SERVER_MAX];$/;"	m	struct:SIRC_user
+server	networking/src/networking.h	/^	struct sockaddr_in 	server;			\/\/\/< internal shall contain target info$/;"	m	struct:Sconn	typeref:struct:Sconn::sockaddr_in
+server	parsers/src/irc_definitions.h	/^	char server[IRC_SERVER_MAX];$/;"	m	struct:SIRC_user
+server	upperlayer/src/irc_abstraction_defines.h	/^	Tircserver server;$/;"	m	struct:Sirc_channels
+server	user_storage/src/online_storage.h	/^	char							server[IRC_SERVER_MAX];$/;"	m	struct:SMbotOnlineUserStorage
+server	user_storage/src/user.h	/^	char server[IRC_SERVER_MAX];$/;"	m	struct:SuserStorageUser
+serverConfigInit	config/src/server_config.c	/^SServerConfigs * serverConfigInit(SircConfig *generic_configs)$/;"	f
+serverEventAddEventlocAt	config/src/server_events.c	/^int serverEventAddEventlocAt(EMbotEventLocation *location,SmbotPseudoxmlTag *tag)$/;"	f
+serverEventConfAdd	config/src/server_config.c	/^static int serverEventConfAdd(SServerConfigs *_this,SmbotPseudoxmlTag *eventRootTag)$/;"	f	file:
+serverEventConfAdd	config/src/server_config.h	/^	serverEventConfAddF serverEventConfAdd;$/;"	m	struct:SServerConfigs
+serverEventConfAddF	config/src/server_config.h	/^typedef int (*serverEventConfAddF)(struct SServerConfigs *_this,SmbotPseudoxmlTag *eventRootTag);$/;"	t
+serverEventHandleEventtype	config/src/server_events.c	/^int serverEventHandleEventtype(SServerEvents *newevent,SmbotPseudoxmlTag *tag)$/;"	f
+serverEventHandleInputfrom	config/src/server_events.c	/^int serverEventHandleInputfrom(SServerEvents *newevent,SmbotPseudoxmlTag *tag)$/;"	f
+serverEventHandleOutputchan	config/src/server_events.c	/^int serverEventHandleOutputchan(SServerEvents *newevent,SmbotPseudoxmlTag *tag)$/;"	f
+serverEventHandleOutputstring	config/src/server_events.c	/^int serverEventHandleOutputstring(SServerEvents *newevent,SmbotPseudoxmlTag *tag)$/;"	f
+serverEventHandleOutputto	config/src/server_events.c	/^int serverEventHandleOutputto(SServerEvents *newevent,SmbotPseudoxmlTag *tag)$/;"	f
+serverEventHandleTriggerstring	config/src/server_events.c	/^int serverEventHandleTriggerstring(SServerEvents *newevent,SmbotPseudoxmlTag *tag)$/;"	f
+serverEventHandleUserlevel	config/src/server_events.c	/^int serverEventHandleUserlevel(SServerEvents *newevent,SmbotPseudoxmlTag *tag)$/;"	f
+server_doloop	upperlayer/src/irc_abstraction_defines.h	/^typedef EServerSuccess (*server_doloop)(struct Sirc_servers*);$/;"	t
+servername	networking/src/networking.h	/^	Tircserver			servername;		\/\/\/< internal target system domainname$/;"	m	struct:Sconn
+servername	upperlayer/src/irc_abstraction_defines.h	/^	Tircserver servername;$/;"	m	struct:Sirc_servers
+servers	config/src/irc_config.h	/^	SServerConfigs **servers;           \/\/\/< pointer to array of pointers to server structs holding all server specific configs.$/;"	m	struct:SircConfig
+servertasklist	upperlayer/src/irc_abstraction_defines.h	/^	SServerCallbackList servertasklist[SERVERTASK_MAX];$/;"	m	struct:Sirc_servers
+servertasklistptr	upperlayer/src/irc_abstraction_defines.h	/^	SServerCallbackList *servertasklistptr[SERVERTASK_MAX];$/;"	m	struct:Sirc_servers
+setOwnerF	user_storage/src/user.h	/^typedef int (*setOwnerF)(struct SIRCuserHandler *_this, char *nick,char *ownerpasswd);$/;"	t
+set_owner	user_storage/src/user.h	/^	setOwnerF				set_owner;$/;"	m	struct:SIRCuserHandler
+shiftwidth	generic/src/MbotBitset.h	/^    unsigned int shiftwidth;$/;"	m	struct:SMbotBitsSet
+size	config/src/mbot_pseudo_xml.h	/^	unsigned int size;				\/\/\/< value size$/;"	m	struct:SmbotPseudoxmlTag
+slot_size	generic/src/MbotRingBuff.h	/^    size_t slot_size;$/;"	m	struct:Mbot_buffer
+sock	APIs/networking_api.h	/^    int                 sock;$/;"	m	struct:Sconn
+sock	networking/src/networking.h	/^	int 				sock;			\/\/\/< internal (the actual socket)$/;"	m	struct:Sconn
+sockCreateF	APIs/networking_api.h	/^typedef EnetwRetval (*sockCreateF)(struct Sconn *);$/;"	t
+sockCreateF	networking/src/networking.h	/^typedef EnetwRetval (*sockCreateF)(struct Sconn *);$/;"	t
+split	generic/src/splitter.h	/^    SplitterSplitF split;$/;"	m	struct:SSplitter
+splitdepth	generic/src/splitter.h	/^	int splitdepth;$/;"	m	struct:SSplitter
+splitme	generic/src/splitter.h	/^	char *splitme;$/;"	m	struct:SSplitter
+splitno	generic/src/splitter.h	/^	int *splitno;$/;"	m	struct:SSplitter
+splits	generic/src/splitter.h	/^	CexplodeStrings *splits;$/;"	m	struct:SSplitter
+splitsinthisrow	generic/src/splitter.h	/^	int splitsinthisrow;$/;"	m	struct:SSplitter
+splitteResFree	generic/src/splitter.c	/^static void splitteResFree(SSplitterResult **_this_)$/;"	f	file:
+splitteResGet	generic/src/splitter.c	/^static CexplodeStrings *splitteResGet(SSplitterResult *_this)$/;"	f	file:
+splitteResGetNth	generic/src/splitter.c	/^static CexplodeStrings *splitteResGetNth(SSplitterResult *_this,int numberofres)$/;"	f	file:
+splitteResInit	generic/src/splitter.c	/^SSplitterResult * splitteResInit(CexplodeStrings *strings,int amnt)$/;"	f
+splitted	generic/src/splitter.h	/^	CexplodeStrings splitted;$/;"	m	struct:SSplitter
+splitter	parsers/src/config_file_parser.h	/^	SSplitter *splitter;$/;"	m	struct:SFILEparser
+splitterResFreeF	generic/src/splitter.h	/^typedef void (*splitterResFreeF)(struct SSplitterResult **);$/;"	t
+splitterResGetF	generic/src/splitter.h	/^typedef CexplodeStrings *(*splitterResGetF)(struct SSplitterResult *);$/;"	t
+splitterResGetNthF	generic/src/splitter.h	/^typedef CexplodeStrings *(*splitterResGetNthF)(struct SSplitterResult *,int);$/;"	t
+splitterResInitF	generic/src/splitter.h	/^typedef struct SSplitterResult * (*splitterResInitF)(CexplodeStrings *,int);$/;"	t	typeref:struct:splitterResInitF
+splitter_feed	generic/src/splitter.c	/^static int splitter_feed(SSplitter *_this,char *data)$/;"	f	file:
+splitterresult	parsers/src/config_file_parser.h	/^    SSplitterResult *splitterresult;$/;"	m	struct:SFILEparserResult
+srv_connected	upperlayer/src/irc_abstraction_defines.h	/^	unsigned int srv_connected;$/;"	m	struct:Sirc_servers
+srv_handle_endOfMotd	callbackhandler/src/internal_callbacks.c	/^EMbotCallbackRet srv_handle_endOfMotd(Sirc_servers *_this,SIRCparserResult *res)$/;"	f
+srv_handle_join_cmm	upperlayer/src/irc_server_abstraction.c	/^static EMbotCallbackRet srv_handle_join_cmm(Sirc_servers *_this,SIRCparserResult *res)$/;"	f	file:
+srv_handle_nick	callbackhandler/src/internal_callbacks.c	/^EMbotCallbackRet srv_handle_nick(Sirc_servers *_this,SIRCparserResult *res)$/;"	f
+srv_handle_part_cmm	upperlayer/src/irc_server_abstraction.c	/^static EMbotCallbackRet srv_handle_part_cmm(Sirc_servers *_this,SIRCparserResult *res)$/;"	f	file:
+srv_handle_ping	callbackhandler/src/internal_callbacks.c	/^EMbotCallbackRet srv_handle_ping(Sirc_servers *_this,SIRCparserResult *res)$/;"	f
+srv_handle_pm_cmm	upperlayer/src/irc_server_abstraction.c	/^static EMbotCallbackRet srv_handle_pm_cmm(Sirc_servers *_this,SIRCparserResult *res)$/;"	f	file:
+srv_handle_quit	callbackhandler/src/internal_callbacks.c	/^EMbotCallbackRet srv_handle_quit(Sirc_servers *_this,SIRCparserResult *res)$/;"	f
+srv_known_inter_cmm	upperlayer/src/irc_server_abstraction.c	/^static const char *srv_known_inter_cmm[]={"PING","QUIT",END_OF_MOTD,"NICK"};$/;"	v	file:
+srv_known_inter_cmm_amnt	upperlayer/src/irc_abstraction_defines.h	118;"	d
+srvparsecommand	upperlayer/src/irc_abstraction_defines.h	/^	srvparsecommandF srvparsecommand;$/;"	m	struct:Sirc_servers
+srvparsecommand	upperlayer/src/irc_server_abstraction.c	/^static EMbotCallbackRet srvparsecommand(Sirc_servers *_this,SIRCparserResult *res)$/;"	f	file:
+srvparsecommandF	upperlayer/src/irc_abstraction_defines.h	/^typedef EMbotCallbackRet (*srvparsecommandF)(struct Sirc_servers *_this,SIRCparserResult *res);$/;"	t
+startedWdelim	APIs/cexplode.h	/^	int startedWdelim;$/;"	m	struct:CexplodeStrings
+startedWdelim	generic/src/helpers.h	/^	int startedWdelim;$/;"	m	struct:CexplodeStrings
+startlevel_locks	startup/src/startuplevels.c	/^Sstartuplock *startlevel_locks[STARTLEVEL_AMNT];$/;"	v
+startuplock_initF	startup/src/startuplocks.h	/^typedef struct Sstartuplock * (*startuplock_initF)();$/;"	t	typeref:struct:startuplock_initF
+startuplock_islockedF	startup/src/startuplocks.h	/^typedef int (*startuplock_islockedF)(struct Sstartuplock *lock);$/;"	t
+startuplock_lockF	startup/src/startuplocks.h	/^typedef void (*startuplock_lockF)(struct Sstartuplock *lock);$/;"	t
+startuplock_releaseF	startup/src/startuplocks.h	/^typedef void (*startuplock_releaseF)(struct Sstartuplock *lock);$/;"	t
+startuplock_uninitF	startup/src/startuplocks.h	/^typedef void (*startuplock_uninitF)(struct Sstartuplock **_this_);$/;"	t
+state	APIs/networking_api.h	/^    EconnState          state;$/;"	m	struct:Sconn
+state	APIs/parsers_api.h	/^    EparserState        state;$/;"	m	struct:Sparser
+state	generic/src/splitter.h	/^	EsplitterState state;$/;"	m	struct:SSplitter
+state	networking/src/networking.h	/^	EconnState  		state;			\/\/\/< internal (socket state)$/;"	m	struct:Sconn
+state	parsers/src/parser.h	/^	EparserState		state;$/;"	m	struct:Sparser
+states	generic/src/MbotPackedArray.c	/^    unsigned char states;$/;"	m	struct:SPackedArray	file:
+static_channel_user_find	upperlayer/src/irc_abstraction_defines.h	/^    static_channel_user_findF static_channel_user_find;$/;"	m	struct:Sirc_channels
+static_channel_user_find	upperlayer/src/irc_channel_abstraction.c	/^static SircUser * static_channel_user_find(Sirc_channels *_this,char *nick)$/;"	f	file:
+static_channel_user_findF	upperlayer/src/irc_abstraction_defines.h	/^typedef SircUser * (*static_channel_user_findF)(struct Sirc_channels *_this,char *nick);$/;"	t
+static_server_user_find	upperlayer/src/irc_abstraction_defines.h	/^    static_server_user_findF static_server_user_find;$/;"	m	struct:Sirc_servers
+static_server_user_find	upperlayer/src/irc_server_abstraction.c	/^static SircUser * static_server_user_find(Sirc_servers *_this,char *nick)$/;"	f	file:
+static_server_user_findF	upperlayer/src/irc_abstraction_defines.h	/^typedef SircUser * (*static_server_user_findF)(struct Sirc_servers *_this,char *nick);$/;"	t
+stop	startup/src/startuplevels.c	/^void stop()$/;"	f
+storageIndex_LocalJoin	callbackhandler/src/event_storage.h	/^	MbotAtomic32 * storageIndex_LocalJoin;$/;"	m	struct:SMbotEventStorage
+storageIndex_LocalPart	callbackhandler/src/event_storage.h	/^	MbotAtomic32 * storageIndex_LocalPart;$/;"	m	struct:SMbotEventStorage
+storageIndex_LocalTxtEvent	callbackhandler/src/event_storage.h	/^	MbotAtomic32 * storageIndex_LocalTxtEvent;$/;"	m	struct:SMbotEventStorage
+storageIndex_WebJoin	callbackhandler/src/event_storage.h	/^	MbotAtomic32 * storageIndex_WebJoin;$/;"	m	struct:SMbotEventStorage
+storageIndex_WebPart	callbackhandler/src/event_storage.h	/^	MbotAtomic32 * storageIndex_WebPart;$/;"	m	struct:SMbotEventStorage
+storageIndex_WebTxtEvent	callbackhandler/src/event_storage.h	/^	MbotAtomic32 * storageIndex_WebTxtEvent;$/;"	m	struct:SMbotEventStorage
+strings	APIs/cexplode.h	/^    char **strings;$/;"	m	struct:CexplodeStrings
+strings	generic/src/helpers.h	/^    char **strings;$/;"	m	struct:CexplodeStrings
+subtags	config/src/mbot_pseudo_xml.h	/^	struct SmbotPseudoxmlTag *subtags;		\/\/\/< list of tags belonging under this tag - see example @TODO: example$/;"	m	struct:SmbotPseudoxmlTag	typeref:struct:SmbotPseudoxmlTag::SmbotPseudoxmlTag
+syncFromFile	user_storage/src/user.h	/^	SIRCuserHandlerPermSyncFromFileF    syncFromFile;$/;"	m	struct:SIRCuserHandlerPermanent
+syncToFile	user_storage/src/user.h	/^	SIRCuserHandlerPermSyncToFileF      syncToFile;$/;"	m	struct:SIRCuserHandlerPermanent
+tag	config/src/irc_config.h	/^    SmbotPseudoxmlTag *tag;             \/\/\/< temporary storage for read (and preparsed) configurations @see SmbotPseudoxmlTag $/;"	m	struct:SircConfig
+testF	test/src/trimtest.c	/^int (*testF[])(char *,char) = { &mbot_ltrim,&mbot_rtrim,&mbot_lrtrim,&mbot_trimall };$/;"	v
+testdata	test/src/cexplodetest.c	/^char *testdata[TEST_STR_AMNT]={"1234567890","123 123456789", " 123456789", "123456789 ", " 12 34 56 78 90", " 1 2 3 4 5 6 7 8 9 0 ", "1 2 3 4 5 6 7 8 9"}; $/;"	v
+timed_events_pending	upperlayer/src/irc_abstraction_defines.h	/^	STimedEvents *timed_events_pending[ETimedEvent_NmbrOf];$/;"	m	struct:Sirc_servers
+timed_events_pending	upperlayer/src/irc_abstraction_defines.h	/^	STimedEvents timed_events_pending[ETimedEvent_NmbrOf];$/;"	m	struct:Sirc_channels
+tmp	make/Makefile	/^tmp := $(shell pwd)$/;"	m
+trigger_string	config/src/event_config.h	/^	char *trigger_string;$/;"	m	struct:SServerEvents
+triggerstring	callbackhandler/src/event_storage.h	/^	char *triggerstring;$/;"	m	struct:SMbotTextEvent
+triggerstring	parsers/src/config_file_parser.h	/^    char *triggerstring;$/;"	m	struct:ScallbackConf
+trimtypes	test/src/trimtest.c	/^const char *trimtypes[]={"ltrim","rtrim","lrtrim","trimall"};$/;"	v
+txQueueCreate	upperlayer/src/irc_abstraction_defines.h	/^typedef int (*txQueueCreate)(struct Sirc_servers *_this);$/;"	t
+tx_queue	upperlayer/src/irc_abstraction_defines.h	/^	Mbot_buffer *tx_queue;$/;"	m	struct:Sirc_servers
+type	APIs/networking_api.h	/^    EstructType         type;$/;"	m	struct:Sconn
+type	APIs/parsers_api.h	/^    EIRCuserType type;$/;"	m	struct:SIRC_user
+type	APIs/parsers_api.h	/^    EparserType         type;$/;"	m	struct:Sparser
+type	callbackhandler/src/event_storage.h	/^    EMbotcallbackEventType type;$/;"	m	struct:SMbotEvent
+type	config/src/channel_config.h	/^	EcfgStructType type;$/;"	m	struct:SChannelConfigs
+type	config/src/irc_config.h	/^	EcfgStructType type;$/;"	m	struct:SircConfig
+type	config/src/server_config.h	/^	EcfgStructType type;$/;"	m	struct:SServerConfigs
+type	networking/src/networking.h	/^	EstructType 		type;			\/\/\/< internal (underlying implementation type, used for casting)$/;"	m	struct:Sconn
+type	parsers/src/config_file_parser.h	/^    EMbotcallbackEventType type;            \/\/Type of event which triggers CB, defined in callbackhandler.h$/;"	m	struct:ScallbackConf
+type	parsers/src/irc_definitions.h	/^	EIRCuserType type;$/;"	m	struct:SIRC_user
+type	parsers/src/parser.h	/^	EparserType 		type;$/;"	m	struct:Sparser
+type	user_storage/src/user.h	/^	EuserHandlerType 		type;$/;"	m	struct:SIRCuserHandler
+ulevel	user_storage/src/user.h	/^	EIRCuserLevel ulevel;$/;"	m	struct:SircUser
+uninit	callbackhandler/src/event_storage.h	/^	mbot_event_storages_uninitF uninit;$/;"	m	struct:SMbotEventStorage
+uninit	generic/src/splitter.h	/^    SplitterUninitF uninit;$/;"	m	struct:SSplitter
+uninit	networking/src/networking.c	/^void uninit(Sconn **_this)$/;"	f
+uninit	parsers/src/parser.h	/^    ParserUninitF       uninit;$/;"	m	struct:Sparser
+uninit	startup/src/startuplocks.h	/^	startuplock_uninitF uninit;$/;"	m	struct:Sstartuplock
+uninitF	APIs/networking_api.h	/^typedef void (*uninitF)(struct Sconn **);$/;"	t
+uninitF	networking/src/networking.h	/^typedef void (*uninitF)(struct Sconn **);$/;"	t
+uninitstuplock	startup/src/startuplocks.c	/^static void uninitstuplock(Sstartuplock **_this_)$/;"	f	file:
+unregister_callbacks_hook	usercallbacks/src/user_callbacks.c	/^void unregister_callbacks_hook(void)$/;"	f
+user	user_storage/src/user.h	/^    mbot_linkedList 		*user[USER_LIST_SIZE]; \/\/Contains  structs SuserStorageUser$/;"	m	struct:SIRCuserHandler
+useraddby_host	user_storage/src/user.h	/^	addUserByNickHostF 		useraddby_host;$/;"	m	struct:SIRCuserHandler
+useraddby_passwd	user_storage/src/user.h	/^	addUserByNickPasswdF    useraddby_passwd;$/;"	m	struct:SIRCuserHandler
+useramnt	config/src/channel_config.h	/^	int useramnt;$/;"	m	struct:SChannelConfigs
+useramnt	config/src/server_config.h	/^	int useramnt;$/;"	m	struct:SServerConfigs
+userchangeby_host	user_storage/src/user.h	/^	levelChangeByNickHostF  userchangeby_host;$/;"	m	struct:SIRCuserHandler
+userchangeby_passwd	user_storage/src/user.h	/^	levelChangeByPasswd     userchangeby_passwd;$/;"	m	struct:SIRCuserHandler
+userdata	generic/src/MbotRingBuff.h	/^    char userdata[1];$/;"	m	struct:Mbot_puskuriIntData
+userdataptr	callbackhandler/src/callbackhandler.h	/^	void *userdataptr;				\/* Pointer to data user provided when registering the callback *\/$/;"	m	struct:SServerCallbackArgs
+userdelby_host	user_storage/src/user.h	/^	removeUserByNickHostF   userdelby_host;$/;"	m	struct:SIRCuserHandler
+userdelby_passwd	user_storage/src/user.h	/^	removeUserByNickPasswdF userdelby_passwd;$/;"	m	struct:SIRCuserHandler
+userhandlerInitF	user_storage/src/user.h	/^typedef struct SIRCuserHandler *(*userhandlerInitF)(EuserHandlerType type, EuserIdentMode mode);$/;"	t	typeref:struct:userhandlerInitF
+userlevel	callbackhandler/src/event_storage.h	/^	EIRCuserLevel userlevel;$/;"	m	struct:SMbotEvent
+userlevel	parsers/src/config_file_parser.h	/^	EIRCuserLevel userlevel;				\/\/Userlevel$/;"	m	struct:ScallbackConf
+userlevel	parsers/src/irc_definitions.h	/^    EIRCuserLevel userlevel;$/;"	m	struct:SIRC_user
+userlevel	user_storage/src/user.h	/^	EIRCuserLevel userlevel;$/;"	m	struct:SuserChanLevelBondage
+userlevel_direction	callbackhandler/src/event_storage.h	/^	EIRCuserLevelDirection userlevel_direction;$/;"	m	struct:SMbotEvent
+userlevel_direction	parsers/src/config_file_parser.h	/^	EIRCuserLevelDirection userlevel_direction;	\/\/"direction" Eg, exact userlevel, smaller (or equal), larger (or equal)$/;"	m	struct:ScallbackConf
+useropaque	config/src/irc_config.h	/^	void *useropaque;$/;"	m	struct:Sall_callbacks_list
+users	config/src/channel_config.h	/^	SircUser **users;$/;"	m	struct:SChannelConfigs
+users	config/src/server_config.h	/^	SircUser **users;$/;"	m	struct:SServerConfigs
+valid_to_read	generic/src/MbotRingBuff.h	/^    int valid_to_read;$/;"	m	struct:Mbot_puskuriIntData
+value	config/src/mbot_pseudo_xml.h	/^	void *value;$/;"	m	struct:SmbotPseudoxmlTag
+value	generic/src/helpers.h	/^	volatile unsigned int value;$/;"	m	struct:MbotAtomic32
+valuetype	config/src/mbot_pseudo_xml.h	/^	EmbotPseudoxmlType valuetype;	\/\/\/< tag value type$/;"	m	struct:SmbotPseudoxmlTag
+wait_startuplock	startup/src/startuplevels.c	/^static void wait_startuplock(Sstartuplock *lock)$/;"	f	file:
+windex	generic/src/MbotRingBuff.h	/^    MbotAtomic32 *windex;$/;"	m	struct:Mbot_buffer
+windex_writers	generic/src/MbotRingBuff.h	/^    MbotAtomic32 *windex_writers;$/;"	m	struct:Mbot_buffer
+writepoll	APIs/networking_api.h	/^    pollF               writepoll;$/;"	m	struct:Sconn
+writepoll	networking/src/networking.c	/^EsockStat writepoll(Sconn *_this,struct timeval tmo)$/;"	f
+writepoll	networking/src/networking.h	/^	pollF				writepoll;$/;"	m	struct:Sconn
+zeromask	generic/src/MbotBitset.h	/^    size_t *zeromask;$/;"	m	struct:SMbotBitsSet

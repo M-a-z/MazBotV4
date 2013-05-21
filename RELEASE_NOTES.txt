@@ -1,0 +1,79 @@
+
+This is MazBotV4 release 0.2.0
+
+This is first really testable release of MazBotV4 engine. It has been developed on Linux x86 machine, and should work on x86 linux.
+I guess it should be quite easily portable to x86_64 linux machines, but I do not have a HW for that. 
+For other but x86 and x86_64 architectures some inline asm should be rewritten. 
+
+Making a windows port might not be that troublesome, but I've no windows, or windows coding skills. :)
+
+For compiling info see COMPILING.txt
+
+Please report bugs at http://www.blackdiam.net/tracker/
+Some documentation may appear at http://blackdiam.net/wiki/index.php/MazBotV4
+
+Contents:
+Rel 0.1 contents + following:
+
+1. MazBotPseudoXml based configuration system.
+	Support for configuring:
+	Bot name.
+	Servers.
+	Channels.
+	Events.
+	Users.
+
+2. User storage for user maintenance.
+	Limitations:
+		-There's no mean to add/remove users on the fly. All user configurations must be given in config script.
+		-User identification supports only plaintext password mode.
+		-User identification cannot handle nick changes, kicks etc. It only updates storage based on joins, parts and quits.
+
+3. "upperlayer" for binding the given configurations to actions on IRC.
+	Limitations:
+		-There's no support for wildcards in events.
+		-There's no support for making the bot to include triggerer's nick, or channel or ... in default replies.
+		-There's no support for web events.
+
+4. C callback registration interface. 
+	Limitations:
+		-There's no mean to interact with IRC using C callbacks. Will be included in 0.2.1 release.
+
+5. Documentation in example files...
+	Limitations:
+		-Documentation is pretty much inexisting.. Some should be written in near future.
+
+
+
+
+
+
+This is MazBotV4 release 0.1
+
+Contents:
+Basic items to start writing the bot are done (generic)
+	-Assertions
+	-Logging with severity levels
+
+Basic networking stuff is done (networking)
+	-simple way to create and handle TCP connections.
+
+IRC parser (parsers)
+	-IRC parser which parses continuous stream of data into <prefix><command><param1><param2>... list
+	with simple interface to feed new data to parser / retrieve data from parser / obtain specific 
+	pieces (prefix, command, param1, param2 or ...) from retrieved result.
+
+Test applications
+	-Test cases to test abowementioned components.
+
+MazBot4 v0.1 (can be compiled as tests)
+	-Just connects to server (does not join to a channel because my test server forces clients to join on default channel upon connection)
+	-parses data from server and prints parsed pieces
+	-replies to server's PING requests.
+	-If autojoined to default channel, recognizes message !d6, and replies with random number between 0 and 6
+
+
+Next Release <estimated release date: 15.12.2009>
+	-Organized startup procedure
+	-Callback engine for executing functions when specified events occur
+	-File based configuration system for event-callback pairs, as well as servers/channels to join.

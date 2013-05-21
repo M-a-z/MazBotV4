@@ -1,0 +1,50 @@
+
+If you're interested in helping with this bot, here's some things which could be considered:
+
+1. Currently I most desperately need help with makefiles... ... I suck with them.
+
+2. I would also like to see some problematic parts to be fixed to support other but x86 architecture (like the atomic operations in generic/src/helpers.c file)
+
+3. Also anyone willing to test && fix the bot to work on 64 bit environment is welcomed :D I assume there's some bugs in bitset and packed array at least. (At least on intel's 64 bit machines, where int is 64 bit wide..)
+
+4. Also, if anyone want's to try doing a windows port... Well, you're free to do so :)
+
+And there's tons of more to do, but those abowementioned things would especially be appreciated, since I do not posses either skills, or the HW to do them properly myself...
+
+
+
+The current status of project:
+
+Bot was dramatically changed since I invented the "MazBot pseudo xml".
+It allowed getting the configurations in hierarchical way, without having billions of things written for each config.
+(For example, an user config should've not only stated the user properties (like nick, mask, userlevel, password), but also if this user is specific to some channel or server... With xml like structure this is handled in more natural way. (see the irc_test_cfg.txt in test/exe folder)
+
+So basically, I now have pseudo xml parser which parses the tags from file, and a config struct which is then filled accordingly. Own config struct for global configs, server configs and channel configs. 
+
+Then at the "upperlayer" I have server struct, which contains server configs. It also contains  event, user and channel struct arrays + server specific data (like server name, connection to irc server..). and finally it also has a pointer to generic configs.
+
+In channel structs I have channel specific datas (currently not much). && channel configs. It also contains pointer to server struct (server where this channel is)
+
+Currently the bot can read configurations && connect to specified servers. I am also writing some callbacks for messages arriving from server. Like JOIN message, WHO_REPLY and some others. Naturally join and whoreply (as well as PART/QUIT) message handling is required to be able to manage users...
+
+I've also written a way for user to register callback functions matching events given from config file. So basically when I get the user management && callback execution done, then I can release the first pre-alpha 0.3 version of bot.
+
+If you're interested in helping, just contact me at Mazziesaccount@gmail.com
+
+So that's where I am going now. 
+
+Internal TODO:
+
+1. Oprimize callback handling, Eg. find a way to map channel name to correct channel struct quickly. Also for some callbacks (especially internal) it would be better to request channel handling from only the channel from which the message was originated. Currently channel callbacks are executed for all channels, and inside the callback the channel name is checked to decide if an action is needed.
+
+2. Optimize polling of opened connections. Since I am trying to avoid multithreading, the polling should be done differently. Eg, all connections should be polled in one select() call, and processing would be done for the server which socket does receive data. Currently there's own select() for each server, with small timeout (10 ms?), and servers are polled one by one. This is Ok as long as there's just a server or two, but imagine for example 10 server's being polled... That would mean 10*10 millisecond delay between first and last server from just poll timeouts. And in case we will also have some tasks for the servers, then we shall end up in worse timings... With 100 servers the polling tmo would be 1 second - that would already be visible to user as slugginess && intolerable. Thus polling multiple filedescriptors in one select() is far better idea.
+
+#################### information below this is badly dated. I kept this only to see how different my ideas were back then...
+
+Channel or server struct (under constr, at upperlevels/src) will now contain event storage. Eg, one server struct is done / server. Each server struct will contain one channel struct for all channels the bot joins on the server. Hence instead of one global event storage, there shall be multiple eventstorages. (one / channel, or one/server - to be decided). 
+
+Anyways event storage filling should be moved from startup configs to later phase (channel/server struct initialization??)
+Also deinit should be moved to chan/serv struct uninit.
+
+Later each server should have own config file.
+

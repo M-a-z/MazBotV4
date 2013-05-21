@@ -1,0 +1,26 @@
+Compiling release 0.2.0 / tests:
+
+1. edit MazBot/tests/make/Makefile by enabling compiling of wanted test source file (only one source can be enabled at a time!).
+	The release is compiled by selecting file irc_cfg_test.c (NOT botV02.c !!!!)
+2. go to MazBot/make folder
+3. type make clean
+4. type make all
+
+To run the bot:
+5. go to folder MazBot/test/exe
+6. run ./TestExe <config_file_name> <printing options>
+	If no options are given, config file "irc_test_cfg.txt" is assumed. 
+	If any options are given, first is always assumed to be the name of the config file.
+
+
+
+!Help Wanted!
+
+I am lousy with makefiles, gcc options, ar, ... 
+If you know them, and look at my Makefiles... 
+
+...Well, you immediately know why I need help :)
+
+
+All help considering make is welcome!
+

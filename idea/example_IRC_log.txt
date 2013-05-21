@@ -1,0 +1,119 @@
+<< QUIT :Lähdössä
+<< NICK [-Maz-]
+USER Matti Matti irc.freenode.net :Matti Vaittinen
+>> NOTICE AUTH :*** Looking up your hostname...
+>> NOTICE AUTH :*** Checking ident
+>> NOTICE AUTH :*** Found your hostname
+>> NOTICE AUTH :*** No identd (auth) response
+>> :clarke.freenode.net 001 [-Maz-] :Welcome to the freenode IRC Network [-Maz-]
+>> :clarke.freenode.net 002 [-Maz-] :Your host is clarke.freenode.net[clarke.freenode.net/6667], running version hyperion-1.0.2b
+>> NOTICE [-Maz-] :*** Your host is clarke.freenode.net[clarke.freenode.net/6667], running version hyperion-1.0.2b
+>> :clarke.freenode.net 003 [-Maz-] :This server was created Mon May 21 17:06:18 UTC 2007
+>> :clarke.freenode.net 004 [-Maz-] clarke.freenode.net hyperion-1.0.2b aAbBcCdDeEfFGhHiIjkKlLmMnNopPQrRsStTuUvVwWxXyYzZ01234569*@ bcdefFhiIklmnoPqstv
+>> :clarke.freenode.net 005 [-Maz-] IRCD=dancer CAPAB CHANTYPES=# EXCEPTS INVEX CHANMODES=bdeIq,k,lfJD,cgijLmnPQrRstz CHANLIMIT=#:20 PREFIX=(ov)@+ MAXLIST=bdeI:50 MODES=4 STATUSMSG=@ KNOCK NICKLEN=16 :are supported by this server
+<< CAPAB IDENTIFY-MSG
+>> :clarke.freenode.net 005 [-Maz-] SAFELIST CASEMAPPING=ascii CHANNELLEN=30 TOPICLEN=450 KICKLEN=450 KEYLEN=23 USERLEN=10 HOSTLEN=63 SILENCE=50 :are supported by this server
+>> :clarke.freenode.net 251 [-Maz-] :There are 24238 listed and 22532 unlisted users on 40 servers
+>> :clarke.freenode.net 252 [-Maz-] 39 :flagged staff members
+>> :clarke.freenode.net 254 [-Maz-] 25890 :channels formed
+>> :clarke.freenode.net 255 [-Maz-] :I have 3017 clients and 0 servers
+>> :clarke.freenode.net 265 [-Maz-] :Current local  users: 3017  Max: 3768
+>> :clarke.freenode.net 266 [-Maz-] :Current global users: 46770  Max: 57545
+>> :clarke.freenode.net 250 [-Maz-] :Highest connection count: 3769 (3768 clients) (752962 since server was (re)started)
+>> :clarke.freenode.net 375 [-Maz-] :- clarke.freenode.net Message of the Day - 
+>> :clarke.freenode.net 372 [-Maz-] :- Welcome to clarke.freenode.net in Fremont, California, US.
+>> :clarke.freenode.net 372 [-Maz-] :- Thanks to VR Hosting 'http://www.vr.org' for sponsoring this server!
+>> :clarke.freenode.net 372 [-Maz-] :- 
+>> :clarke.freenode.net 372 [-Maz-] :- CLARKE, SIR ARTHUR C. [1917-2008]. Born in Minehead, Somerset,
+>> :clarke.freenode.net 372 [-Maz-] :- England he served as radar specialist during WWII. The ideas
+>> :clarke.freenode.net 372 [-Maz-] :- of geostationary communications satellites and space elevators
+>> :clarke.freenode.net 372 [-Maz-] :- are credited to him. In 1956, he moved to Colombo, Sri Lanka,
+>> :clarke.freenode.net 372 [-Maz-] :- receiving his knighthood there in 1998 by proxy from the UK
+>> :clarke.freenode.net 372 [-Maz-] :- High Commissioner due to his post-polio-syndrome which has had
+>> :clarke.freenode.net 372 [-Maz-] :- since 1988. Among his several dozens novels and collections
+>> :clarke.freenode.net 372 [-Maz-] :- are 2001: A Space Odyssey, 2010, 2061, 3001 and The
+>> :clarke.freenode.net 372 [-Maz-] :- Songs of Distant Earth. He is currently the Honorary Board
+>> :clarke.freenode.net 372 [-Maz-] :- Chair of the Institute for Cooperation in Space.
+>> :clarke.freenode.net 372 [-Maz-] :- 
+>> :clarke.freenode.net 372 [-Maz-] :- You're using freenode, a service of Peer-Directed Projects
+>> :clarke.freenode.net 372 [-Maz-] :- Center Ltd (http://freenode.net/pdpc.shtml).
+>> :clarke.freenode.net 372 [-Maz-] :- 
+>> :clarke.freenode.net 372 [-Maz-] :- Thanks to everyone who helped us make the 2008/2009 fundraiser 
+>> :clarke.freenode.net 372 [-Maz-] :- a success, indivdual donors, hardware and bandwith sponsors and 
+>> :clarke.freenode.net 372 [-Maz-] :- our corporate sponsor Canonical Ltd (http://www.canonical.com).
+>> :clarke.freenode.net 372 [-Maz-] :- 
+>> :clarke.freenode.net 372 [-Maz-] :- By connecting to freenode you indicate that you have read 
+>> :clarke.freenode.net 372 [-Maz-] :- and agree to adhere to our policies and procedures as per 
+>> :clarke.freenode.net 372 [-Maz-] :- the website (http://freenode.net). We would like to remind 
+>> :clarke.freenode.net 372 [-Maz-] :- you that unauthorized public logging of channels on the 
+>> :clarke.freenode.net 372 [-Maz-] :- network is prohibited. Public channel logging should only 
+>> :clarke.freenode.net 372 [-Maz-] :- take place where the channel owner(s) has requested this 
+>> :clarke.freenode.net 372 [-Maz-] :- and users of the channel are all made aware (if you are 
+>> :clarke.freenode.net 372 [-Maz-] :- publically logging your channel, you may wish to keep a 
+>> :clarke.freenode.net 372 [-Maz-] :- notice in topic and perhaps as a on-join message).
+>> :clarke.freenode.net 372 [-Maz-] :- 
+>> :clarke.freenode.net 372 [-Maz-] :- By registering your nickname with Nickserv you agree that you 
+>> :clarke.freenode.net 372 [-Maz-] :- are 13 years of age, or older. For more information about the 
+>> :clarke.freenode.net 372 [-Maz-] :- Children's Online Privacy Protection Act please see their 
+>> :clarke.freenode.net 372 [-Maz-] :- website at (http://www.coppa.org).
+>> :clarke.freenode.net 372 [-Maz-] :- 
+>> :clarke.freenode.net 372 [-Maz-] :- freenode runs an open proxy scanner. Your use of the network
+>> :clarke.freenode.net 372 [-Maz-] :- indicates your acceptance of this policy. For details on
+>> :clarke.freenode.net 372 [-Maz-] :- freenode network policy, please take a look at our policy
+>> :clarke.freenode.net 372 [-Maz-] :- page (http://freenode.net/policy.shtml). Thank you for using
+>> :clarke.freenode.net 372 [-Maz-] :- the network!
+>> :clarke.freenode.net 372 [-Maz-] :- 
+>> :clarke.freenode.net 372 [-Maz-] :- The PDPC and freenode now do a fortnightly podcast, which you 
+>> :clarke.freenode.net 372 [-Maz-] :- can find over at http://podcast.freenode.net and throughout the 
+>> :clarke.freenode.net 372 [-Maz-] :- summer months we will be arranging geeknics - Picnics for Geeks 
+>> :clarke.freenode.net 372 [-Maz-] :- across the globe! More information can be found over at 
+>> :clarke.freenode.net 372 [-Maz-] :- http://www.geeknic.org
+>> :clarke.freenode.net 372 [-Maz-] :- 
+>> :clarke.freenode.net 372 [-Maz-] :- freenode is a service of Peer-Directed Projects Center Ltd, 
+>> :clarke.freenode.net 372 [-Maz-] :- a not for profit organisation registered in England and Wales.
+>> :clarke.freenode.net 372 [-Maz-] :- 
+>> :clarke.freenode.net 372 [-Maz-] :- Our 2009/2010 fundraiser will be starting soon, more information 
+>> :clarke.freenode.net 372 [-Maz-] :- will be available here and on the website! If you wish to donate 
+>> :clarke.freenode.net 372 [-Maz-] :- you can help out over at http://freenode.net/pdpc_donations.shtml
+>> :clarke.freenode.net 372 [-Maz-] :- 
+>> :clarke.freenode.net 372 [-Maz-] :- Thank you for using freenode!
+>> :clarke.freenode.net 372 [-Maz-] :- 
+>> :clarke.freenode.net 376 [-Maz-] :End of /MOTD command.
+<< NS IDENTIFY *********************
+>> :NickServ!NickServ@services. NOTICE [-Maz-] :This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+>> :clarke.freenode.net 290 [-Maz-] :IDENTIFY-MSG
+>> :NickServ!NickServ@services. NOTICE [-Maz-] :+You are now identified for [-Maz-].
+>> :clarke.freenode.net 901 [-Maz-] [-Maz-] n=Matti 82-128-241-52-Rajakyla-TR1.suomi.net :You are now logged in. (id [-Maz-], username n=Matti, hostname 82-128-241-52-Rajakyla-TR1.suomi.net)
+>> :services. MODE [-Maz-] :+e
+<< PING LAG1640301430
+>> :clarke.freenode.net PONG clarke.freenode.net :LAG1640301430
+>> :freenode-connect!freenode@freenode/bot/connect PRIVMSG [-maz-] :VERSION
+<< NOTICE freenode-connect :VERSION xchat 2.8.6 Linux 2.6.27.5-117.fc10.i686 [i686/2,00GHz]
+<< PING LAG1670308475
+>> :clarke.freenode.net PONG clarke.freenode.net :LAG1670308475
+<< PING LAG1700316455
+>> :clarke.freenode.net PONG clarke.freenode.net :LAG1700316455
+<< PING LAG1730329462
+>> :clarke.freenode.net PONG clarke.freenode.net :LAG1730329462
+<< PING LAG1760343422
+>> :clarke.freenode.net PONG clarke.freenode.net :LAG1760343422
+<< PING LAG1790378447
+>> :clarke.freenode.net PONG clarke.freenode.net :LAG1790378447
+<< PING LAG1820411460
+>> :clarke.freenode.net PONG clarke.freenode.net :LAG1820411460
+<< PING LAG1850433428
+>> :clarke.freenode.net PONG clarke.freenode.net :LAG1850433428
+<< PING LAG1880456449
+>> :clarke.freenode.net PONG clarke.freenode.net :LAG1880456449
+<< PING LAG1910479426
+>> :clarke.freenode.net PONG clarke.freenode.net :LAG1910479426
+<< PING LAG1940497458
+>> :clarke.freenode.net PONG clarke.freenode.net :LAG1940497458
+<< PING LAG1970522437
+>> :clarke.freenode.net PONG clarke.freenode.net :LAG1970522437
+<< PING LAG2000541472
+>> :clarke.freenode.net PONG clarke.freenode.net :LAG2000541472
+<< PING LAG2031384457
+>> :clarke.freenode.net PONG clarke.freenode.net :LAG2031384457
+<< PING LAG2061459810
+>> :clarke.freenode.net PONG clarke.freenode.net :LAG2061459810

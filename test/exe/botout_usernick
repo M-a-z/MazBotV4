@@ -1,0 +1,1268 @@
+Sat Jul 17 23:53:31 2010
+	DEBUG:   Registering user callbacks
+Sat Jul 17 23:53:31 2010
+	DEBUG:   SircConfig * inited
+Sat Jul 17 23:53:31 2010
+	DEBUG:   Trying to read cfg file irc_test_cfg.txt && parse tags:
+Sat Jul 17 23:53:31 2010
+	DEBUG:   CFG parsing seemingly successfull!!
+Sat Jul 17 23:53:31 2010
+	DEBUG:   Found 1 servers
+Sat Jul 17 23:53:31 2010
+	DEBUG:   Trying server initializations
+Sat Jul 17 23:53:37 2010
+	DEBUG:   WORKING \r=13 \n=10, 
+Sat Jul 17 23:53:37 2010
+	DEBUG:    Sending >> NICK MazBotV4
+
+Sat Jul 17 23:53:37 2010
+	DEBUG:   Trying to receive:
+Sat Jul 17 23:53:39 2010
+	DEBUG:   recvd: :irc.blackdiam.net NOTICE Auth :*** Looking up your hostname...
+:irc.blackdiam.net NOTICE Auth :*** Found your hostname (87-95-30-213.bb.dnainternet.fi) -- cached
+
+Sat Jul 17 23:53:42 2010
+	DEBUG:    Sending >> USER Dice FOOBARHOST teotilcan.net :Maz Bot
+
+Sat Jul 17 23:53:42 2010
+	PANIC:   TODO: <lowprio> Add connect callback execution to here! (and connect callbacks) /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:150
+Sat Jul 17 23:53:42 2010
+	ERROR:   Not FULLY implemented yet - add callbackregs! at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:489
+Sat Jul 17 23:53:44 2010
+	DEBUG:   process_data: recvd :irc.blackdiam.net NOTICE Auth :Welcome to irc.blackdiam.net!
+:irc.blackdiam.net 001 MazBotV4 :Welcome to the irc.blackdiam.net IRC Network MazBotV4!Dice@87-95-30-213.bb.dnainternet.fi
+:irc.blackdiam.net 002 MazBotV4 :Your host is irc.blackdiam.net, running version InspIRCd-2.0
+:irc.blackdiam.net 003 MazBotV4 :This server was created 13:56:22 May 30 2010
+:irc.blackdiam.net 004 MazBotV4 irc.blackdiam.net InspIRCd-2.0 BHIRSWciorswx CDFHJKMNPQRSTYabdfhijklmnopqrstvw FHJYabdfhjkloqvw
+:irc.blackdiam.net 
+Sat Jul 17 23:53:44 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command NOTICE
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm 'NOTICE' parser_rawdata ':irc.blackdiam.net NOTICE Auth :Welcome to irc.blackdiam.net!'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command NOTICE
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm 'NOTICE' parser_rawdata ':irc.blackdiam.net NOTICE Auth :Welcome to irc.blackdiam.net!'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:44 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 001
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '001' parser_rawdata ':irc.blackdiam.net 001 MazBotV4 :Welcome to the irc.blackdiam.net IRC Network MazBotV4!Dice@87-95-30-213.bb.dnainternet.fi'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command 001
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '001' parser_rawdata ':irc.blackdiam.net 001 MazBotV4 :Welcome to the irc.blackdiam.net IRC Network MazBotV4!Dice@87-95-30-213.bb.dnainternet.fi'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:44 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 002
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '002' parser_rawdata ':irc.blackdiam.net 002 MazBotV4 :Your host is irc.blackdiam.net, running version InspIRCd-2.0'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command 002
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '002' parser_rawdata ':irc.blackdiam.net 002 MazBotV4 :Your host is irc.blackdiam.net, running version InspIRCd-2.0'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:44 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 003
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '003' parser_rawdata ':irc.blackdiam.net 003 MazBotV4 :This server was created 13:56:22 May 30 2010'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command 003
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '003' parser_rawdata ':irc.blackdiam.net 003 MazBotV4 :This server was created 13:56:22 May 30 2010'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:44 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 004
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '004' parser_rawdata ':irc.blackdiam.net 004 MazBotV4 irc.blackdiam.net InspIRCd-2.0 BHIRSWciorswx CDFHJKMNPQRSTYabdfhijklmnopqrstvw FHJYabdfhjkloqvw'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command 004
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '004' parser_rawdata ':irc.blackdiam.net 004 MazBotV4 irc.blackdiam.net InspIRCd-2.0 BHIRSWciorswx CDFHJKMNPQRSTYabdfhijklmnopqrstvw FHJYabdfhjkloqvw'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:44 2010
+	DEBUG:   process_data: recvd 005 MazBotV4 AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=bw,k,FHJdfjl,CDKMNPQRSTimnprst CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXTBAN=,CNQRSTps FNC KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=1 :are supported by this server
+:irc.blackdiam.net 005 MazBotV4 MAXPARA=32 MAXTARGETS=19 MODES=19 NAMESX NETWORK=irc.blackdiam.net NICKLEN=31 PREFIX=(Yqaohv)!~&@%+ REMOVE SECURELIST SILENCE=32 STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES :are supported by this server
+:irc.blackdiam.net 005 MazBotV4 USERIP VBANLIST WALLCHOPS 
+Sat Jul 17 23:53:44 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 005
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '005' parser_rawdata ':irc.blackdiam.net 005 MazBotV4 AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=bw,k,FHJdfjl,CDKMNPQRSTimnprst CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXTBAN=,CNQRSTps FNC KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=1 :are supported by this server'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command 005
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '005' parser_rawdata ':irc.blackdiam.net 005 MazBotV4 AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=bw,k,FHJdfjl,CDKMNPQRSTimnprst CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXTBAN=,CNQRSTps FNC KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=1 :are supported by this server'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:44 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 005
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '005' parser_rawdata ':irc.blackdiam.net 005 MazBotV4 MAXPARA=32 MAXTARGETS=19 MODES=19 NAMESX NETWORK=irc.blackdiam.net NICKLEN=31 PREFIX=(Yqaohv)!~&@%+ REMOVE SECURELIST SILENCE=32 STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES :are supported by this server'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command 005
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '005' parser_rawdata ':irc.blackdiam.net 005 MazBotV4 MAXPARA=32 MAXTARGETS=19 MODES=19 NAMESX NETWORK=irc.blackdiam.net NICKLEN=31 PREFIX=(Yqaohv)!~&@%+ REMOVE SECURELIST SILENCE=32 STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES :are supported by this server'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:44 2010
+	DEBUG:   process_data: recvd WALLVOICES WATCH=32 :are supported by this server
+:irc.blackdiam.net 042 MazBotV4 216AAAAJJ :your unique ID
+:irc.blackdiam.net 375 MazBotV4 :irc.blackdiam.net message of the day
+:irc.blackdiam.net 372 MazBotV4 :-                 .-~~~~~~~~~-._       _.-~~~~~~~~~-.
+:irc.blackdiam.net 372 MazBotV4 :-             __.'      
+Sat Jul 17 23:53:44 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 005
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '005' parser_rawdata ':irc.blackdiam.net 005 MazBotV4 USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command 005
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '005' parser_rawdata ':irc.blackdiam.net 005 MazBotV4 USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:44 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 042
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '042' parser_rawdata ':irc.blackdiam.net 042 MazBotV4 216AAAAJJ :your unique ID'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command 042
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '042' parser_rawdata ':irc.blackdiam.net 042 MazBotV4 216AAAAJJ :your unique ID'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:44 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 375
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '375' parser_rawdata ':irc.blackdiam.net 375 MazBotV4 :irc.blackdiam.net message of the day'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command 375
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '375' parser_rawdata ':irc.blackdiam.net 375 MazBotV4 :irc.blackdiam.net message of the day'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:44 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 372
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '372' parser_rawdata ':irc.blackdiam.net 372 MazBotV4 :-                 .-~~~~~~~~~-._       _.-~~~~~~~~~-.'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command 372
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '372' parser_rawdata ':irc.blackdiam.net 372 MazBotV4 :-                 .-~~~~~~~~~-._       _.-~~~~~~~~~-.'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:44 2010
+	DEBUG:   process_data: recvd         ~.   .~              `.__
+:irc.blackdiam.net 372 MazBotV4 :-           .'//                  \./                  \\`.
+:irc.blackdiam.net 372 MazBotV4 :-         .'//                     |                     \\`.
+:irc.blackdiam.net 372 MazBotV4 :-       .'// .-~"""""""~~~~-._     |     _,-~~~~"""""""~-. \\`.
+:irc.blackdiam.net 372 MazBotV4 :-     .'//.-"                 `-.  |  .-'                 "-.\\`.
+:irc.blackdiam.net 372 MazBotV4 :-   .'//______.============-..   \ | /   ..-===========
+Sat Jul 17 23:53:44 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 372
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '372' parser_rawdata ':irc.blackdiam.net 372 MazBotV4 :-             __.'              ~.   .~              `.__'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command 372
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '372' parser_rawdata ':irc.blackdiam.net 372 MazBotV4 :-             __.'              ~.   .~              `.__'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:44 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 372
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '372' parser_rawdata ':irc.blackdiam.net 372 MazBotV4 :-           .'//                  \./                  \\`.'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command 372
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '372' parser_rawdata ':irc.blackdiam.net 372 MazBotV4 :-           .'//                  \./                  \\`.'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:44 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 372
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '372' parser_rawdata ':irc.blackdiam.net 372 MazBotV4 :-         .'//                     |                     \\`.'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command 372
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '372' parser_rawdata ':irc.blackdiam.net 372 MazBotV4 :-         .'//                     |                     \\`.'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:44 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 372
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '372' parser_rawdata ':irc.blackdiam.net 372 MazBotV4 :-       .'// .-~"""""""~~~~-._     |     _,-~~~~"""""""~-. \\`.'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command 372
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '372' parser_rawdata ':irc.blackdiam.net 372 MazBotV4 :-       .'// .-~"""""""~~~~-._     |     _,-~~~~"""""""~-. \\`.'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:44 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 372
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '372' parser_rawdata ':irc.blackdiam.net 372 MazBotV4 :-     .'//.-"                 `-.  |  .-'                 "-.\\`.'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command 372
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '372' parser_rawdata ':irc.blackdiam.net 372 MazBotV4 :-     .'//.-"                 `-.  |  .-'                 "-.\\`.'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:44 2010
+	DEBUG:   process_data: recvd =.______\\`.
+:irc.blackdiam.net 372 MazBotV4 :- .'______________________________\|/______________________________`.
+:irc.blackdiam.net 372 MazBotV4 :- 
+:irc.blackdiam.net 372 MazBotV4 :- 
+:irc.blackdiam.net 372 MazBotV4 :-         --- Welcome to Teotilcan IRC Network! ---
+:irc.blackdiam.net 372 MazBotV4 :-        /                                          \
+:irc.blackdiam.net 372 MazBotV4 :-       /     * Web: http://blackdiam.net            \
+:irc.blackdiam.net 372 MazBotV4 :-       |     * IRC: ir
+Sat Jul 17 23:53:44 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 372
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '372' parser_rawdata ':irc.blackdiam.net 372 MazBotV4 :-   .'//______.============-..   \ | /   ..-============.______\\`.'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command 372
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '372' parser_rawdata ':irc.blackdiam.net 372 MazBotV4 :-   .'//______.============-..   \ | /   ..-============.______\\`.'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:44 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 372
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '372' parser_rawdata ':irc.blackdiam.net 372 MazBotV4 :- .'______________________________\|/______________________________`.'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command 372
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '372' parser_rawdata ':irc.blackdiam.net 372 MazBotV4 :- .'______________________________\|/______________________________`.'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:44 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 372
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '372' parser_rawdata ':irc.blackdiam.net 372 MazBotV4 :- '
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command 372
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '372' parser_rawdata ':irc.blackdiam.net 372 MazBotV4 :- '
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:44 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 372
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '372' parser_rawdata ':irc.blackdiam.net 372 MazBotV4 :- '
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command 372
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '372' parser_rawdata ':irc.blackdiam.net 372 MazBotV4 :- '
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:44 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 372
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '372' parser_rawdata ':irc.blackdiam.net 372 MazBotV4 :-         --- Welcome to Teotilcan IRC Network! ---'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command 372
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '372' parser_rawdata ':irc.blackdiam.net 372 MazBotV4 :-         --- Welcome to Teotilcan IRC Network! ---'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:44 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 372
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '372' parser_rawdata ':irc.blackdiam.net 372 MazBotV4 :-        /                                          \'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command 372
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '372' parser_rawdata ':irc.blackdiam.net 372 MazBotV4 :-        /                                          \'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:44 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 372
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '372' parser_rawdata ':irc.blackdiam.net 372 MazBotV4 :-       /     * Web: http://blackdiam.net            \'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command 372
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '372' parser_rawdata ':irc.blackdiam.net 372 MazBotV4 :-       /     * Web: http://blackdiam.net            \'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:44 2010
+	DEBUG:   process_data: recvd c.blackdiam.net #Teotilcan    |
+:irc.blackdiam.net 372 MazBotV4 :-       |     * Admin: DarkLord                      |
+:irc.blackdiam.net 372 MazBotV4 :-       |                                            |
+:irc.blackdiam.net 372 MazBotV4 :-       \                   -- The Teotilcan Team    /
+:irc.blackdiam.net 372 Maz
+Sat Jul 17 23:53:44 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 372
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '372' parser_rawdata ':irc.blackdiam.net 372 MazBotV4 :-       |     * IRC: irc.blackdiam.net #Teotilcan    |'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command 372
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '372' parser_rawdata ':irc.blackdiam.net 372 MazBotV4 :-       |     * IRC: irc.blackdiam.net #Teotilcan    |'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:44 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 372
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '372' parser_rawdata ':irc.blackdiam.net 372 MazBotV4 :-       |     * Admin: DarkLord                      |'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command 372
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '372' parser_rawdata ':irc.blackdiam.net 372 MazBotV4 :-       |     * Admin: DarkLord                      |'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:44 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 372
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '372' parser_rawdata ':irc.blackdiam.net 372 MazBotV4 :-       |                                            |'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command 372
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '372' parser_rawdata ':irc.blackdiam.net 372 MazBotV4 :-       |                                            |'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:44 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 372
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '372' parser_rawdata ':irc.blackdiam.net 372 MazBotV4 :-       \                   -- The Teotilcan Team    /'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command 372
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Comm '372' parser_rawdata ':irc.blackdiam.net 372 MazBotV4 :-       \                   -- The Teotilcan Team    /'
+Sat Jul 17 23:53:44 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:44 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:44 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:46 2010
+	DEBUG:   process_data: recvd BotV4 :-        -------------------------------------------
+:irc.blackdiam.net 372 MazBotV4 :- 
+:irc.blackdiam.net 376 MazBotV4 :End of message of the day.
+:irc.blackdiam.net 251 MazBotV4 :There are 4 users and 0 invisible on 1 servers
+:irc.blackdiam.net 254 MazBotV4 1 :channels formed
+:irc.blackdiam.net 255 MazBotV4 :I have 4 clients and 0 servers
+:irc.blackdiam.net 265 MazBotV4 :Current Local Users: 4  Max: 5
+:irc.blackdiam.net 266 MazBotV4 :Current Global Users: 4  Max: 10
+:irc.blackdiam.net 396
+Sat Jul 17 23:53:46 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:46 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 372
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Comm '372' parser_rawdata ':irc.blackdiam.net 372 MazBotV4 :-        -------------------------------------------'
+Sat Jul 17 23:53:46 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:46 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command 372
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Comm '372' parser_rawdata ':irc.blackdiam.net 372 MazBotV4 :-        -------------------------------------------'
+Sat Jul 17 23:53:46 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:46 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:46 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:46 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 372
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Comm '372' parser_rawdata ':irc.blackdiam.net 372 MazBotV4 :- '
+Sat Jul 17 23:53:46 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:46 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command 372
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Comm '372' parser_rawdata ':irc.blackdiam.net 372 MazBotV4 :- '
+Sat Jul 17 23:53:46 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:46 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:46 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:46 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 376
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Comm '376' parser_rawdata ':irc.blackdiam.net 376 MazBotV4 :End of message of the day.'
+Sat Jul 17 23:53:46 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:46 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command 376
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Comm '376' parser_rawdata ':irc.blackdiam.net 376 MazBotV4 :End of message of the day.'
+Sat Jul 17 23:53:46 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Server irc.blackdiam.net, handling cmm 376
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Motd recvd, checking channel states!
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Checking chan #Teotilcan joinstate...
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Channel #Teotilcan not joined => sending joinreq
+allocing 20 bytes
+bufsize=20, snprint returned 15
+success! - buffercontents: JOIN #Teotilcan
+Sat Jul 17 23:53:46 2010
+	DEBUG:   checkjoinstate: Sending joinreq "JOIN #Teotilcan
+"
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Checking chan #Teotilcan2 joinstate...
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Channel #Teotilcan2 not joined => sending joinreq
+allocing 20 bytes
+bufsize=20, snprint returned 16
+success! - buffercontents: JOIN #Teotilcan2
+Sat Jul 17 23:53:46 2010
+	DEBUG:   checkjoinstate: Sending joinreq "JOIN #Teotilcan2
+"
+Sat Jul 17 23:53:46 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:46 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:46 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 251
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Comm '251' parser_rawdata ':irc.blackdiam.net 251 MazBotV4 :There are 4 users and 0 invisible on 1 servers'
+Sat Jul 17 23:53:46 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:46 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command 251
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Comm '251' parser_rawdata ':irc.blackdiam.net 251 MazBotV4 :There are 4 users and 0 invisible on 1 servers'
+Sat Jul 17 23:53:46 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:46 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:46 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:46 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 254
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Comm '254' parser_rawdata ':irc.blackdiam.net 254 MazBotV4 1 :channels formed'
+Sat Jul 17 23:53:46 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:46 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command 254
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Comm '254' parser_rawdata ':irc.blackdiam.net 254 MazBotV4 1 :channels formed'
+Sat Jul 17 23:53:46 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:46 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:46 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:46 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 255
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Comm '255' parser_rawdata ':irc.blackdiam.net 255 MazBotV4 :I have 4 clients and 0 servers'
+Sat Jul 17 23:53:46 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:46 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command 255
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Comm '255' parser_rawdata ':irc.blackdiam.net 255 MazBotV4 :I have 4 clients and 0 servers'
+Sat Jul 17 23:53:46 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:46 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:46 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:46 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 265
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Comm '265' parser_rawdata ':irc.blackdiam.net 265 MazBotV4 :Current Local Users: 4  Max: 5'
+Sat Jul 17 23:53:46 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:46 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command 265
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Comm '265' parser_rawdata ':irc.blackdiam.net 265 MazBotV4 :Current Local Users: 4  Max: 5'
+Sat Jul 17 23:53:46 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:46 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:46 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:46 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 266
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Comm '266' parser_rawdata ':irc.blackdiam.net 266 MazBotV4 :Current Global Users: 4  Max: 10'
+Sat Jul 17 23:53:46 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:46 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command 266
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Comm '266' parser_rawdata ':irc.blackdiam.net 266 MazBotV4 :Current Global Users: 4  Max: 10'
+Sat Jul 17 23:53:46 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:46 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:46 2010
+	DEBUG:   process_data: recvd  MazBotV4 [Hidden]hc80gl.bb.dnainternet.fi :is now your displayed host
+:MazBotV4!Dice@[Hidden]hc80gl.bb.dnainternet.fi MODE MazBotV4 +x
+:MazBotV4!Dice@[Hidden]hc80gl.bb.dnainternet.fi JOIN :#Teotilcan
+:irc.blackdiam.net 332 MazBotV4 #Teotilcan :Welcome to Teotilcan Realms !
+:irc.blackdiam.net 333 MazBotV4 #Teotilcan DarkLord 1275245742
+:irc.blackdiam.net 353 MazBotV4 = #Teotilcan :DarkLord Glenda MazBotV4 Maz 
+:irc.blackdiam.net 366 MazBotV4 #Teotilcan :End of /NAMES list.
+
+Sat Jul 17 23:53:46 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:46 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 396
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Comm '396' parser_rawdata ':irc.blackdiam.net 396 MazBotV4 [Hidden]hc80gl.bb.dnainternet.fi :is now your displayed host'
+Sat Jul 17 23:53:46 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:46 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command 396
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Comm '396' parser_rawdata ':irc.blackdiam.net 396 MazBotV4 [Hidden]hc80gl.bb.dnainternet.fi :is now your displayed host'
+Sat Jul 17 23:53:46 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:46 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:46 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:46 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command MODE
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Comm 'MODE' parser_rawdata ':MazBotV4!Dice@[Hidden]hc80gl.bb.dnainternet.fi MODE MazBotV4 +x'
+Sat Jul 17 23:53:46 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:46 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command MODE
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Comm 'MODE' parser_rawdata ':MazBotV4!Dice@[Hidden]hc80gl.bb.dnainternet.fi MODE MazBotV4 +x'
+Sat Jul 17 23:53:46 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:46 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:46 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:46 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command JOIN
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Comm 'JOIN' parser_rawdata ':MazBotV4!Dice@[Hidden]hc80gl.bb.dnainternet.fi JOIN :#Teotilcan'
+Sat Jul 17 23:53:46 2010
+	DEBUG:   ****EXECUTING internal cb for JOIN
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Internally handling JOIN command:
+Sat Jul 17 23:53:46 2010
+	DEBUG:   chan_handle_internal_join_cmm(): Parsing nick&mask
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Increasing joinstatus, was 0, is now 1
+allocing 20 bytes
+bufsize=20, snprint returned 14
+success! - buffercontents: WHO #Teotilcan
+Sat Jul 17 23:53:46 2010
+	DEBUG:   chan_handle_internal_join_cmm(): Sending whoreq "WHO #Teotilcan
+"
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Internal allback handler returned AllowUserOnly => skipping rest of internal callbacks!
+Sat Jul 17 23:53:46 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:46 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command JOIN
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Comm 'JOIN' parser_rawdata ':MazBotV4!Dice@[Hidden]hc80gl.bb.dnainternet.fi JOIN :#Teotilcan'
+Sat Jul 17 23:53:46 2010
+	DEBUG:   ****EXECUTING internal cb for JOIN
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Internally handling JOIN command:
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Wont handle JOIN cmm for chan #Teotilcan at chan #Teotilcan2!
+Sat Jul 17 23:53:46 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:46 2010
+	DEBUG:   TEST CALLBACK: YaY! event 1 occurred!
+Sat Jul 17 23:53:46 2010
+	DEBUG:   TEST CALLBACK: Raw data from server was (null)
+Sat Jul 17 23:53:46 2010
+	DEBUG:   TEST CALLBACK: Testing sending...
+allocing 20 bytes
+bufsize=20, snprint returned 34
+new req = 37 - retrying
+allocing 37 bytes
+bufsize=37, snprint returned 34
+success! - buffercontents: PRIVMSG MazBotV4 :event 1 occurred
+Sat Jul 17 23:53:46 2010
+	PANIC:   defaultcb_LocalJoinEvent(): TODO, allow wildcards like mirc's $nick in triggerstring! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//callbackhandler/src/defaultcallbacks.c:168
+allocing 20 bytes
+bufsize=20, snprint returned 52
+new req = 55 - retrying
+allocing 55 bytes
+bufsize=55, snprint returned 52
+success! - buffercontents: PRIVMSG MazBotV4 :Welcome on my and Maz's behalf :)!
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Default cb for user MazBotV4@[Hidden]hc80gl.bb.dnainternet.fi join on chan #Teotilcan executed! Sent PRIVMSG MazBotV4 :Welcome on my and Maz's behalf :)!
+ (event 3)
+Sat Jul 17 23:53:46 2010
+	DEBUG:   OnlineUserStorage_elem_seek(): No match found for nick MazBotV4
+Sat Jul 17 23:53:46 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:46 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:46 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 332
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Comm '332' parser_rawdata ':irc.blackdiam.net 332 MazBotV4 #Teotilcan :Welcome to Teotilcan Realms !'
+Sat Jul 17 23:53:46 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:46 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command 332
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Comm '332' parser_rawdata ':irc.blackdiam.net 332 MazBotV4 #Teotilcan :Welcome to Teotilcan Realms !'
+Sat Jul 17 23:53:46 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:46 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:46 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:46 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 333
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Comm '333' parser_rawdata ':irc.blackdiam.net 333 MazBotV4 #Teotilcan DarkLord 1275245742'
+Sat Jul 17 23:53:46 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:46 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command 333
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Comm '333' parser_rawdata ':irc.blackdiam.net 333 MazBotV4 #Teotilcan DarkLord 1275245742'
+Sat Jul 17 23:53:46 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:46 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:46 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:46 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 353
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Comm '353' parser_rawdata ':irc.blackdiam.net 353 MazBotV4 = #Teotilcan :DarkLord Glenda MazBotV4 Maz '
+Sat Jul 17 23:53:46 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:46 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command 353
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Comm '353' parser_rawdata ':irc.blackdiam.net 353 MazBotV4 = #Teotilcan :DarkLord Glenda MazBotV4 Maz '
+Sat Jul 17 23:53:46 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:46 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:46 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:46 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 366
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Comm '366' parser_rawdata ':irc.blackdiam.net 366 MazBotV4 #Teotilcan :End of /NAMES list.'
+Sat Jul 17 23:53:46 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:46 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command 366
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Comm '366' parser_rawdata ':irc.blackdiam.net 366 MazBotV4 #Teotilcan :End of /NAMES list.'
+Sat Jul 17 23:53:46 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:46 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:46 2010
+	DEBUG:   Revcheck proc started
+Sat Jul 17 23:53:48 2010
+	DEBUG:   process_data: recvd :irc.blackdiam.net 405 MazBotV4 #Teotilcan :You are on too many channels
+
+Sat Jul 17 23:53:48 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:48 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:48 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 405
+Sat Jul 17 23:53:48 2010
+	DEBUG:   Comm '405' parser_rawdata ':irc.blackdiam.net 405 MazBotV4 #Teotilcan :You are on too many channels'
+Sat Jul 17 23:53:48 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:48 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:48 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command 405
+Sat Jul 17 23:53:48 2010
+	DEBUG:   Comm '405' parser_rawdata ':irc.blackdiam.net 405 MazBotV4 #Teotilcan :You are on too many channels'
+Sat Jul 17 23:53:48 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:48 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:48 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:50 2010
+	DEBUG:   process_data: recvd :irc.blackdiam.net 405 MazBotV4 #Teotilcan2 :You are on too many channels
+:irc.blackdiam.net 352 MazBotV4 #Teotilcan DarkLord [Hidden]117k70.rev.gaoland.net irc.blackdiam.net DarkLord H :0 DarkLord
+:irc.blackdiam.net 352 MazBotV4 #Teotilcan glendasama [Hidden]ftjhqk.cust.wlannet.com irc.blackdiam.net Glenda H :0 The Princess of the Demon World
+:irc.blackdiam.net 352 MazBotV4 #Teotilcan Dice [Hidden]hc80gl.bb.dnainternet.fi irc.blackdiam.net MazBotV4 H :0 Maz Bot
+:irc.blackdiam.net 352 MazBotV4 #Teotilc
+Sat Jul 17 23:53:50 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:50 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:50 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 405
+Sat Jul 17 23:53:50 2010
+	DEBUG:   Comm '405' parser_rawdata ':irc.blackdiam.net 405 MazBotV4 #Teotilcan2 :You are on too many channels'
+Sat Jul 17 23:53:50 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:50 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:50 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command 405
+Sat Jul 17 23:53:50 2010
+	DEBUG:   Comm '405' parser_rawdata ':irc.blackdiam.net 405 MazBotV4 #Teotilcan2 :You are on too many channels'
+Sat Jul 17 23:53:50 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:50 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:50 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:50 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:50 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:50 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 352
+Sat Jul 17 23:53:50 2010
+	DEBUG:   Comm '352' parser_rawdata ':irc.blackdiam.net 352 MazBotV4 #Teotilcan DarkLord [Hidden]117k70.rev.gaoland.net irc.blackdiam.net DarkLord H :0 DarkLord'
+Sat Jul 17 23:53:50 2010
+	DEBUG:   ****EXECUTING internal cb for 352
+Sat Jul 17 23:53:50 2010
+	DEBUG:   userlist reports user (nick=DarkLord,mask=[Hidden]117k70.rev.gaoland.net) on channel #Teotilcan, seeing if user is on online storage
+Sat Jul 17 23:53:50 2010
+	DEBUG:   OnlineUserStorage_elem_seek(): No match found for nick DarkLord
+Sat Jul 17 23:53:50 2010
+	DEBUG:   OnlineUserStorage_elem_seek(): No match found for nick DarkLord
+Sat Jul 17 23:53:50 2010
+	DEBUG:   user DarkLord not found from online list, searching from static configs
+Sat Jul 17 23:53:50 2010
+	DEBUG:   static cfg has 1 users for chan #Teotilcan
+Sat Jul 17 23:53:50 2010
+	PANIC:   Add also searching of server users! at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//callbackhandler/src/internal_callbacks.c:440
+Sat Jul 17 23:53:50 2010
+	DEBUG:   Internal allback handler returned AllowUserOnly => skipping rest of internal callbacks!
+Sat Jul 17 23:53:50 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:50 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:50 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command 352
+Sat Jul 17 23:53:50 2010
+	DEBUG:   Comm '352' parser_rawdata ':irc.blackdiam.net 352 MazBotV4 #Teotilcan DarkLord [Hidden]117k70.rev.gaoland.net irc.blackdiam.net DarkLord H :0 DarkLord'
+Sat Jul 17 23:53:50 2010
+	DEBUG:   ****EXECUTING internal cb for 352
+Sat Jul 17 23:53:50 2010
+	DEBUG:   userlist report for chan #Teotilcan not handled on chan #Teotilcan2
+Sat Jul 17 23:53:50 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:50 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:50 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:50 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:50 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:50 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 352
+Sat Jul 17 23:53:50 2010
+	DEBUG:   Comm '352' parser_rawdata ':irc.blackdiam.net 352 MazBotV4 #Teotilcan glendasama [Hidden]ftjhqk.cust.wlannet.com irc.blackdiam.net Glenda H :0 The Princess of the Demon World'
+Sat Jul 17 23:53:50 2010
+	DEBUG:   ****EXECUTING internal cb for 352
+Sat Jul 17 23:53:50 2010
+	DEBUG:   userlist reports user (nick=Glenda,mask=[Hidden]ftjhqk.cust.wlannet.com) on channel #Teotilcan, seeing if user is on online storage
+Sat Jul 17 23:53:50 2010
+	DEBUG:   OnlineUserStorage_elem_seek(): No match found for nick Glenda
+Sat Jul 17 23:53:50 2010
+	DEBUG:   OnlineUserStorage_elem_seek(): No match found for nick Glenda
+Sat Jul 17 23:53:50 2010
+	DEBUG:   user Glenda not found from online list, searching from static configs
+Sat Jul 17 23:53:50 2010
+	DEBUG:   static cfg has 1 users for chan #Teotilcan
+Sat Jul 17 23:53:50 2010
+	PANIC:   Add also searching of server users! at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//callbackhandler/src/internal_callbacks.c:440
+Sat Jul 17 23:53:50 2010
+	DEBUG:   Internal allback handler returned AllowUserOnly => skipping rest of internal callbacks!
+Sat Jul 17 23:53:50 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:50 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:50 2010
+	DEBUG:   Channel #Teotilcan2 checking callbacks for command 352
+Sat Jul 17 23:53:50 2010
+	DEBUG:   Comm '352' parser_rawdata ':irc.blackdiam.net 352 MazBotV4 #Teotilcan glendasama [Hidden]ftjhqk.cust.wlannet.com irc.blackdiam.net Glenda H :0 The Princess of the Demon World'
+Sat Jul 17 23:53:50 2010
+	DEBUG:   ****EXECUTING internal cb for 352
+Sat Jul 17 23:53:50 2010
+	DEBUG:   userlist report for chan #Teotilcan not handled on chan #Teotilcan2
+Sat Jul 17 23:53:50 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:50 2010
+	PANIC:   Add raw events handling here (always) - TODO: Add raw events in bot! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_server_abstraction.c:967
+Sat Jul 17 23:53:50 2010
+	DEBUG:   Result handled, trying to get next result!
+Sat Jul 17 23:53:50 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:50 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:50 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 352
+Sat Jul 17 23:53:50 2010
+	DEBUG:   Comm '352' parser_rawdata ':irc.blackdiam.net 352 MazBotV4 #Teotilcan Dice [Hidden]hc80gl.bb.dnainternet.fi irc.blackdiam.net MazBotV4 H :0 Maz Bot'
+Sat Jul 17 23:53:50 2010
+	DEBUG:   ****EXECUTING internal cb for 352
+Sat Jul 17 23:53:50 2010
+	DEBUG:   Server reported me as online guy => won't handle
+Sat Jul 17 23:53:50 2010
+	DEBUG:   Internal callback handler returned HANDLED => won't execute other callbacks
+Sat Jul 17 23:53:50 2010
+	PANIC:   Check raw events here (always) - TODO: Add raw events! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319 at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:319
+Sat Jul 17 23:53:50 2010
+	DEBUG:   process_data: recvd an Matti [Hidden]hc80gl.bb.dnainternet.fi irc.blackdiam.net Maz H :0 Matti Vaittinen
+:irc.blackdiam.net 315 MazBotV4 #Teotilcan :End of /WHO list.
+:MazBotV4!Dice@[Hidden]hc80gl.bb.dnainternet.fi PRIVMSG MazBotV4 :event 1 occurred
+:MazBotV4!Dice@[Hidden]hc80gl.bb.dnainternet.fi PRIVMSG MazBotV4 :Welcome on my and Maz's behalf :)!
+
+Sat Jul 17 23:53:50 2010
+	DEBUG:   server irc.blackdiam.net parsing command, amnt of chans 2
+Sat Jul 17 23:53:50 2010
+	PANIC:   TODO: Fix return values to use EMbotCallbackRet enum correctly!! /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//upperlayer/src/irc_channel_abstraction.c:246
+Sat Jul 17 23:53:50 2010
+	DEBUG:   Channel #Teotilcan checking callbacks for command 352
+Sat Jul 17 23:53:50 2010
+	DEBUG:   Comm '352' parser_rawdata ':irc.blackdiam.net 352 MazBotV4 #Teotilcan Matti [Hidden]hc80gl.bb.dnainternet.fi irc.blackdiam.net Maz H :0 Matti Vaittinen'
+Sat Jul 17 23:53:50 2010
+	DEBUG:   ****EXECUTING internal cb for 352
+Sat Jul 17 23:53:50 2010
+	DEBUG:   userlist reports user (nick=Maz,mask=[Hidden]hc80gl.bb.dnainternet.fi) on channel #Teotilcan, seeing if user is on online storage
+Sat Jul 17 23:53:50 2010
+	DEBUG:   OnlineUserStorage_elem_seek(): No match found for nick Maz
+Sat Jul 17 23:53:50 2010
+	DEBUG:   OnlineUserStorage_elem_seek(): No match found for nick Maz
+Sat Jul 17 23:53:50 2010
+	DEBUG:   user Maz not found from online list, searching from static configs
+Sat Jul 17 23:53:50 2010
+	DEBUG:   static cfg has 1 users for chan #Teotilcan
+Sat Jul 17 23:53:50 2010
+	PANIC:   Add also searching of server users! at /home/Matti/MazBotBlackdiam/MazBot/trunc/make/..//callbackhandler/src/internal_callbacks.c:440
+Sat Jul 17 23:53:50 2010
+	DEBUG:   User Maz found from static server configs, request identification

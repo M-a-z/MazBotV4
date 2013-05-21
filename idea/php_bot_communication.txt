@@ -1,0 +1,44 @@
+(21.07.2009 00.00.11) Maz: in bot's config files, one can specify "php server password"
+(00.00.27) Maz: same password is placed in php scripts
+(00.01.12) Maz: when bot and the php server start communication, first thing the initiaor does is sending sor example 10 random characters.
+(00.02.22) Maz: this 10 chars is then concatenated at the end of "password".
+(00.03.04) Maz: Then MD5 sum is calculated over this concatenated string, and this sum is used as "secret id".
+(00.05.02) Maz: the other side also sends it's own 10 chars, and other side performs calculations and replies with result again.
+(00.05.27) Maz: This way both the bot, and the php side will know other side is trustworthy.
+(00.07.16) Maz: this "challenge" is repeated for each connection.
+(00.07.47) Maz: or for each message sent by php or the bot.
+
+
+
+*************							*************
+*	bot		*							*	php		*
+* passwd:	*							* passwd:   *
+* foo		*							* foo		*
+*************							*************
+
+Init negotiation:
+generate 10 chars
+ send
+ ababababab              =>				ababababab
+
+ concatenate:							concatenate:
+ fooababababab							fooababababab
+ calc MD5								calc MD5
+ XXXXXXXX								XXXXXXXX
+ 										send
+ XXXXXXXX				 <=				XXXXXXXX
+ Verify.
+ Reply Ok				 =>				Ok
+
+ 										generate 10 chars
+										mdmdmdmdmdmdm
+										send:
+mdmdmdmdmdmdm			 <=				mdmdmdmdmdmdm
+ concatenate:                           concatenate:
+ foomdmdmdmdmdmdm						foomdmdmdmdmdmdm
+ calc MD5                               calc MD5
+ send:
+ XXXXXXXX+request		 =>				XXXXXXXX+request
+ 										Verify:
+										perform required action
+ Ok+result				 <=				Ok+result

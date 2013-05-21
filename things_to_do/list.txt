@@ -1,0 +1,66 @@
+TODO:
+
+Issue: (status == not started)
+	Documentation && defining "public interface"
+Reason:
+	Some layering and encapsulation is needed => public and internal APIs
+	should be separated.
+	Documentation of code is crucial, since some day this should be given for
+	others to use. Also it is always possible (although highly unlikely) that
+	this thing attracts co-developer :)
+Solution:
+	Add some generic explanations and do doxygen documentation to public APIs
+	(at least)
+
+
+Issue: (status == ongoing)
+	Protocol parsers.
+Reason:
+	Needed for parsing incomin data from IRC and web servers.
+Solution:
+	Write parsers && invent protocol suitable for communication with php
+	servers.
+
+###############################################################################
+
+FIRST PHASE DONE:
+
+Issue: (status == TCP done)
+	Network connection abstraction layer
+Reason:
+	Bunch of network connections are expected to be opened and used.
+Solution:
+	Write TCP (and UDP?) abstraction layers for creating connections and
+	sending + receiving data.
+
+
+Issue: (status == Console logging done, file (and UDP?) logging missing.)
+	Logging functions.
+Reason:
+	Handly way to log events is needed - especially when writing and testing
+	the SW.
+Solution:
+	Write logging functions with severitylevels.
+
+
+Issue: (status: Assertion done, errorhandling needed)
+	Write generic errorhandling mechanisms.
+Reason:
+	Eases catching (and handling) errorconditions.
+Solution:
+	Assertions, errorhandlers...
+
+###############################################################################
+
+
+COMPLETED:
+
+
+Issue: (status == DONE)
+	Fix a bug in non blocking receive - seems like it's not respecting the tmo.
+Reason:
+	Separate polling was needed for reading and writing, since normal 
+	TCP sockets are (almost) always ready for writing 
+	=> blocking read was hard.
+Solution:
+	Separated read and write polls to own functions. 

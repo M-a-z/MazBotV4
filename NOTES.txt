@@ -1,0 +1,10 @@
+
+############################################## This is badly outdated. Please see the TODO file instead!
+
+
+This is Linux specific source. Porting to windows is likely to succeed with moderate effort (headers, sockets, snprintf, GNU extension macros...).
+
+Multithreading is quite a no no. I decided to try doing most of the things in only one thread. I've noticed during my career, that threads do easily generate
+much more problems than solves. Or  most of the functions should be safe to use from multible threads - as long as "objects" (structs with data and funcptrs) are not shared. (For example same parser is not used from two different threads. Objects may keep state information during function calls - and I do not protect code.)
+
+APIs folder contains headers which should allow usage of features of different components. These headers can be used together with libs to use services I've implemented to help building the bot. (and helpers.h in generic/src folder). Unfortunately libs may have dependencies to each others - for example networking uses generic etc... So it may be that you do need em all.

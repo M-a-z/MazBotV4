@@ -1,0 +1,88 @@
+
+
+#ifndef MAZBOT_v4_CALLBACKHANDLER_H
+#define MAZBOT_v4_CALLBACKHANDLER_H
+/* 
+ *Event handler specification
+ *
+ *
+ * So basically triggering actions can be specified in bot config files. In addition, the specified actions may have
+ * callback functions registered to bot.
+ *
+ * Config file could be format:
+ *
+ * UniqueIdNumber		callbackEventType		Originator(chan/user)		[triggerstring] 	[Chan/Privmsg/Dcc]
+ *
+ * UniqueIdNumber:
+ * This will be used when callbackfunction is registered. FunctionId must match the number specified in config file.
+ * (callback matching specified even is detected based on this ID)
+ *
+ * callbackEventType:
+ * A numeric value matching numeral in EMbotcallbackEventType enum.
+ *
+ * Originator:
+ * Nick@usermask or #chan can be specified. * can be used as wildcard. If something else but * is specified, the callback
+ * will only be executed when originating chan/user matches the specified. Also #chan1#chan2#chan3#chan4 can be used. Also Nick@mask;Nick@mask;Nick@mask
+ * can be used. And #chan1#chan2#chan3#chan4:Nick@mask;Nick@mask ... can be used. If multiple chans is listed, then any specified chan is Ok.
+ * If multiple users are specified, then all users will be Ok. If both user and chan are given, then both of them much match.
+ * [multiple chans/users may not realize - If a callback is wanted to be executed for limited (but larger than 1) chans/users, multiple rows can be used.]
+ *
+ * One can also define -#chan and -Mick@mask to indicate that if user/chan match specified, then callback is not called. So -#foo:-john@* would tell that
+ * Any chan except #foo should be active, and any user but john (with any mask) are Ok. #foo:-john@* would tell that event is valid only on chan
+ * #foo, and even there user john is ignored.
+ *
+ * Triggerstring (Only for text events):
+ * Text string that triggers the action. * can be used as wildcard.
+ *
+ * Chan/Privmsg/Dcc (Only for text events) (optional):
+ * Numeric value telling where (text) event should be detected (as in EMbotEventLocation). Default is all Dcc may never realize due to different protocol - 
+ * but I wanted to leave space for it.
+ *
+ *
+ *
+ *
+ * Web callbacks will call cb function (if such is specified), and in addition to event specific 
+ * data also connected (and handshaked) connection object to web server. (bad english I know).
+ * If no matching local cb is registered, default callback (which just sends event specific info to web server)
+ * will be called.
+ *
+ * Local callbacks will also have a default action to say specified text string as reply to chan/PRIVMSG
+ *
+ * Join/part event will deliver user details + (server?) and channel information (and event type) to callback.
+ *
+ * Txt event will deliver user details, IRC message type (chan/priv/dcc msg - dcc support may be added one day?), 
+ * chan/server info, event type and text string.
+ */
+//int mazbot_register_callback(
+
+typedef enum EMbotEventLocation
+{
+	EMbotEventLocation_Privmsg 		= 0,
+	EMbotEventLocation_Chan			= 1,
+	EMbotEventLocation_CPM			= 2, //Chan or privmsg
+	EMbotEventLocation_Dcc			= 10, //Dcc (may not realize)
+	EMbotEventLocation_CD			= 11, //Chan or Dcc (may not realize)
+	EMbotEventLocation_PMD			= 12, //Privmsg or Dcc (may not realize)
+	EMbotEventLocation_All			= 99
+}EMbotEventLocation;
+
+typedef enum EMbotcallbackEventType
+{
+	EMbotcallbackEventType_LocalTxtEvent = 0,//Event when specified txt string is encountered on chan/PRIVMSG. Cb is executed locally.
+	EMbotcallbackEventType_WebTxtEvent,		//Event when specified txt string is encountered on chan/PRIVMSG. Cb sends data to server.
+	EMbotcallbackEventType_LocalJoin,		//Event when user joins, cb is executed locally
+	EMbotcallbackEventType_WebJoin,			//Event when user joins, cb sends data to server
+	EMbotcallbackEventType_LocalPart,		//Event when user parts, cb is executed locally
+	EMbotcallbackEventType_WebPart			//Event when user parts, cb sends data to server
+}EMbotcallbackType;
+
+typedef struct SMazBotcallback
+{
+	EMbotcallbackEventType
+
+}SMazBotcallbackhandler;
+
+
+#endif //MAZBOT_v4_CALLBACKHANDLER_H
+
+

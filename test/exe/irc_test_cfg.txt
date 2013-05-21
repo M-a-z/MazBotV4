@@ -1,0 +1,153 @@
+#TODO: think what to do with char strings containing spaces as value. Correct and intuitively easy to adapt would be supporting
+#placing strings in "", or escaping spaces with \. However implementing this with current system is a hell.
+#I *could* scan the string for  \ followed by space, and replace all such with some rarely used char, but it still wouldn't be
+#perfect. Rarely used is not same as never used. Hence I just simply change the required separator between attributes in tag to be
+#something else but space. Perhaps \t ??
+#s
+#s
+#this is a test file for irc_config parser
+<name=botnick:\:type=char:\:value=MazBotV4/>
+#First tag says we want to connect to server irc.chat4all.org
+#As can be seen, this tag is not closed (no /> at the end)
+#This means tags untill </server> will be "local to this server"
+<name=server:\:type=char:\:value=irc.chat4all.org>
+#So the server irc.blackdiam.net shall be listening port 6667
+    <name=port:\:type=16bit:\:length=1:\:value=6667/>
+#at server irc.blackdiam.net, we recognize nick maz (note tag not closed)
+    <name=event:\:type=32bit:\:length=1:\:value=1>
+        <name=eventtype:\:type=char:\:value=EMbotcallbackEventType_LocalJoin/>
+        <name=userlevel:\:type=32bit:\:length=1:\:value=0/>
+		<name=outputstring:\:type=char:\:value=YaY! Someone just arrived! something!/>
+#TODO: Implement wildcards like * in triggerstring
+#        <name=triggerstring:\:type=char:\:value=*/>
+        <name=outputto:\:type=char:\:value=EMbotEventLocation_Chan/>
+    </event>
+    <name=event:\:type=32bit:\:length=1:\:value=2>
+        <name=eventtype:\:type=char:\:value=EMbotcallbackEventType_LocalJoin/>
+        <name=userlevel:\:type=32bit:\:length=1:\:value=0/>
+		<name=outputstring:\:type=char:\:value=YaY! Someone just arrived! something!/>
+#TODO: Implement wildcards like * in triggerstring
+#        <name=triggerstring:\:type=char:\:value=*/>
+        <name=outputto:\:type=char:\:value=EMbotEventLocation_Chan/>
+    </event>
+
+    <name=event:\:type=32bit:\:length=1:\:value=3>
+        <name=eventtype:\:type=char:\:value=EMbotcallbackEventType_LocalJoin/>
+        <name=userlevel:\:type=32bit:\:length=4:\:value=0,1,2,3/>
+		<name=outputstring:\:type=char:\:value=Welcome on my and Maz's behalf :)!/>
+#TODO: Implement wildcards like * in triggerstring
+#        <name=triggerstring:\:type=char:\:value=*/>
+        <name=outputto:\:type=char:\:value=EMbotEventLocation_Privmsg/>
+    </event>
+    <name=event:\:type=32bit:\:length=1:\:value=4>
+        <name=eventtype:\:type=char:\:value=EMbotcallbackEventType_LocalJoin/>
+        <name=userlevel:\:type=32bit:\:length=1:\:value=3/>
+		<name=outputstring:\:type=char:\:value=[-Maz-] Has Arrived :)!/>
+#TODO: Implement wildcards like * in triggerstring
+#        <name=triggerstring:\:type=char:\:value=*/>
+        <name=outputto:\:type=char:\:value=EMbotEventLocation_Chan/>
+    </event>
+    <name=event:\:type=32bit:\:length=1:\:value=5>
+        <name=eventtype:\:type=char:\:value=EMbotcallbackEventType_LocalTxtEvent/>
+        <name=userlevel:\:type=32bit:\:length=4:\:value=0,1,2,3/>
+		<name=outputstring:\:type=char:\:value=On a way!/>
+#TODO: Implement wildcards like * in triggerstring
+        <name=triggerstring:\:type=char:\:value=beer/>
+        <name=outputto:\:type=char:\:value=EMbotEventLocation_Chan/>
+    </event>
+
+    <name=user:\:type=char:\:value=Maz>
+#Maz user has following characteristics, suomi.net as host, password topsecret, userlevel 3 and identification mode 1 (see file XXX for userlevel values...)
+        <name=host:\:type=char:\:value=suomi.net/>
+        <name=pass:\:type=char:\:value=topsecret/>
+        <name=ulevel:\:type=32bit:\:length=1:\:value=3/>
+        <name=userIdentMode:\:type=32bit:\:length=1:\:value=1/>
+#the user tag is closed here, so following tags shall no longer be related to user Maz. They're still local to server irc.blackdiam.net.
+    </user>
+#We have channel #Teotilcan, where we have no users or events or anything. Basically bot just joins there.
+    <name=channel:\:value=#Teotilcan>
+		<name=user:\:type=char:\:value=[-Maz-]>
+			<name=host:\:type=char:\:value=suomi.net/>
+			<name=pass:\:type=char:\:value=topsecret/>
+			<name=ulevel:\:type=32bit:\:length=1:\:value=3/>
+			<name=userIdentMode:\:type=32bit:\:length=1:\:value=1/>
+		</user>
+    </channel>
+#we also have channel teotilcan2, with users and stuff... I guess the syntax can now be followed :)
+    <name=channel:\:value=#Teotilcan2>
+        <name=user:\:type=char:\:value=Maz>
+            <name=host:\:type=char:\:value=suomi.net/>
+            <name=pass:\:type=char:\:value=topsecret/>
+            <name=ulevel:\:type=32bit:\:length=1:\:value=3/>
+            <name=userIdentMode:\:type=32bit:\:length=1:\:value=1/>
+        </user>
+        <name=user:\:type=char:\:value=[-Maz-]>
+            <name=host:\:type=char:\:value=suomi2.net/>
+            <name=pass:\:type=char:\:value=top2secret/>
+            <name=ulevel:\:type=32bit:\:length=1:\:value=1/>
+            <name=userIdentMode:\:type=32bit:\:length=1:\:value=2/>
+        </user>
+    </channel>
+</server>
+#testserver2
+#<name=server:\:type=char:\:value=irc.blackdiam.net>
+#    <name=port:\:type=16bit:\:length=1:\:value=6667/>
+#    <name=user:\:type=char:\:value=Maz>
+#        <name=host:\:type=char:\:value=suomi.net/>
+#        <name=pass:\:type=char:\:value=topsecret/>
+#        <name=ulevel:\:type=32bit:\:length=1:\:value=3/>
+#        <name=userIdentMode:\:type=32bit:\:length=1:\:value=1/>
+#    </user>
+#       <name=user:\:type=char:\:value=Maz2>
+#        <name=host:\:type=char:\:value=suomi2.net/>
+#        <name=pass:\:type=char:\:value=top2secret/>
+#        <name=ulevel:\:type=32bit:\:length=1:\:value=2/>
+#        <name=userIdentMode:\:type=32bit:\:length=1:\:value=2/>
+#    </user>
+#    <name=channel:\:value=#Teotilcan/>
+#    <name=channel:\:value=#Teotilcan2>
+#        <name=user:\:type=char:\:value=Maz>
+#            <name=host:\:type=char:\:value=suomi.net/>
+#            <name=pass:\:type=char:\:value=topsecret/>
+#            <name=ulevel:\:type=32bit:\:length=1:\:value=3/>
+#            <name=userIdentMode:\:type=32bit:\:length=1:\:value=1/>
+#        </user>
+#        <name=user:\:type=char:\:value=Maz2>
+#            <name=host:\:type=char:\:value=suomi2.net/>
+#            <name=pass:\:type=char:\:value=top2secret/>
+#            <name=ulevel:\:type=32bit:\:length=1:\:value=1/>
+#            <name=userIdentMode:\:type=32bit:\:length=1:\:value=2/>
+#        </user>
+#        <name=event:\:type=32bit:\:length=1:\:value=1>
+#            <name=eventtype:\:type=char:\:value=EMbotcallbackEventType_LocalTxtEvent/>
+#            <name=userlevel:\:type=32bit:\:length=3:\:value=0,1,2/>
+#			<name=outputstring:\:type=char:\:value=YaY! Someone just said something!/>
+#TODO: Implement wildcards like * in triggerstring
+#            <name=triggerstring:\:type=char:\:value=*/>
+#            <name=outputto:\:type=char:\:value=EMbotEventLocation_Chan/>
+#        </event>
+#    </channel>
+#    <name=event:\:type=32bit:\:length=1:\:value=2>
+#        <name=eventtype:\:type=char:\:value=EMbotcallbackEventType_LocalTxtEvent/>
+#        <name=userlevel:\:type=32bit:\:length=3:\:value=0,1,2/>
+#		<name=outputstring:\:type=char:\:value=YaY! I just got mail!!/>
+#        <name=triggerstring:\:type=char:\:value=mail/>
+#        <name=outputto:\:type=char:\:value=EMbotEventLocation_Chan/>
+#        <name=outputchan:\:type=char:\:value=#Teotilcan/>
+#Why is there this channel when event type is privmsg?
+#        <name=inputfrom:\:type=char:\:value=EMbotEventLocation_Privmsg/>
+#    </event>
+#</server>
+#TODO: Add handling of event tags!
+#event, value is event id which must be unique. Events are bound to actions via id.
+#If no callback is specified for event, then we shall execute default event handler.
+<name=event:\:type=32bit:\:length=1:\:value=3>
+    <name=eventtype:\:type=char:\:value=EMbotcallbackEventType_LocalJoin/>
+#Here we specify required user level for event
+    <name=userlevel:\:type=32bit:\:length=1:\:value=0/>
+#TODO: Implement wildcards which can be used to represent nick which triggered action, channel/server where this happened etc.
+    <name=outputstring:\:type=char:\:value=YaY Someone just joined!/>
+#Display trigger string on channel/Pm/Dcc (Dcc is further dev)
+    <name=outputto:\:type=char:\:value=EMbotEventLocation_Chan/>
+#Note, this event was not inside any server/channel tag => this is global event, and shall be executed on any server and any channel.
+</event>

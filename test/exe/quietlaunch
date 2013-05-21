@@ -1,0 +1,1 @@
+./TestExe irc_test_cfg.txt -Qsplit -Qgen -Qnetw -Qparse -Qcfg -Qcexp

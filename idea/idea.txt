@@ -1,0 +1,21 @@
+So something about the bot:
+
+Written in C. Connects to IRC server as a regular IRC client.
+
+monitors traffic on IRC channel (joins, parts, ops, messages... ??what is needed??).
+can execute "actions" when certain traffic is detected. (joins, parts, ops, messages... ??what is needed??)
+
+Actions the bot can execute:
+    *basic say something.
+	    *operator actions (kick, op, deop - currently just considering this - may not realize because this requires bot to be op. Causes hassle with secure identification, detecting op status etc.)
+		    *Execute user defined responce. (I will provide simple set of functions, which can be used to easily generate sayings etc using C. Then the one who want's to use this "bot engine" can easily expand bots capabilities with small C knowledge)
+			    *connect to specific host/IP, and send HTTP POST/GET requests. (Allows bot user to write things using php - things like database integration. Problematic areas here: Synchronization of requests [if connection to server is closed after each request sent]. How will the authentication to web server be handled? The php side should know it is the bot who's sending the data. Simple password?)
+				    *opening a socket for incoming connections from the web server. Web server could then send some simple commands to bot, like ask for saying a thing.
+
+					The last two *s allow for example the !life command - bot sends request to web server (to php script written by DarkLord) to get the life from database. DarkLord's php script reads amount of HP, and then connects to socket which bot is listening, and asks the bot to say "foobar has xxx HP."
+
+					first * can be handled from bot configuration text files. I'd rather not write interface for other IRC clients to be able to configure the bot on the fly using IRC - reliable identification of IRC users may not be that simple. But if this is absolute necessity, I will consider it.
+
+					Estimated time to finish this....... I can't see that far :D Maybe in a few months, maybe in a few years, maybe never. But definitely not in days or weeks. Sorry.
+
+					How many IRC servers / channels the bot should be able to connect simultaneously? Or actually, one or more?
